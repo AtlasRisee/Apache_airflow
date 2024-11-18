@@ -1,0 +1,246 @@
+[2024-11-18T20:40:54.320+0500] {processor.py:186} INFO - Started process (PID=18942) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:40:54.321+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-11-18T20:40:54.324+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:54.323+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:40:54.336+0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:40:54.501+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:54.500+0500] {override.py:1911} INFO - Created Permission View: can read on DAG:example_skip_dag
+[2024-11-18T20:40:54.519+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:54.519+0500] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_skip_dag
+[2024-11-18T20:40:54.532+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:54.531+0500] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_skip_dag
+[2024-11-18T20:40:54.551+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:54.551+0500] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_skip_dag
+[2024-11-18T20:40:54.564+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:54.563+0500] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_skip_dag
+[2024-11-18T20:40:54.577+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:54.576+0500] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_skip_dag
+[2024-11-18T20:40:54.592+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:54.591+0500] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_skip_dag
+[2024-11-18T20:40:54.592+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:54.592+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:40:54.611+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:54.611+0500] {dag.py:3262} INFO - Creating ORM DAG for example_skip_dag
+[2024-11-18T20:40:54.624+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:54.623+0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:40:54.652+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.340 seconds
+[2024-11-18T20:42:04.869+0500] {processor.py:186} INFO - Started process (PID=19131) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:42:04.870+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-11-18T20:42:04.874+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:42:04.873+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:42:04.896+0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:42:04.939+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:42:04.939+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:42:05.057+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:42:05.056+0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:42:05.163+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.324 seconds
+[2024-11-18T20:43:14.583+0500] {processor.py:186} INFO - Started process (PID=19203) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:43:14.586+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-11-18T20:43:14.589+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:43:14.589+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:43:14.604+0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:43:14.631+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:43:14.630+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:43:14.662+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:43:14.662+0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:43:14.697+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.124 seconds
+[2024-11-18T20:44:21.267+0500] {processor.py:186} INFO - Started process (PID=19284) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:44:21.270+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-11-18T20:44:21.273+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:44:21.272+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:44:21.299+0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:44:21.327+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:44:21.327+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:44:21.359+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:44:21.359+0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:44:21.392+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.141 seconds
+[2024-11-18T20:45:26.679+0500] {processor.py:186} INFO - Started process (PID=19471) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:45:26.683+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-11-18T20:45:26.687+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:45:26.686+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:45:26.707+0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:45:26.784+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:45:26.777+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:45:26.879+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:45:26.879+0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:45:27.099+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.429 seconds
+[2024-11-18T20:46:46.540+0500] {processor.py:186} INFO - Started process (PID=19569) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:46:46.542+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-11-18T20:46:46.545+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:46:46.545+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:46:46.559+0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:46:46.588+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:46:46.588+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:46:46.627+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:46:46.627+0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:46:46.660+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.128 seconds
+[2024-11-18T20:47:56.360+0500] {processor.py:186} INFO - Started process (PID=19733) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:47:56.361+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-11-18T20:47:56.366+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:47:56.365+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:47:56.380+0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:47:56.411+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:47:56.411+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:47:56.452+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:47:56.452+0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:47:56.494+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.142 seconds
+[2024-11-18T20:49:01.295+0500] {processor.py:186} INFO - Started process (PID=19816) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:49:01.298+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-11-18T20:49:01.302+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:49:01.301+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:49:01.315+0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:49:01.342+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:49:01.342+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:49:01.376+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:49:01.375+0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:49:01.410+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.124 seconds
+[2024-11-18T20:50:09.543+0500] {processor.py:186} INFO - Started process (PID=19890) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:50:09.546+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-11-18T20:50:09.550+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:50:09.549+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:50:09.563+0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:50:09.591+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:50:09.591+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:50:09.654+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:50:09.653+0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:50:09.731+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.196 seconds
+[2024-11-18T20:51:20.632+0500] {processor.py:186} INFO - Started process (PID=19960) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:51:20.635+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-11-18T20:51:20.638+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:51:20.637+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:51:20.650+0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:51:20.677+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:51:20.676+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:51:20.710+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:51:20.710+0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:51:20.743+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.119 seconds
+[2024-11-18T20:52:32.221+0500] {processor.py:186} INFO - Started process (PID=20055) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:52:32.225+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-11-18T20:52:32.234+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:52:32.234+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:52:32.268+0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:52:32.311+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:52:32.309+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:52:32.365+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:52:32.365+0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:52:32.399+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.187 seconds
+[2024-11-18T20:53:38.506+0500] {processor.py:186} INFO - Started process (PID=20120) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:53:38.510+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-11-18T20:53:38.513+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:53:38.512+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:53:38.525+0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:53:38.551+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:53:38.551+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:53:38.584+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:53:38.583+0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:53:38.617+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.119 seconds
+[2024-11-18T20:54:56.367+0500] {processor.py:186} INFO - Started process (PID=20217) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:54:56.368+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-11-18T20:54:56.373+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:54:56.372+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:54:56.385+0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:54:56.412+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:54:56.412+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:54:56.446+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:54:56.446+0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:54:56.480+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.122 seconds
+[2024-11-18T20:56:19.637+0500] {processor.py:186} INFO - Started process (PID=20302) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:56:19.639+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-11-18T20:56:19.642+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:56:19.642+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:56:19.655+0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:56:19.681+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:56:19.681+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:56:19.714+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:56:19.713+0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:56:19.746+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.117 seconds
+[2024-11-18T20:57:34.172+0500] {processor.py:186} INFO - Started process (PID=20389) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:57:34.174+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-11-18T20:57:34.177+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:57:34.176+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:57:34.189+0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:57:34.217+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:57:34.216+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:57:34.250+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:57:34.249+0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:57:34.282+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.118 seconds
+[2024-11-18T20:58:45.391+0500] {processor.py:186} INFO - Started process (PID=20480) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:58:45.392+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-11-18T20:58:45.395+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:58:45.395+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:58:45.409+0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:58:45.436+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:58:45.436+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:58:45.469+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:58:45.468+0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:58:45.503+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.121 seconds
+[2024-11-18T20:59:56.865+0500] {processor.py:186} INFO - Started process (PID=20558) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:59:56.868+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-11-18T20:59:56.871+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:59:56.871+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:59:56.884+0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T20:59:56.910+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:59:56.910+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:59:56.943+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:59:56.943+0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:59:56.978+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.121 seconds
+[2024-11-18T21:01:05.858+0500] {processor.py:186} INFO - Started process (PID=20639) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:01:05.860+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-11-18T21:01:05.863+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:01:05.863+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:01:05.876+0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:01:05.902+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:01:05.901+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:01:05.934+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:01:05.933+0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:01:05.968+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.119 seconds
+[2024-11-18T21:02:13.193+0500] {processor.py:186} INFO - Started process (PID=20711) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:02:13.195+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-11-18T21:02:13.198+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:02:13.198+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:02:13.210+0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:02:13.236+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:02:13.236+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:02:13.268+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:02:13.268+0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:02:13.301+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.116 seconds
+[2024-11-18T21:03:25.802+0500] {processor.py:186} INFO - Started process (PID=20788) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:03:25.805+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-11-18T21:03:25.808+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:03:25.807+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:03:25.820+0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:03:25.845+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:03:25.845+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:03:25.876+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:03:25.876+0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:03:25.908+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.114 seconds
+[2024-11-18T21:04:31.938+0500] {processor.py:186} INFO - Started process (PID=20888) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:04:31.940+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-11-18T21:04:31.943+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:04:31.943+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:04:31.955+0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:04:31.987+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:04:31.987+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:04:32.021+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:04:32.020+0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:04:32.064+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.139 seconds
+[2024-11-18T21:05:38.995+0500] {processor.py:186} INFO - Started process (PID=20971) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:05:38.997+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-11-18T21:05:39.000+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:05:38.999+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:05:39.012+0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:05:39.039+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:05:39.038+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:05:39.072+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:05:39.072+0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:05:39.103+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.117 seconds
+[2024-11-18T21:06:52.196+0500] {processor.py:186} INFO - Started process (PID=21060) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:06:52.200+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-11-18T21:06:52.203+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:06:52.203+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:06:52.216+0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:06:52.254+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:06:52.253+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:06:52.295+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:06:52.295+0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:06:52.333+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.146 seconds
+[2024-11-18T21:08:07.721+0500] {processor.py:186} INFO - Started process (PID=21142) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:08:07.723+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-11-18T21:08:07.726+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:08:07.726+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:08:07.740+0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:08:07.767+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:08:07.767+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:08:07.803+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:08:07.803+0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:08:07.839+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.127 seconds
+[2024-11-18T21:09:14.338+0500] {processor.py:186} INFO - Started process (PID=21226) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:09:14.340+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-11-18T21:09:14.343+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:09:14.343+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:09:14.356+0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:09:14.382+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:09:14.381+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:09:14.414+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:09:14.414+0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:09:14.454+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.125 seconds
+[2024-11-18T21:10:23.810+0500] {processor.py:186} INFO - Started process (PID=21321) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:10:23.811+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-11-18T21:10:23.815+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:10:23.814+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:10:23.829+0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:10:23.865+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:10:23.864+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:10:23.907+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:10:23.907+0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:10:23.948+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.146 seconds
+[2024-11-18T21:11:38.953+0500] {processor.py:186} INFO - Started process (PID=21450) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:11:38.955+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-11-18T21:11:38.958+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:11:38.958+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:11:38.971+0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:11:38.998+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:11:38.998+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:11:39.031+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:11:39.031+0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:11:39.072+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.128 seconds
+[2024-11-18T21:13:34.020+0500] {processor.py:186} INFO - Started process (PID=21599) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:13:34.023+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-11-18T21:13:34.026+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:13:34.025+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:13:34.038+0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:13:34.064+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:13:34.064+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:13:34.097+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:13:34.097+0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:13:34.132+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.120 seconds
+[2024-11-18T21:15:01.817+0500] {processor.py:186} INFO - Started process (PID=21722) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:15:01.819+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-11-18T21:15:01.824+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:15:01.821+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:15:01.841+0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:15:01.871+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:15:01.871+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:15:01.943+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:15:01.942+0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:15:01.986+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.181 seconds
+[2024-11-18T21:16:35.332+0500] {processor.py:186} INFO - Started process (PID=21833) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:16:35.333+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-11-18T21:16:35.336+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:16:35.336+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:16:35.348+0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:16:35.375+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:16:35.374+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:16:35.408+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:16:35.407+0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:16:35.439+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.115 seconds
+[2024-11-18T21:18:28.386+0500] {processor.py:186} INFO - Started process (PID=22012) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:18:28.390+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-11-18T21:18:28.395+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:18:28.393+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:18:28.408+0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:18:28.437+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:18:28.436+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:18:28.473+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:18:28.472+0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:18:28.517+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.146 seconds
+[2024-11-18T21:20:10.518+0500] {processor.py:186} INFO - Started process (PID=22141) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:20:10.520+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-11-18T21:20:10.523+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:20:10.522+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:20:10.535+0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:20:10.561+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:20:10.561+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:20:10.593+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:20:10.593+0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:20:10.627+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.117 seconds
+[2024-11-18T21:21:22.129+0500] {processor.py:186} INFO - Started process (PID=22233) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:21:22.131+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-11-18T21:21:22.134+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:21:22.133+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:21:22.146+0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:21:22.173+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:21:22.173+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:21:22.205+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:21:22.205+0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:21:22.239+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.118 seconds
+[2024-11-18T21:22:33.486+0500] {processor.py:186} INFO - Started process (PID=22312) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:22:33.487+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-11-18T21:22:33.491+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:22:33.490+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:22:33.503+0500] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-11-18T21:22:33.531+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:22:33.530+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:22:33.564+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:22:33.564+0500] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:22:33.596+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.118 seconds

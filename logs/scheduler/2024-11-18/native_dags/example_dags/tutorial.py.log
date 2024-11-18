@@ -1,0 +1,288 @@
+[2024-11-18T20:40:28.202+0500] {processor.py:186} INFO - Started process (PID=18919) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:40:28.204+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T20:40:28.208+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:28.207+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:40:28.221+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:40:28.387+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:28.386+0500] {override.py:1911} INFO - Created Permission View: can read on DAG:tutorial
+[2024-11-18T20:40:28.405+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:28.405+0500] {override.py:1911} INFO - Created Permission View: can edit on DAG:tutorial
+[2024-11-18T20:40:28.418+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:28.417+0500] {override.py:1911} INFO - Created Permission View: can delete on DAG:tutorial
+[2024-11-18T20:40:28.437+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:28.436+0500] {override.py:1911} INFO - Created Permission View: can read on DAG Run:tutorial
+[2024-11-18T20:40:28.449+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:28.449+0500] {override.py:1911} INFO - Created Permission View: can create on DAG Run:tutorial
+[2024-11-18T20:40:28.461+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:28.461+0500] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:tutorial
+[2024-11-18T20:40:28.475+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:28.474+0500] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:tutorial
+[2024-11-18T20:40:28.475+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:28.475+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:40:28.496+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:28.495+0500] {dag.py:3262} INFO - Creating ORM DAG for tutorial
+[2024-11-18T20:40:28.509+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:28.508+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:40:28.539+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.346 seconds
+[2024-11-18T20:41:40.918+0500] {processor.py:186} INFO - Started process (PID=19005) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:41:40.920+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T20:41:40.922+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:41:40.922+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:41:40.935+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:41:40.958+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:41:40.957+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:41:40.991+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:41:40.990+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:41:41.022+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.112 seconds
+[2024-11-18T20:42:52.034+0500] {processor.py:186} INFO - Started process (PID=19180) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:42:52.036+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T20:42:52.039+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:42:52.039+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:42:52.052+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:42:52.075+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:42:52.075+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:42:52.107+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:42:52.107+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:42:52.142+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.116 seconds
+[2024-11-18T20:44:00.068+0500] {processor.py:186} INFO - Started process (PID=19262) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:44:00.071+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T20:44:00.074+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:44:00.073+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:44:00.085+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:44:00.109+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:44:00.109+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:44:00.142+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:44:00.141+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:44:00.176+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.115 seconds
+[2024-11-18T20:45:03.677+0500] {processor.py:186} INFO - Started process (PID=19330) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:45:03.679+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T20:45:03.682+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:45:03.682+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:45:03.694+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:45:03.717+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:45:03.716+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:45:03.748+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:45:03.748+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:45:03.779+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.110 seconds
+[2024-11-18T20:46:22.263+0500] {processor.py:186} INFO - Started process (PID=19543) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:46:22.264+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T20:46:22.268+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:46:22.267+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:46:22.281+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:46:22.306+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:46:22.306+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:46:22.344+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:46:22.344+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:46:22.384+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.130 seconds
+[2024-11-18T20:47:33.853+0500] {processor.py:186} INFO - Started process (PID=19655) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:47:33.856+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T20:47:33.859+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:47:33.858+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:47:33.871+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:47:33.896+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:47:33.896+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:47:33.930+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:47:33.929+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:47:33.965+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.120 seconds
+[2024-11-18T20:48:37.928+0500] {processor.py:186} INFO - Started process (PID=19791) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:48:37.929+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T20:48:37.932+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:48:37.932+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:48:37.944+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:48:37.967+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:48:37.967+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:48:38.001+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:48:38.000+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:48:38.033+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.113 seconds
+[2024-11-18T20:49:47.379+0500] {processor.py:186} INFO - Started process (PID=19866) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:49:47.380+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T20:49:47.383+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:49:47.383+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:49:47.395+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:49:47.419+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:49:47.419+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:49:47.452+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:49:47.452+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:49:47.484+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.113 seconds
+[2024-11-18T20:50:58.282+0500] {processor.py:186} INFO - Started process (PID=19939) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:50:58.285+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T20:50:58.288+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:50:58.288+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:50:58.300+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:50:58.324+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:50:58.323+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:50:58.357+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:50:58.356+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:50:58.389+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.116 seconds
+[2024-11-18T20:52:11.926+0500] {processor.py:186} INFO - Started process (PID=20026) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:52:11.928+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T20:52:11.931+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:52:11.931+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:52:11.945+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:52:11.968+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:52:11.968+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:52:12.002+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:52:12.002+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:52:12.037+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.119 seconds
+[2024-11-18T20:53:15.136+0500] {processor.py:186} INFO - Started process (PID=20097) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:53:15.137+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T20:53:15.141+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:53:15.141+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:53:15.153+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:53:15.178+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:53:15.178+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:53:15.212+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:53:15.211+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:53:15.245+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.118 seconds
+[2024-11-18T20:54:26.890+0500] {processor.py:186} INFO - Started process (PID=20188) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:54:26.891+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T20:54:26.895+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:54:26.894+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:54:26.908+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:54:26.932+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:54:26.931+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:54:26.964+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:54:26.963+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:54:27.029+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.152 seconds
+[2024-11-18T20:55:13.450+0500] {processor.py:186} INFO - Started process (PID=20233) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:55:13.451+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T20:55:13.454+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:55:13.454+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:55:13.466+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:55:13.490+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:55:13.489+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:55:13.523+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:55:13.522+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:55:13.557+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.115 seconds
+[2024-11-18T20:55:58.628+0500] {processor.py:186} INFO - Started process (PID=20279) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:55:58.629+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T20:55:58.632+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:55:58.631+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:55:58.645+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:55:58.671+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:55:58.671+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:55:58.704+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:55:58.703+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:55:58.737+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.118 seconds
+[2024-11-18T20:57:13.975+0500] {processor.py:186} INFO - Started process (PID=20367) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:57:13.977+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T20:57:13.980+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:57:13.980+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:57:13.993+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:57:14.027+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:57:14.027+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:57:14.065+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:57:14.065+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:57:14.101+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.140 seconds
+[2024-11-18T20:58:23.964+0500] {processor.py:186} INFO - Started process (PID=20445) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:58:23.967+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T20:58:23.971+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:58:23.970+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:58:23.986+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:58:24.014+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:58:24.013+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:58:24.054+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:58:24.053+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:58:24.087+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.130 seconds
+[2024-11-18T20:59:33.119+0500] {processor.py:186} INFO - Started process (PID=20533) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:59:33.120+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T20:59:33.123+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:59:33.123+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:59:33.135+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T20:59:33.159+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:59:33.159+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:59:33.192+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:59:33.191+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:59:33.227+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.117 seconds
+[2024-11-18T21:00:45.117+0500] {processor.py:186} INFO - Started process (PID=20607) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:00:45.120+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T21:00:45.123+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:00:45.122+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:00:45.134+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:00:45.158+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:00:45.158+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:00:45.191+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:00:45.190+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:00:45.224+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.116 seconds
+[2024-11-18T21:01:50.034+0500] {processor.py:186} INFO - Started process (PID=20689) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:01:50.037+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T21:01:50.040+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:01:50.039+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:01:50.052+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:01:50.077+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:01:50.077+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:01:50.111+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:01:50.110+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:01:50.142+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.117 seconds
+[2024-11-18T21:03:04.224+0500] {processor.py:186} INFO - Started process (PID=20763) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:03:04.225+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T21:03:04.228+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:03:04.227+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:03:04.240+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:03:04.264+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:03:04.264+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:03:04.298+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:03:04.298+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:03:04.330+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.115 seconds
+[2024-11-18T21:04:11.075+0500] {processor.py:186} INFO - Started process (PID=20846) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:04:11.077+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T21:04:11.080+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:04:11.079+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:04:11.093+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:04:11.118+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:04:11.117+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:04:11.154+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:04:11.154+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:04:11.187+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.121 seconds
+[2024-11-18T21:05:18.594+0500] {processor.py:186} INFO - Started process (PID=20936) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:05:18.595+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T21:05:18.598+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:05:18.598+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:05:18.611+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:05:18.635+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:05:18.634+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:05:18.667+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:05:18.666+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:05:18.700+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.114 seconds
+[2024-11-18T21:06:25.771+0500] {processor.py:186} INFO - Started process (PID=21019) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:06:25.772+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T21:06:25.775+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:06:25.775+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:06:25.788+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:06:25.812+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:06:25.811+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:06:25.844+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:06:25.844+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:06:25.877+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.114 seconds
+[2024-11-18T21:07:10.234+0500] {processor.py:186} INFO - Started process (PID=21085) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:07:10.237+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T21:07:10.240+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:07:10.239+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:07:10.251+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:07:10.276+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:07:10.276+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:07:10.311+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:07:10.311+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:07:10.346+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.122 seconds
+[2024-11-18T21:08:19.462+0500] {processor.py:186} INFO - Started process (PID=21154) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:08:19.463+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T21:08:19.466+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:08:19.466+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:08:19.478+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:08:19.502+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:08:19.502+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:08:19.535+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:08:19.535+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:08:19.571+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.117 seconds
+[2024-11-18T21:09:25.045+0500] {processor.py:186} INFO - Started process (PID=21251) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:09:25.047+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T21:09:25.050+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:09:25.049+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:09:25.062+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:09:25.085+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:09:25.085+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:09:25.121+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:09:25.120+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:09:25.158+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.121 seconds
+[2024-11-18T21:10:39.369+0500] {processor.py:186} INFO - Started process (PID=21345) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:10:39.372+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T21:10:39.375+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:10:39.375+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:10:39.389+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:10:39.414+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:10:39.413+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:10:39.451+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:10:39.451+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:10:39.485+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.144 seconds
+[2024-11-18T21:12:04.104+0500] {processor.py:186} INFO - Started process (PID=21487) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:12:04.106+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T21:12:04.109+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:12:04.108+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:12:04.121+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:12:04.146+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:12:04.145+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:12:04.180+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:12:04.180+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:12:04.218+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.122 seconds
+[2024-11-18T21:13:08.875+0500] {processor.py:186} INFO - Started process (PID=21569) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:13:08.878+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T21:13:08.881+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:13:08.881+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:13:08.896+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:13:08.920+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:13:08.920+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:13:08.955+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:13:08.954+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:13:08.988+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.122 seconds
+[2024-11-18T21:13:58.698+0500] {processor.py:186} INFO - Started process (PID=21624) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:13:58.700+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T21:13:58.704+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:13:58.704+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:13:58.717+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:13:58.742+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:13:58.742+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:13:58.781+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:13:58.780+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:13:58.818+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.129 seconds
+[2024-11-18T21:15:25.387+0500] {processor.py:186} INFO - Started process (PID=21743) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:15:25.390+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T21:15:25.396+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:15:25.395+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:15:25.409+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:15:25.437+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:15:25.436+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:15:25.475+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:15:25.474+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:15:25.510+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.131 seconds
+[2024-11-18T21:16:12.245+0500] {processor.py:186} INFO - Started process (PID=21804) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:16:12.247+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T21:16:12.251+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:16:12.251+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:16:12.266+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:16:12.292+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:16:12.291+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:16:12.329+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:16:12.328+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:16:12.362+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.125 seconds
+[2024-11-18T21:17:17.272+0500] {processor.py:186} INFO - Started process (PID=21903) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:17:17.275+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T21:17:17.278+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:17:17.277+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:17:17.291+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:17:17.315+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:17:17.315+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:17:17.350+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:17:17.350+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:17:17.384+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.120 seconds
+[2024-11-18T21:18:01.921+0500] {processor.py:186} INFO - Started process (PID=21967) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:18:01.923+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T21:18:01.926+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:18:01.926+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:18:01.938+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:18:01.962+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:18:01.962+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:18:01.995+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:18:01.995+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:18:02.027+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.115 seconds
+[2024-11-18T21:18:54.656+0500] {processor.py:186} INFO - Started process (PID=22042) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:18:54.658+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T21:18:54.661+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:18:54.661+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:18:54.674+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:18:54.699+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:18:54.699+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:18:54.734+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:18:54.734+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:18:54.768+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.120 seconds
+[2024-11-18T21:19:52.509+0500] {processor.py:186} INFO - Started process (PID=22123) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:19:52.512+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T21:19:52.515+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:19:52.514+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:19:52.527+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:19:52.551+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:19:52.551+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:19:52.584+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:19:52.584+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:19:52.616+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.115 seconds
+[2024-11-18T21:21:01.632+0500] {processor.py:186} INFO - Started process (PID=22211) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:21:01.633+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T21:21:01.636+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:21:01.636+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:21:01.648+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:21:01.672+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:21:01.672+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:21:01.706+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:21:01.705+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:21:01.739+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.115 seconds
+[2024-11-18T21:21:45.551+0500] {processor.py:186} INFO - Started process (PID=22261) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:21:45.553+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T21:21:45.556+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:21:45.555+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:21:45.568+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:21:45.592+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:21:45.591+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:21:45.626+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:21:45.625+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:21:45.659+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.117 seconds
+[2024-11-18T21:22:54.335+0500] {processor.py:186} INFO - Started process (PID=22344) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:22:54.337+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-11-18T21:22:54.340+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:22:54.340+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:22:54.354+0500] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-11-18T21:22:54.380+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:22:54.379+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:22:54.417+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:22:54.417+0500] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T21:22:54.462+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.136 seconds

@@ -1,0 +1,246 @@
+[2024-11-18T20:40:55.628+0500] {processor.py:186} INFO - Started process (PID=18944) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:40:55.630+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-11-18T20:40:55.632+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:55.632+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:40:55.645+0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:40:55.808+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:55.807+0500] {override.py:1911} INFO - Created Permission View: can read on DAG:example_setup_teardown
+[2024-11-18T20:40:55.827+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:55.826+0500] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_setup_teardown
+[2024-11-18T20:40:55.838+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:55.838+0500] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_setup_teardown
+[2024-11-18T20:40:55.857+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:55.857+0500] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_setup_teardown
+[2024-11-18T20:40:55.870+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:55.869+0500] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_setup_teardown
+[2024-11-18T20:40:55.881+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:55.881+0500] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_setup_teardown
+[2024-11-18T20:40:55.893+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:55.893+0500] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_setup_teardown
+[2024-11-18T20:40:55.894+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:55.894+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:40:55.913+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:55.912+0500] {dag.py:3262} INFO - Creating ORM DAG for example_setup_teardown
+[2024-11-18T20:40:55.913+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:55.913+0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-11-18T20:40:55.942+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.321 seconds
+[2024-11-18T20:42:06.337+0500] {processor.py:186} INFO - Started process (PID=19132) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:42:06.339+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-11-18T20:42:06.342+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:42:06.341+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:42:06.355+0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:42:06.381+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:42:06.380+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:42:06.401+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:42:06.401+0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-11-18T20:42:06.440+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.112 seconds
+[2024-11-18T20:43:14.942+0500] {processor.py:186} INFO - Started process (PID=19204) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:43:14.943+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-11-18T20:43:14.946+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:43:14.946+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:43:14.959+0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:43:14.986+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:43:14.986+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:43:15.008+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:43:15.008+0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-11-18T20:43:15.053+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.119 seconds
+[2024-11-18T20:44:21.522+0500] {processor.py:186} INFO - Started process (PID=19285) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:44:21.523+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-11-18T20:44:21.526+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:44:21.525+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:44:21.538+0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:44:21.562+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:44:21.561+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:44:21.582+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:44:21.581+0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-11-18T20:44:21.615+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.101 seconds
+[2024-11-18T20:45:28.255+0500] {processor.py:186} INFO - Started process (PID=19473) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:45:28.256+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-11-18T20:45:28.259+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:45:28.258+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:45:28.271+0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:45:28.296+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:45:28.295+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:45:28.316+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:45:28.315+0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-11-18T20:45:28.350+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.103 seconds
+[2024-11-18T20:46:47.797+0500] {processor.py:186} INFO - Started process (PID=19570) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:46:47.798+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-11-18T20:46:47.802+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:46:47.801+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:46:47.816+0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:46:47.844+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:46:47.844+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:46:47.867+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:46:47.866+0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-11-18T20:46:47.900+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.111 seconds
+[2024-11-18T20:47:56.972+0500] {processor.py:186} INFO - Started process (PID=19734) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:47:56.974+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-11-18T20:47:56.977+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:47:56.976+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:47:56.990+0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:47:57.015+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:47:57.015+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:47:57.035+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:47:57.035+0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-11-18T20:47:57.072+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.107 seconds
+[2024-11-18T20:49:02.586+0500] {processor.py:186} INFO - Started process (PID=19817) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:49:02.588+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-11-18T20:49:02.594+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:49:02.594+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:49:02.608+0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:49:02.633+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:49:02.633+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:49:02.655+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:49:02.654+0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-11-18T20:49:02.689+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.113 seconds
+[2024-11-18T20:50:09.974+0500] {processor.py:186} INFO - Started process (PID=19891) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:50:09.978+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-11-18T20:50:09.983+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:50:09.982+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:50:09.997+0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:50:10.030+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:50:10.029+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:50:10.059+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:50:10.059+0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-11-18T20:50:10.147+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.185 seconds
+[2024-11-18T20:51:21.802+0500] {processor.py:186} INFO - Started process (PID=19961) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:51:21.804+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-11-18T20:51:21.807+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:51:21.807+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:51:21.820+0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:51:21.845+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:51:21.845+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:51:21.866+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:51:21.865+0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-11-18T20:51:21.898+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.105 seconds
+[2024-11-18T20:52:33.492+0500] {processor.py:186} INFO - Started process (PID=20056) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:52:33.493+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-11-18T20:52:33.497+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:52:33.496+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:52:33.513+0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:52:33.541+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:52:33.540+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:52:33.561+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:52:33.561+0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-11-18T20:52:33.595+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.111 seconds
+[2024-11-18T20:53:39.782+0500] {processor.py:186} INFO - Started process (PID=20121) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:53:39.784+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-11-18T20:53:39.787+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:53:39.787+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:53:39.801+0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:53:39.825+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:53:39.825+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:53:39.846+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:53:39.846+0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-11-18T20:53:39.880+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.106 seconds
+[2024-11-18T20:54:57.651+0500] {processor.py:186} INFO - Started process (PID=20218) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:54:57.653+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-11-18T20:54:57.656+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:54:57.655+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:54:57.669+0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:54:57.695+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:54:57.694+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:54:57.717+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:54:57.716+0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-11-18T20:54:57.752+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.109 seconds
+[2024-11-18T20:56:20.986+0500] {processor.py:186} INFO - Started process (PID=20303) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:56:20.988+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-11-18T20:56:20.991+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:56:20.991+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:56:21.005+0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:56:21.031+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:56:21.030+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:56:21.052+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:56:21.052+0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-11-18T20:56:21.087+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.110 seconds
+[2024-11-18T20:57:35.457+0500] {processor.py:186} INFO - Started process (PID=20390) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:57:35.460+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-11-18T20:57:35.463+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:57:35.463+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:57:35.479+0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:57:35.506+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:57:35.506+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:57:35.529+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:57:35.528+0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-11-18T20:57:35.565+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.116 seconds
+[2024-11-18T20:58:46.681+0500] {processor.py:186} INFO - Started process (PID=20481) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:58:46.684+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-11-18T20:58:46.686+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:58:46.686+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:58:46.699+0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:58:46.723+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:58:46.723+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:58:46.744+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:58:46.744+0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-11-18T20:58:46.778+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.105 seconds
+[2024-11-18T20:59:58.140+0500] {processor.py:186} INFO - Started process (PID=20559) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:59:58.142+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-11-18T20:59:58.146+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:59:58.145+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:59:58.159+0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T20:59:58.184+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:59:58.183+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:59:58.204+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:59:58.204+0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-11-18T20:59:58.244+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.113 seconds
+[2024-11-18T21:01:07.153+0500] {processor.py:186} INFO - Started process (PID=20640) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:01:07.155+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-11-18T21:01:07.159+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:01:07.158+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:01:07.172+0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:01:07.197+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:01:07.196+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:01:07.217+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:01:07.216+0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-11-18T21:01:07.251+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.108 seconds
+[2024-11-18T21:02:14.452+0500] {processor.py:186} INFO - Started process (PID=20712) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:02:14.455+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-11-18T21:02:14.458+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:02:14.458+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:02:14.471+0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:02:14.496+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:02:14.496+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:02:14.516+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:02:14.516+0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-11-18T21:02:14.555+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.112 seconds
+[2024-11-18T21:03:27.058+0500] {processor.py:186} INFO - Started process (PID=20789) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:03:27.060+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-11-18T21:03:27.063+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:03:27.062+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:03:27.077+0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:03:27.102+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:03:27.102+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:03:27.123+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:03:27.123+0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-11-18T21:03:27.158+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.109 seconds
+[2024-11-18T21:04:33.210+0500] {processor.py:186} INFO - Started process (PID=20889) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:04:33.211+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-11-18T21:04:33.214+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:04:33.214+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:04:33.228+0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:04:33.252+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:04:33.252+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:04:33.273+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:04:33.272+0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-11-18T21:04:33.306+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.104 seconds
+[2024-11-18T21:05:39.816+0500] {processor.py:186} INFO - Started process (PID=20972) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:05:39.817+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-11-18T21:05:39.820+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:05:39.820+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:05:39.834+0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:05:39.858+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:05:39.858+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:05:39.880+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:05:39.879+0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-11-18T21:05:39.912+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.104 seconds
+[2024-11-18T21:06:53.498+0500] {processor.py:186} INFO - Started process (PID=21061) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:06:53.501+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-11-18T21:06:53.504+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:06:53.503+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:06:53.517+0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:06:53.544+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:06:53.543+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:06:53.566+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:06:53.565+0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-11-18T21:06:53.607+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.119 seconds
+[2024-11-18T21:08:08.994+0500] {processor.py:186} INFO - Started process (PID=21143) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:08:08.996+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-11-18T21:08:09.000+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:08:08.999+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:08:09.015+0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:08:09.041+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:08:09.041+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:08:09.064+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:08:09.063+0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-11-18T21:08:09.100+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.115 seconds
+[2024-11-18T21:09:15.616+0500] {processor.py:186} INFO - Started process (PID=21228) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:09:15.618+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-11-18T21:09:15.621+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:09:15.620+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:09:15.634+0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:09:15.660+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:09:15.659+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:09:15.686+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:09:15.685+0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-11-18T21:09:15.730+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.123 seconds
+[2024-11-18T21:10:25.084+0500] {processor.py:186} INFO - Started process (PID=21322) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:10:25.087+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-11-18T21:10:25.090+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:10:25.090+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:10:25.105+0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:10:25.133+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:10:25.133+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:10:25.157+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:10:25.157+0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-11-18T21:10:25.198+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.123 seconds
+[2024-11-18T21:11:40.092+0500] {processor.py:186} INFO - Started process (PID=21452) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:11:40.095+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-11-18T21:11:40.099+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:11:40.098+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:11:40.112+0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:11:40.139+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:11:40.138+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:11:40.161+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:11:40.160+0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-11-18T21:11:40.195+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.113 seconds
+[2024-11-18T21:13:35.258+0500] {processor.py:186} INFO - Started process (PID=21600) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:13:35.260+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-11-18T21:13:35.265+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:13:35.263+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:13:35.279+0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:13:35.303+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:13:35.303+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:13:35.324+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:13:35.323+0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-11-18T21:13:35.356+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.107 seconds
+[2024-11-18T21:15:03.125+0500] {processor.py:186} INFO - Started process (PID=21723) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:15:03.127+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-11-18T21:15:03.130+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:15:03.130+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:15:03.144+0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:15:03.171+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:15:03.170+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:15:03.193+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:15:03.192+0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-11-18T21:15:03.228+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.111 seconds
+[2024-11-18T21:16:35.868+0500] {processor.py:186} INFO - Started process (PID=21836) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:16:35.870+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-11-18T21:16:35.873+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:16:35.872+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:16:35.886+0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:16:35.910+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:16:35.910+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:16:35.931+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:16:35.931+0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-11-18T21:16:35.964+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.104 seconds
+[2024-11-18T21:18:32.656+0500] {processor.py:186} INFO - Started process (PID=22017) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:18:32.657+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-11-18T21:18:32.660+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:18:32.660+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:18:32.673+0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:18:32.698+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:18:32.697+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:18:32.719+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:18:32.718+0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-11-18T21:18:32.753+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.105 seconds
+[2024-11-18T21:20:11.803+0500] {processor.py:186} INFO - Started process (PID=22142) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:20:11.805+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-11-18T21:20:11.809+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:20:11.808+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:20:11.822+0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:20:11.847+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:20:11.846+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:20:11.867+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:20:11.867+0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-11-18T21:20:11.902+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.107 seconds
+[2024-11-18T21:21:23.428+0500] {processor.py:186} INFO - Started process (PID=22234) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:21:23.431+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-11-18T21:21:23.434+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:21:23.433+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:21:23.449+0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:21:23.474+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:21:23.474+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:21:23.495+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:21:23.494+0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-11-18T21:21:23.528+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.110 seconds
+[2024-11-18T21:22:33.847+0500] {processor.py:186} INFO - Started process (PID=22313) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:22:33.849+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2024-11-18T21:22:33.852+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:22:33.851+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:22:33.865+0500] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2024-11-18T21:22:33.891+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:22:33.890+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:22:33.912+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:22:33.911+0500] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2024-11-18T21:22:33.945+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.105 seconds

@@ -1,0 +1,392 @@
+2024-11-18 20:40:13,654 WARNING - Could not import pandas. Holidays will not be considered.
+2024-11-18 20:40:13,658 INFO - Loaded executor: SequentialExecutor
+2024-11-18 20:40:13,711 INFO - Starting the scheduler
+2024-11-18 20:40:13,712 INFO - Processing each file at most -1 times
+2024-11-18 20:40:13,723 INFO - Launched DagFileProcessorManager with pid: 18890
+2024-11-18 20:40:13,725 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-11-18 20:40:13,729 INFO - Configured default timezone UTC
+2024-11-18 20:45:14,024 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-11-18 20:50:13,889 INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+2024-11-18 20:50:13,967 INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.create_files scheduled__2024-11-17T00:00:00+00:00 [scheduled]>
+2024-11-18 20:50:13,968 INFO - DAG count_a has 0/16 running and queued tasks
+2024-11-18 20:50:13,968 INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.create_files scheduled__2024-11-17T00:00:00+00:00 [scheduled]>
+2024-11-18 20:50:13,972 INFO - Trying to enqueue tasks: [<TaskInstance: count_a.create_files scheduled__2024-11-17T00:00:00+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-11-18 20:50:13,973 INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='scheduled__2024-11-17T00:00:00+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 4 and queue default
+2024-11-18 20:50:13,973 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'scheduled__2024-11-17T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 20:50:13,980 INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'scheduled__2024-11-17T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 20:50:18,284 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='scheduled__2024-11-17T00:00:00+00:00', try_number=1, map_index=-1)
+2024-11-18 20:50:18,298 INFO - TaskInstance Finished: dag_id=count_a, task_id=create_files, run_id=scheduled__2024-11-17T00:00:00+00:00, map_index=-1, run_start_date=2024-11-18 15:50:17.214098+00:00, run_end_date=2024-11-18 15:50:17.413077+00:00, run_duration=0.198979, state=up_for_retry, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=2, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2024-11-18 15:50:13.970090+00:00, queued_by_job_id=1, pid=19897
+2024-11-18 20:50:18,325 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-11-18 20:54:37,446 INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.create_files manual__2024-11-18T15:54:36.273794+00:00 [scheduled]>
+2024-11-18 20:54:37,448 INFO - DAG count_a has 0/16 running and queued tasks
+2024-11-18 20:54:37,448 INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.create_files manual__2024-11-18T15:54:36.273794+00:00 [scheduled]>
+2024-11-18 20:54:37,451 INFO - Trying to enqueue tasks: [<TaskInstance: count_a.create_files manual__2024-11-18T15:54:36.273794+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-11-18 20:54:37,451 INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T15:54:36.273794+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 4 and queue default
+2024-11-18 20:54:37,452 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T15:54:36.273794+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 20:54:37,458 INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T15:54:36.273794+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 20:54:42,321 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T15:54:36.273794+00:00', try_number=1, map_index=-1)
+2024-11-18 20:54:42,328 INFO - TaskInstance Finished: dag_id=count_a, task_id=create_files, run_id=manual__2024-11-18T15:54:36.273794+00:00, map_index=-1, run_start_date=2024-11-18 15:54:41.335546+00:00, run_end_date=2024-11-18 15:54:41.544905+00:00, run_duration=0.209359, state=up_for_retry, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=3, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2024-11-18 15:54:37.449668+00:00, queued_by_job_id=1, pid=20201
+2024-11-18 20:55:18,207 INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.create_files scheduled__2024-11-17T00:00:00+00:00 [scheduled]>
+2024-11-18 20:55:18,208 INFO - DAG count_a has 0/16 running and queued tasks
+2024-11-18 20:55:18,208 INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.create_files scheduled__2024-11-17T00:00:00+00:00 [scheduled]>
+2024-11-18 20:55:18,211 INFO - Trying to enqueue tasks: [<TaskInstance: count_a.create_files scheduled__2024-11-17T00:00:00+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-11-18 20:55:18,211 INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='scheduled__2024-11-17T00:00:00+00:00', try_number=2, map_index=-1) to SequentialExecutor with priority 4 and queue default
+2024-11-18 20:55:18,212 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'scheduled__2024-11-17T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 20:55:18,219 INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'scheduled__2024-11-17T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 20:55:22,050 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='scheduled__2024-11-17T00:00:00+00:00', try_number=2, map_index=-1)
+2024-11-18 20:55:22,056 INFO - TaskInstance Finished: dag_id=count_a, task_id=create_files, run_id=scheduled__2024-11-17T00:00:00+00:00, map_index=-1, run_start_date=2024-11-18 15:55:21.153467+00:00, run_end_date=2024-11-18 15:55:21.337272+00:00, run_duration=0.183805, state=failed, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=2, max_tries=1, job_id=4, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2024-11-18 15:55:18.209768+00:00, queued_by_job_id=1, pid=20240
+2024-11-18 20:55:22,080 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-11-18 20:55:24,709 INFO - Marking run <DagRun count_a @ 2024-11-17 00:00:00+00:00: scheduled__2024-11-17T00:00:00+00:00, state:running, queued_at: 2024-11-18 15:50:13.874550+00:00. externally triggered: False> successful
+2024-11-18 20:55:24,711 INFO - DagRun Finished: dag_id=count_a, execution_date=2024-11-17 00:00:00+00:00, run_id=scheduled__2024-11-17T00:00:00+00:00, run_start_date=2024-11-18 15:50:13.906906+00:00, run_end_date=2024-11-18 15:55:24.710858+00:00, run_duration=310.803952, state=success, external_trigger=False, run_type=scheduled, data_interval_start=2024-11-17 00:00:00+00:00, data_interval_end=2024-11-18 00:00:00+00:00, dag_hash=e407d3575fac31486bcf82980b6b24c0
+2024-11-18 20:55:24,718 INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+2024-11-18 20:59:42,340 INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.create_files manual__2024-11-18T15:54:36.273794+00:00 [scheduled]>
+2024-11-18 20:59:42,341 INFO - DAG count_a has 0/16 running and queued tasks
+2024-11-18 20:59:42,341 INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.create_files manual__2024-11-18T15:54:36.273794+00:00 [scheduled]>
+2024-11-18 20:59:42,343 INFO - Trying to enqueue tasks: [<TaskInstance: count_a.create_files manual__2024-11-18T15:54:36.273794+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-11-18 20:59:42,344 INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T15:54:36.273794+00:00', try_number=2, map_index=-1) to SequentialExecutor with priority 4 and queue default
+2024-11-18 20:59:42,345 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T15:54:36.273794+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 20:59:42,352 INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T15:54:36.273794+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 20:59:46,746 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T15:54:36.273794+00:00', try_number=2, map_index=-1)
+2024-11-18 20:59:46,753 INFO - TaskInstance Finished: dag_id=count_a, task_id=create_files, run_id=manual__2024-11-18T15:54:36.273794+00:00, map_index=-1, run_start_date=2024-11-18 15:59:45.789581+00:00, run_end_date=2024-11-18 15:59:45.990789+00:00, run_duration=0.201208, state=failed, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=2, max_tries=1, job_id=5, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2024-11-18 15:59:42.342636+00:00, queued_by_job_id=1, pid=20545
+2024-11-18 20:59:49,577 INFO - Marking run <DagRun count_a @ 2024-11-18 15:54:36.273794+00:00: manual__2024-11-18T15:54:36.273794+00:00, state:running, queued_at: 2024-11-18 15:54:36.302327+00:00. externally triggered: True> successful
+2024-11-18 20:59:49,578 INFO - DagRun Finished: dag_id=count_a, execution_date=2024-11-18 15:54:36.273794+00:00, run_id=manual__2024-11-18T15:54:36.273794+00:00, run_start_date=2024-11-18 15:54:37.400543+00:00, run_end_date=2024-11-18 15:59:49.578424+00:00, run_duration=312.177881, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-11-17 15:54:36.273794+00:00, data_interval_end=2024-11-18 15:54:36.273794+00:00, dag_hash=e407d3575fac31486bcf82980b6b24c0
+2024-11-18 21:00:22,157 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-11-18 21:05:22,422 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-11-18 21:06:36,415 INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:06:35.669942+00:00 [scheduled]>
+2024-11-18 21:06:36,416 INFO - DAG count_a has 0/16 running and queued tasks
+2024-11-18 21:06:36,416 INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:06:35.669942+00:00 [scheduled]>
+2024-11-18 21:06:36,423 INFO - Trying to enqueue tasks: [<TaskInstance: count_a.create_files manual__2024-11-18T16:06:35.669942+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-11-18 21:06:36,424 INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:06:35.669942+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 4 and queue default
+2024-11-18 21:06:36,424 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:06:35.669942+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:06:36,434 INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:06:35.669942+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:06:40,828 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:06:35.669942+00:00', try_number=1, map_index=-1)
+2024-11-18 21:06:40,835 INFO - TaskInstance Finished: dag_id=count_a, task_id=create_files, run_id=manual__2024-11-18T16:06:35.669942+00:00, map_index=-1, run_start_date=2024-11-18 16:06:39.834360+00:00, run_end_date=2024-11-18 16:06:40.058028+00:00, run_duration=0.223668, state=up_for_retry, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=6, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2024-11-18 16:06:36.417566+00:00, queued_by_job_id=1, pid=21048
+2024-11-18 21:10:22,702 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-11-18 21:10:30,787 INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:10:29.434302+00:00 [scheduled]>
+2024-11-18 21:10:30,788 INFO - DAG count_a has 0/16 running and queued tasks
+2024-11-18 21:10:30,788 INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:10:29.434302+00:00 [scheduled]>
+2024-11-18 21:10:30,791 INFO - Trying to enqueue tasks: [<TaskInstance: count_a.create_files manual__2024-11-18T16:10:29.434302+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-11-18 21:10:30,792 INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:10:29.434302+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 4 and queue default
+2024-11-18 21:10:30,792 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:10:29.434302+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:10:30,799 INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:10:29.434302+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:10:34,787 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:10:29.434302+00:00', try_number=1, map_index=-1)
+2024-11-18 21:10:34,795 INFO - TaskInstance Finished: dag_id=count_a, task_id=create_files, run_id=manual__2024-11-18T16:10:29.434302+00:00, map_index=-1, run_start_date=2024-11-18 16:10:33.851303+00:00, run_end_date=2024-11-18 16:10:34.054791+00:00, run_duration=0.203488, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=7, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2024-11-18 16:10:30.789513+00:00, queued_by_job_id=1, pid=21333
+2024-11-18 21:10:35,090 INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:10:29.434302+00:00 [scheduled]>
+2024-11-18 21:10:35,091 INFO - DAG count_a has 0/16 running and queued tasks
+2024-11-18 21:10:35,091 INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:10:29.434302+00:00 [scheduled]>
+2024-11-18 21:10:35,094 INFO - Trying to enqueue tasks: [<TaskInstance: count_a.count_a manual__2024-11-18T16:10:29.434302+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-11-18 21:10:35,095 INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:10:29.434302+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 3 and queue default
+2024-11-18 21:10:35,095 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:10:29.434302+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:10:35,102 INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:10:29.434302+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:10:39,291 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:10:29.434302+00:00', try_number=1, map_index=-1)
+2024-11-18 21:10:39,300 INFO - TaskInstance Finished: dag_id=count_a, task_id=count_a, run_id=manual__2024-11-18T16:10:29.434302+00:00, map_index=-1, run_start_date=2024-11-18 16:10:38.327619+00:00, run_end_date=2024-11-18 16:10:38.534384+00:00, run_duration=0.206765, state=up_for_retry, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=8, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2024-11-18 16:10:35.092447+00:00, queued_by_job_id=1, pid=21343
+2024-11-18 21:11:40,334 INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:06:35.669942+00:00 [scheduled]>
+2024-11-18 21:11:40,335 INFO - DAG count_a has 0/16 running and queued tasks
+2024-11-18 21:11:40,336 INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:06:35.669942+00:00 [scheduled]>
+2024-11-18 21:11:40,338 INFO - Trying to enqueue tasks: [<TaskInstance: count_a.create_files manual__2024-11-18T16:06:35.669942+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-11-18 21:11:40,339 INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:06:35.669942+00:00', try_number=2, map_index=-1) to SequentialExecutor with priority 4 and queue default
+2024-11-18 21:11:40,339 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:06:35.669942+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:11:40,346 INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:06:35.669942+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:11:44,333 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:06:35.669942+00:00', try_number=2, map_index=-1)
+2024-11-18 21:11:44,340 INFO - TaskInstance Finished: dag_id=count_a, task_id=create_files, run_id=manual__2024-11-18T16:06:35.669942+00:00, map_index=-1, run_start_date=2024-11-18 16:11:43.307422+00:00, run_end_date=2024-11-18 16:11:43.562301+00:00, run_duration=0.254879, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=2, max_tries=1, job_id=9, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2024-11-18 16:11:40.337100+00:00, queued_by_job_id=1, pid=21455
+2024-11-18 21:11:44,645 INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:06:35.669942+00:00 [scheduled]>
+2024-11-18 21:11:44,645 INFO - DAG count_a has 0/16 running and queued tasks
+2024-11-18 21:11:44,646 INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:06:35.669942+00:00 [scheduled]>
+2024-11-18 21:11:44,648 INFO - Trying to enqueue tasks: [<TaskInstance: count_a.count_a manual__2024-11-18T16:06:35.669942+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-11-18 21:11:44,649 INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:06:35.669942+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 3 and queue default
+2024-11-18 21:11:44,649 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:06:35.669942+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:11:44,656 INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:06:35.669942+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:11:49,048 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:06:35.669942+00:00', try_number=1, map_index=-1)
+2024-11-18 21:11:49,055 INFO - TaskInstance Finished: dag_id=count_a, task_id=count_a, run_id=manual__2024-11-18T16:06:35.669942+00:00, map_index=-1, run_start_date=2024-11-18 16:11:48.019754+00:00, run_end_date=2024-11-18 16:11:48.281847+00:00, run_duration=0.262093, state=up_for_retry, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=10, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2024-11-18 16:11:44.647164+00:00, queued_by_job_id=1, pid=21463
+2024-11-18 21:12:14,245 INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:12:13.891274+00:00 [scheduled]>
+2024-11-18 21:12:14,250 INFO - DAG count_a has 0/16 running and queued tasks
+2024-11-18 21:12:14,254 INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:12:13.891274+00:00 [scheduled]>
+2024-11-18 21:12:14,257 INFO - Trying to enqueue tasks: [<TaskInstance: count_a.create_files manual__2024-11-18T16:12:13.891274+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-11-18 21:12:14,261 INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:12:13.891274+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 4 and queue default
+2024-11-18 21:12:14,267 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:12:13.891274+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:12:14,307 INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:12:13.891274+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:12:19,289 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:12:13.891274+00:00', try_number=1, map_index=-1)
+2024-11-18 21:12:19,295 INFO - TaskInstance Finished: dag_id=count_a, task_id=create_files, run_id=manual__2024-11-18T16:12:13.891274+00:00, map_index=-1, run_start_date=2024-11-18 16:12:18.345446+00:00, run_end_date=2024-11-18 16:12:18.556612+00:00, run_duration=0.211166, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=11, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2024-11-18 16:12:14.255610+00:00, queued_by_job_id=1, pid=21510
+2024-11-18 21:12:19,611 INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:12:13.891274+00:00 [scheduled]>
+2024-11-18 21:12:19,612 INFO - DAG count_a has 0/16 running and queued tasks
+2024-11-18 21:12:19,612 INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:12:13.891274+00:00 [scheduled]>
+2024-11-18 21:12:19,615 INFO - Trying to enqueue tasks: [<TaskInstance: count_a.count_a manual__2024-11-18T16:12:13.891274+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-11-18 21:12:19,616 INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:12:13.891274+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 3 and queue default
+2024-11-18 21:12:19,616 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:12:13.891274+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:12:19,622 INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:12:13.891274+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:12:23,540 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:12:13.891274+00:00', try_number=1, map_index=-1)
+2024-11-18 21:12:23,546 INFO - TaskInstance Finished: dag_id=count_a, task_id=count_a, run_id=manual__2024-11-18T16:12:13.891274+00:00, map_index=-1, run_start_date=2024-11-18 16:12:22.602121+00:00, run_end_date=2024-11-18 16:12:22.822198+00:00, run_duration=0.220077, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=12, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2024-11-18 16:12:19.613652+00:00, queued_by_job_id=1, pid=21515
+2024-11-18 21:12:23,840 INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:12:13.891274+00:00 [scheduled]>
+2024-11-18 21:12:23,841 INFO - DAG count_a has 0/16 running and queued tasks
+2024-11-18 21:12:23,841 INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:12:13.891274+00:00 [scheduled]>
+2024-11-18 21:12:23,843 INFO - Trying to enqueue tasks: [<TaskInstance: count_a.sum_results manual__2024-11-18T16:12:13.891274+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-11-18 21:12:23,844 INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:12:13.891274+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+2024-11-18 21:12:23,845 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:12:13.891274+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:12:23,852 INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:12:13.891274+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:12:27,805 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:12:13.891274+00:00', try_number=1, map_index=-1)
+2024-11-18 21:12:27,811 INFO - TaskInstance Finished: dag_id=count_a, task_id=sum_results, run_id=manual__2024-11-18T16:12:13.891274+00:00, map_index=-1, run_start_date=2024-11-18 16:12:26.826037+00:00, run_end_date=2024-11-18 16:12:27.035280+00:00, run_duration=0.209243, state=up_for_retry, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=13, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-11-18 16:12:23.842320+00:00, queued_by_job_id=1, pid=21522
+2024-11-18 21:12:50,103 INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:12:49.786824+00:00 [scheduled]>
+2024-11-18 21:12:50,103 INFO - DAG count_a has 0/16 running and queued tasks
+2024-11-18 21:12:50,106 INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:12:49.786824+00:00 [scheduled]>
+2024-11-18 21:12:50,109 INFO - Trying to enqueue tasks: [<TaskInstance: count_a.create_files manual__2024-11-18T16:12:49.786824+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-11-18 21:12:50,110 INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:12:49.786824+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 4 and queue default
+2024-11-18 21:12:50,111 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:12:49.786824+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:12:50,118 INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:12:49.786824+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:12:55,070 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:12:49.786824+00:00', try_number=1, map_index=-1)
+2024-11-18 21:12:55,077 INFO - TaskInstance Finished: dag_id=count_a, task_id=create_files, run_id=manual__2024-11-18T16:12:49.786824+00:00, map_index=-1, run_start_date=2024-11-18 16:12:54.118231+00:00, run_end_date=2024-11-18 16:12:54.341109+00:00, run_duration=0.222878, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=14, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2024-11-18 16:12:50.107631+00:00, queued_by_job_id=1, pid=21552
+2024-11-18 21:12:55,304 INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:12:49.786824+00:00 [scheduled]>
+2024-11-18 21:12:55,304 INFO - DAG count_a has 0/16 running and queued tasks
+2024-11-18 21:12:55,305 INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:12:49.786824+00:00 [scheduled]>
+2024-11-18 21:12:55,307 INFO - Trying to enqueue tasks: [<TaskInstance: count_a.count_a manual__2024-11-18T16:12:49.786824+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-11-18 21:12:55,308 INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:12:49.786824+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 3 and queue default
+2024-11-18 21:12:55,309 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:12:49.786824+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:12:55,315 INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:12:49.786824+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:12:59,251 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:12:49.786824+00:00', try_number=1, map_index=-1)
+2024-11-18 21:12:59,257 INFO - TaskInstance Finished: dag_id=count_a, task_id=count_a, run_id=manual__2024-11-18T16:12:49.786824+00:00, map_index=-1, run_start_date=2024-11-18 16:12:58.276019+00:00, run_end_date=2024-11-18 16:12:58.495290+00:00, run_duration=0.219271, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=15, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2024-11-18 16:12:55.306254+00:00, queued_by_job_id=1, pid=21558
+2024-11-18 21:12:59,554 INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:12:49.786824+00:00 [scheduled]>
+2024-11-18 21:12:59,555 INFO - DAG count_a has 0/16 running and queued tasks
+2024-11-18 21:12:59,555 INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:12:49.786824+00:00 [scheduled]>
+2024-11-18 21:12:59,557 INFO - Trying to enqueue tasks: [<TaskInstance: count_a.sum_results manual__2024-11-18T16:12:49.786824+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-11-18 21:12:59,558 INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:12:49.786824+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+2024-11-18 21:12:59,558 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:12:49.786824+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:12:59,566 INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:12:49.786824+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:13:03,810 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:12:49.786824+00:00', try_number=1, map_index=-1)
+2024-11-18 21:13:03,816 INFO - TaskInstance Finished: dag_id=count_a, task_id=sum_results, run_id=manual__2024-11-18T16:12:49.786824+00:00, map_index=-1, run_start_date=2024-11-18 16:13:02.733073+00:00, run_end_date=2024-11-18 16:13:02.941278+00:00, run_duration=0.208205, state=up_for_retry, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=16, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-11-18 16:12:59.556335+00:00, queued_by_job_id=1, pid=21563
+2024-11-18 21:14:27,179 INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:14:26.211549+00:00 [scheduled]>
+2024-11-18 21:14:27,179 INFO - DAG count_a has 0/16 running and queued tasks
+2024-11-18 21:14:27,180 INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:14:26.211549+00:00 [scheduled]>
+2024-11-18 21:14:27,188 INFO - Trying to enqueue tasks: [<TaskInstance: count_a.create_files manual__2024-11-18T16:14:26.211549+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-11-18 21:14:27,194 INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:14:26.211549+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 4 and queue default
+2024-11-18 21:14:27,195 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:14:26.211549+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:14:27,201 INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:14:26.211549+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:14:31,435 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:14:26.211549+00:00', try_number=1, map_index=-1)
+2024-11-18 21:14:31,441 INFO - TaskInstance Finished: dag_id=count_a, task_id=create_files, run_id=manual__2024-11-18T16:14:26.211549+00:00, map_index=-1, run_start_date=2024-11-18 16:14:30.399878+00:00, run_end_date=2024-11-18 16:14:30.712060+00:00, run_duration=0.312182, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=17, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2024-11-18 16:14:27.183141+00:00, queued_by_job_id=1, pid=21672
+2024-11-18 21:14:31,689 INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:14:26.211549+00:00 [scheduled]>
+2024-11-18 21:14:31,690 INFO - DAG count_a has 0/16 running and queued tasks
+2024-11-18 21:14:31,691 INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:14:26.211549+00:00 [scheduled]>
+2024-11-18 21:14:31,694 INFO - Trying to enqueue tasks: [<TaskInstance: count_a.count_a manual__2024-11-18T16:14:26.211549+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-11-18 21:14:31,696 INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:14:26.211549+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 3 and queue default
+2024-11-18 21:14:31,697 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:14:26.211549+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:14:31,704 INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:14:26.211549+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:14:35,733 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:14:26.211549+00:00', try_number=1, map_index=-1)
+2024-11-18 21:14:35,739 INFO - TaskInstance Finished: dag_id=count_a, task_id=count_a, run_id=manual__2024-11-18T16:14:26.211549+00:00, map_index=-1, run_start_date=2024-11-18 16:14:34.786404+00:00, run_end_date=2024-11-18 16:14:35.003119+00:00, run_duration=0.216715, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=18, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2024-11-18 16:14:31.692725+00:00, queued_by_job_id=1, pid=21677
+2024-11-18 21:14:35,951 INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:14:26.211549+00:00 [scheduled]>
+2024-11-18 21:14:35,952 INFO - DAG count_a has 0/16 running and queued tasks
+2024-11-18 21:14:35,953 INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:14:26.211549+00:00 [scheduled]>
+2024-11-18 21:14:35,955 INFO - Trying to enqueue tasks: [<TaskInstance: count_a.sum_results manual__2024-11-18T16:14:26.211549+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-11-18 21:14:35,956 INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:14:26.211549+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+2024-11-18 21:14:35,956 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:14:26.211549+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:14:35,963 INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:14:26.211549+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:14:40,061 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:14:26.211549+00:00', try_number=1, map_index=-1)
+2024-11-18 21:14:40,068 INFO - TaskInstance Finished: dag_id=count_a, task_id=sum_results, run_id=manual__2024-11-18T16:14:26.211549+00:00, map_index=-1, run_start_date=2024-11-18 16:14:39.048203+00:00, run_end_date=2024-11-18 16:14:39.252228+00:00, run_duration=0.204025, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=19, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-11-18 16:14:35.953911+00:00, queued_by_job_id=1, pid=21684
+2024-11-18 21:14:41,539 INFO - Marking run <DagRun count_a @ 2024-11-18 16:14:26.211549+00:00: manual__2024-11-18T16:14:26.211549+00:00, state:running, queued_at: 2024-11-18 16:14:26.225782+00:00. externally triggered: True> successful
+2024-11-18 21:14:41,540 INFO - DagRun Finished: dag_id=count_a, execution_date=2024-11-18 16:14:26.211549+00:00, run_id=manual__2024-11-18T16:14:26.211549+00:00, run_start_date=2024-11-18 16:14:27.010528+00:00, run_end_date=2024-11-18 16:14:41.540589+00:00, run_duration=14.530061, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-11-17 16:14:26.211549+00:00, data_interval_end=2024-11-18 16:14:26.211549+00:00, dag_hash=e407d3575fac31486bcf82980b6b24c0
+2024-11-18 21:15:22,999 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-11-18 21:15:39,644 INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:10:29.434302+00:00 [scheduled]>
+2024-11-18 21:15:39,645 INFO - DAG count_a has 0/16 running and queued tasks
+2024-11-18 21:15:39,646 INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:10:29.434302+00:00 [scheduled]>
+2024-11-18 21:15:39,648 INFO - Trying to enqueue tasks: [<TaskInstance: count_a.count_a manual__2024-11-18T16:10:29.434302+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-11-18 21:15:39,649 INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:10:29.434302+00:00', try_number=2, map_index=-1) to SequentialExecutor with priority 3 and queue default
+2024-11-18 21:15:39,649 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:10:29.434302+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:15:39,655 INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:10:29.434302+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:15:44,166 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:10:29.434302+00:00', try_number=2, map_index=-1)
+2024-11-18 21:15:44,173 INFO - TaskInstance Finished: dag_id=count_a, task_id=count_a, run_id=manual__2024-11-18T16:10:29.434302+00:00, map_index=-1, run_start_date=2024-11-18 16:15:43.102012+00:00, run_end_date=2024-11-18 16:15:43.394737+00:00, run_duration=0.292725, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=2, max_tries=1, job_id=20, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2024-11-18 16:15:39.646981+00:00, queued_by_job_id=1, pid=21762
+2024-11-18 21:15:44,527 INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:10:29.434302+00:00 [scheduled]>
+2024-11-18 21:15:44,528 INFO - DAG count_a has 0/16 running and queued tasks
+2024-11-18 21:15:44,528 INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:10:29.434302+00:00 [scheduled]>
+2024-11-18 21:15:44,536 INFO - Trying to enqueue tasks: [<TaskInstance: count_a.sum_results manual__2024-11-18T16:10:29.434302+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-11-18 21:15:44,538 INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:10:29.434302+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+2024-11-18 21:15:44,539 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:10:29.434302+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:15:44,548 INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:10:29.434302+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:15:48,728 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:10:29.434302+00:00', try_number=1, map_index=-1)
+2024-11-18 21:15:48,736 INFO - TaskInstance Finished: dag_id=count_a, task_id=sum_results, run_id=manual__2024-11-18T16:10:29.434302+00:00, map_index=-1, run_start_date=2024-11-18 16:15:47.741757+00:00, run_end_date=2024-11-18 16:15:47.965024+00:00, run_duration=0.223267, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=21, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-11-18 16:15:44.534850+00:00, queued_by_job_id=1, pid=21767
+2024-11-18 21:15:49,366 INFO - Marking run <DagRun count_a @ 2024-11-18 16:10:29.434302+00:00: manual__2024-11-18T16:10:29.434302+00:00, state:running, queued_at: 2024-11-18 16:10:29.448471+00:00. externally triggered: True> successful
+2024-11-18 21:15:49,367 INFO - DagRun Finished: dag_id=count_a, execution_date=2024-11-18 16:10:29.434302+00:00, run_id=manual__2024-11-18T16:10:29.434302+00:00, run_start_date=2024-11-18 16:10:30.741023+00:00, run_end_date=2024-11-18 16:15:49.367147+00:00, run_duration=318.626124, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-11-17 16:10:29.434302+00:00, data_interval_end=2024-11-18 16:10:29.434302+00:00, dag_hash=e407d3575fac31486bcf82980b6b24c0
+2024-11-18 21:16:45,428 INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:16:43.947004+00:00 [scheduled]>
+2024-11-18 21:16:45,428 INFO - DAG count_a has 0/16 running and queued tasks
+2024-11-18 21:16:45,429 INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:16:43.947004+00:00 [scheduled]>
+2024-11-18 21:16:45,431 INFO - Trying to enqueue tasks: [<TaskInstance: count_a.create_files manual__2024-11-18T16:16:43.947004+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-11-18 21:16:45,432 INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:16:43.947004+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 4 and queue default
+2024-11-18 21:16:45,432 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:16:43.947004+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:16:45,440 INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:16:43.947004+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:16:49,663 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:16:43.947004+00:00', try_number=1, map_index=-1)
+2024-11-18 21:16:49,669 INFO - TaskInstance Finished: dag_id=count_a, task_id=create_files, run_id=manual__2024-11-18T16:16:43.947004+00:00, map_index=-1, run_start_date=2024-11-18 16:16:48.722834+00:00, run_end_date=2024-11-18 16:16:48.925342+00:00, run_duration=0.202508, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=22, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2024-11-18 16:16:45.430041+00:00, queued_by_job_id=1, pid=21871
+2024-11-18 21:16:49,992 INFO - 2 tasks up for execution:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:06:35.669942+00:00 [scheduled]>
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:16:43.947004+00:00 [scheduled]>
+2024-11-18 21:16:49,992 INFO - DAG count_a has 0/16 running and queued tasks
+2024-11-18 21:16:49,993 INFO - DAG count_a has 1/16 running and queued tasks
+2024-11-18 21:16:49,993 INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:06:35.669942+00:00 [scheduled]>
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:16:43.947004+00:00 [scheduled]>
+2024-11-18 21:16:49,996 INFO - Trying to enqueue tasks: [<TaskInstance: count_a.count_a manual__2024-11-18T16:06:35.669942+00:00 [scheduled]>, <TaskInstance: count_a.count_a manual__2024-11-18T16:16:43.947004+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-11-18 21:16:49,997 INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:06:35.669942+00:00', try_number=2, map_index=-1) to SequentialExecutor with priority 3 and queue default
+2024-11-18 21:16:49,998 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:06:35.669942+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:16:49,998 INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:16:43.947004+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 3 and queue default
+2024-11-18 21:16:49,999 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:16:43.947004+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:16:50,005 INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:06:35.669942+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:16:53,902 INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:16:43.947004+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:16:57,838 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:06:35.669942+00:00', try_number=2, map_index=-1)
+2024-11-18 21:16:57,839 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:16:43.947004+00:00', try_number=1, map_index=-1)
+2024-11-18 21:16:57,849 INFO - TaskInstance Finished: dag_id=count_a, task_id=count_a, run_id=manual__2024-11-18T16:06:35.669942+00:00, map_index=-1, run_start_date=2024-11-18 16:16:52.970362+00:00, run_end_date=2024-11-18 16:16:53.181282+00:00, run_duration=0.21092, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=2, max_tries=1, job_id=23, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2024-11-18 16:16:49.994655+00:00, queued_by_job_id=1, pid=21877
+2024-11-18 21:16:57,850 INFO - TaskInstance Finished: dag_id=count_a, task_id=count_a, run_id=manual__2024-11-18T16:16:43.947004+00:00, map_index=-1, run_start_date=2024-11-18 16:16:56.853639+00:00, run_end_date=2024-11-18 16:16:57.066781+00:00, run_duration=0.213142, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=24, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2024-11-18 16:16:49.994655+00:00, queued_by_job_id=1, pid=21882
+2024-11-18 21:16:58,065 INFO - 2 tasks up for execution:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:06:35.669942+00:00 [scheduled]>
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:16:43.947004+00:00 [scheduled]>
+2024-11-18 21:16:58,066 INFO - DAG count_a has 0/16 running and queued tasks
+2024-11-18 21:16:58,066 INFO - DAG count_a has 1/16 running and queued tasks
+2024-11-18 21:16:58,066 INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:06:35.669942+00:00 [scheduled]>
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:16:43.947004+00:00 [scheduled]>
+2024-11-18 21:16:58,069 INFO - Trying to enqueue tasks: [<TaskInstance: count_a.sum_results manual__2024-11-18T16:06:35.669942+00:00 [scheduled]>, <TaskInstance: count_a.sum_results manual__2024-11-18T16:16:43.947004+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-11-18 21:16:58,069 INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:06:35.669942+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+2024-11-18 21:16:58,070 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:06:35.669942+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:16:58,070 INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:16:43.947004+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+2024-11-18 21:16:58,071 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:16:43.947004+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:16:58,079 INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:06:35.669942+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:17:01,941 INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:16:43.947004+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:17:05,822 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:06:35.669942+00:00', try_number=1, map_index=-1)
+2024-11-18 21:17:05,822 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:16:43.947004+00:00', try_number=1, map_index=-1)
+2024-11-18 21:17:05,828 INFO - TaskInstance Finished: dag_id=count_a, task_id=sum_results, run_id=manual__2024-11-18T16:06:35.669942+00:00, map_index=-1, run_start_date=2024-11-18 16:17:01.016162+00:00, run_end_date=2024-11-18 16:17:01.216127+00:00, run_duration=0.199965, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=25, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-11-18 16:16:58.067737+00:00, queued_by_job_id=1, pid=21887
+2024-11-18 21:17:05,829 INFO - TaskInstance Finished: dag_id=count_a, task_id=sum_results, run_id=manual__2024-11-18T16:16:43.947004+00:00, map_index=-1, run_start_date=2024-11-18 16:17:04.895411+00:00, run_end_date=2024-11-18 16:17:05.094322+00:00, run_duration=0.198911, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=26, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-11-18 16:16:58.067737+00:00, queued_by_job_id=1, pid=21891
+2024-11-18 21:17:07,196 INFO - Marking run <DagRun count_a @ 2024-11-18 16:16:43.947004+00:00: manual__2024-11-18T16:16:43.947004+00:00, state:running, queued_at: 2024-11-18 16:16:43.965222+00:00. externally triggered: True> successful
+2024-11-18 21:17:07,197 INFO - DagRun Finished: dag_id=count_a, execution_date=2024-11-18 16:16:43.947004+00:00, run_id=manual__2024-11-18T16:16:43.947004+00:00, run_start_date=2024-11-18 16:16:45.368049+00:00, run_end_date=2024-11-18 16:17:07.197351+00:00, run_duration=21.829302, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-11-17 16:16:43.947004+00:00, data_interval_end=2024-11-18 16:16:43.947004+00:00, dag_hash=e407d3575fac31486bcf82980b6b24c0
+2024-11-18 21:17:07,217 INFO - Marking run <DagRun count_a @ 2024-11-18 16:06:35.669942+00:00: manual__2024-11-18T16:06:35.669942+00:00, state:running, queued_at: 2024-11-18 16:06:35.701795+00:00. externally triggered: True> successful
+2024-11-18 21:17:07,218 INFO - DagRun Finished: dag_id=count_a, execution_date=2024-11-18 16:06:35.669942+00:00, run_id=manual__2024-11-18T16:06:35.669942+00:00, run_start_date=2024-11-18 16:06:36.333389+00:00, run_end_date=2024-11-18 16:17:07.218000+00:00, run_duration=630.884611, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-11-17 16:06:35.669942+00:00, data_interval_end=2024-11-18 16:06:35.669942+00:00, dag_hash=e407d3575fac31486bcf82980b6b24c0
+2024-11-18 21:17:28,184 INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:12:13.891274+00:00 [scheduled]>
+2024-11-18 21:17:28,185 INFO - DAG count_a has 0/16 running and queued tasks
+2024-11-18 21:17:28,185 INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:12:13.891274+00:00 [scheduled]>
+2024-11-18 21:17:28,187 INFO - Trying to enqueue tasks: [<TaskInstance: count_a.sum_results manual__2024-11-18T16:12:13.891274+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-11-18 21:17:28,188 INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:12:13.891274+00:00', try_number=2, map_index=-1) to SequentialExecutor with priority 2 and queue default
+2024-11-18 21:17:28,188 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:12:13.891274+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:17:28,195 INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:12:13.891274+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:17:32,350 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:12:13.891274+00:00', try_number=2, map_index=-1)
+2024-11-18 21:17:32,356 INFO - TaskInstance Finished: dag_id=count_a, task_id=sum_results, run_id=manual__2024-11-18T16:12:13.891274+00:00, map_index=-1, run_start_date=2024-11-18 16:17:31.342475+00:00, run_end_date=2024-11-18 16:17:31.537273+00:00, run_duration=0.194798, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=2, max_tries=1, job_id=27, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-11-18 16:17:28.186399+00:00, queued_by_job_id=1, pid=21924
+2024-11-18 21:17:33,765 INFO - Marking run <DagRun count_a @ 2024-11-18 16:12:13.891274+00:00: manual__2024-11-18T16:12:13.891274+00:00, state:running, queued_at: 2024-11-18 16:12:13.909806+00:00. externally triggered: True> successful
+2024-11-18 21:17:33,767 INFO - DagRun Finished: dag_id=count_a, execution_date=2024-11-18 16:12:13.891274+00:00, run_id=manual__2024-11-18T16:12:13.891274+00:00, run_start_date=2024-11-18 16:12:14.138915+00:00, run_end_date=2024-11-18 16:17:33.766992+00:00, run_duration=319.628077, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-11-17 16:12:13.891274+00:00, data_interval_end=2024-11-18 16:12:13.891274+00:00, dag_hash=e407d3575fac31486bcf82980b6b24c0
+2024-11-18 21:18:03,445 INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:12:49.786824+00:00 [scheduled]>
+2024-11-18 21:18:03,446 INFO - DAG count_a has 0/16 running and queued tasks
+2024-11-18 21:18:03,446 INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:12:49.786824+00:00 [scheduled]>
+2024-11-18 21:18:03,448 INFO - Trying to enqueue tasks: [<TaskInstance: count_a.sum_results manual__2024-11-18T16:12:49.786824+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-11-18 21:18:03,449 INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:12:49.786824+00:00', try_number=2, map_index=-1) to SequentialExecutor with priority 2 and queue default
+2024-11-18 21:18:03,449 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:12:49.786824+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:18:03,456 INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:12:49.786824+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:18:07,401 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:12:49.786824+00:00', try_number=2, map_index=-1)
+2024-11-18 21:18:07,407 INFO - TaskInstance Finished: dag_id=count_a, task_id=sum_results, run_id=manual__2024-11-18T16:12:49.786824+00:00, map_index=-1, run_start_date=2024-11-18 16:18:06.464689+00:00, run_end_date=2024-11-18 16:18:06.661734+00:00, run_duration=0.197045, state=failed, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=2, max_tries=1, job_id=28, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-11-18 16:18:03.447229+00:00, queued_by_job_id=1, pid=21973
+2024-11-18 21:18:08,974 INFO - Marking run <DagRun count_a @ 2024-11-18 16:12:49.786824+00:00: manual__2024-11-18T16:12:49.786824+00:00, state:running, queued_at: 2024-11-18 16:12:49.808174+00:00. externally triggered: True> successful
+2024-11-18 21:18:08,975 INFO - DagRun Finished: dag_id=count_a, execution_date=2024-11-18 16:12:49.786824+00:00, run_id=manual__2024-11-18T16:12:49.786824+00:00, run_start_date=2024-11-18 16:12:50.016618+00:00, run_end_date=2024-11-18 16:18:08.975318+00:00, run_duration=318.9587, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-11-17 16:12:49.786824+00:00, data_interval_end=2024-11-18 16:12:49.786824+00:00, dag_hash=e407d3575fac31486bcf82980b6b24c0
+2024-11-18 21:18:19,259 INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:18:17.859641+00:00 [scheduled]>
+2024-11-18 21:18:19,265 INFO - DAG count_a has 0/16 running and queued tasks
+2024-11-18 21:18:19,266 INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:18:17.859641+00:00 [scheduled]>
+2024-11-18 21:18:19,269 INFO - Trying to enqueue tasks: [<TaskInstance: count_a.create_files manual__2024-11-18T16:18:17.859641+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-11-18 21:18:19,269 INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:18:17.859641+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 4 and queue default
+2024-11-18 21:18:19,270 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:18:17.859641+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:18:19,285 INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:18:17.859641+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:18:23,489 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:18:17.859641+00:00', try_number=1, map_index=-1)
+2024-11-18 21:18:23,498 INFO - TaskInstance Finished: dag_id=count_a, task_id=create_files, run_id=manual__2024-11-18T16:18:17.859641+00:00, map_index=-1, run_start_date=2024-11-18 16:18:22.527822+00:00, run_end_date=2024-11-18 16:18:22.734623+00:00, run_duration=0.206801, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=29, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2024-11-18 16:18:19.267653+00:00, queued_by_job_id=1, pid=22003
+2024-11-18 21:18:23,811 INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:18:17.859641+00:00 [scheduled]>
+2024-11-18 21:18:23,812 INFO - DAG count_a has 0/16 running and queued tasks
+2024-11-18 21:18:23,812 INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:18:17.859641+00:00 [scheduled]>
+2024-11-18 21:18:23,815 INFO - Trying to enqueue tasks: [<TaskInstance: count_a.count_a manual__2024-11-18T16:18:17.859641+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-11-18 21:18:23,816 INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:18:17.859641+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 3 and queue default
+2024-11-18 21:18:23,816 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:18:17.859641+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:18:23,823 INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:18:17.859641+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:18:28,247 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:18:17.859641+00:00', try_number=1, map_index=-1)
+2024-11-18 21:18:28,266 INFO - TaskInstance Finished: dag_id=count_a, task_id=count_a, run_id=manual__2024-11-18T16:18:17.859641+00:00, map_index=-1, run_start_date=2024-11-18 16:18:27.169700+00:00, run_end_date=2024-11-18 16:18:27.401400+00:00, run_duration=0.2317, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=30, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2024-11-18 16:18:23.813663+00:00, queued_by_job_id=1, pid=22010
+2024-11-18 21:18:28,615 INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:18:17.859641+00:00 [scheduled]>
+2024-11-18 21:18:28,616 INFO - DAG count_a has 0/16 running and queued tasks
+2024-11-18 21:18:28,616 INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:18:17.859641+00:00 [scheduled]>
+2024-11-18 21:18:28,619 INFO - Trying to enqueue tasks: [<TaskInstance: count_a.sum_results manual__2024-11-18T16:18:17.859641+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-11-18 21:18:28,619 INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:18:17.859641+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+2024-11-18 21:18:28,620 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:18:17.859641+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:18:28,656 INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:18:17.859641+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:18:32,585 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:18:17.859641+00:00', try_number=1, map_index=-1)
+2024-11-18 21:18:32,592 INFO - TaskInstance Finished: dag_id=count_a, task_id=sum_results, run_id=manual__2024-11-18T16:18:17.859641+00:00, map_index=-1, run_start_date=2024-11-18 16:18:31.655139+00:00, run_end_date=2024-11-18 16:18:31.860123+00:00, run_duration=0.204984, state=up_for_retry, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=31, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-11-18 16:18:28.617713+00:00, queued_by_job_id=1, pid=22015
+2024-11-18 21:19:05,382 INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:19:04.084228+00:00 [scheduled]>
+2024-11-18 21:19:05,383 INFO - DAG count_a has 0/16 running and queued tasks
+2024-11-18 21:19:05,383 INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:19:04.084228+00:00 [scheduled]>
+2024-11-18 21:19:05,386 INFO - Trying to enqueue tasks: [<TaskInstance: count_a.create_files manual__2024-11-18T16:19:04.084228+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-11-18 21:19:05,386 INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:19:04.084228+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 4 and queue default
+2024-11-18 21:19:05,387 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:19:04.084228+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:19:05,394 INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:19:04.084228+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:19:09,417 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:19:04.084228+00:00', try_number=1, map_index=-1)
+2024-11-18 21:19:09,424 INFO - TaskInstance Finished: dag_id=count_a, task_id=create_files, run_id=manual__2024-11-18T16:19:04.084228+00:00, map_index=-1, run_start_date=2024-11-18 16:19:08.478139+00:00, run_end_date=2024-11-18 16:19:08.683457+00:00, run_duration=0.205318, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=32, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2024-11-18 16:19:05.384653+00:00, queued_by_job_id=1, pid=22072
+2024-11-18 21:19:09,748 INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:19:04.084228+00:00 [scheduled]>
+2024-11-18 21:19:09,749 INFO - DAG count_a has 0/16 running and queued tasks
+2024-11-18 21:19:09,749 INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:19:04.084228+00:00 [scheduled]>
+2024-11-18 21:19:09,752 INFO - Trying to enqueue tasks: [<TaskInstance: count_a.count_a manual__2024-11-18T16:19:04.084228+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-11-18 21:19:09,752 INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:19:04.084228+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 3 and queue default
+2024-11-18 21:19:09,753 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:19:04.084228+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:19:09,759 INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:19:04.084228+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:19:13,739 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:19:04.084228+00:00', try_number=1, map_index=-1)
+2024-11-18 21:19:13,746 INFO - TaskInstance Finished: dag_id=count_a, task_id=count_a, run_id=manual__2024-11-18T16:19:04.084228+00:00, map_index=-1, run_start_date=2024-11-18 16:19:12.787095+00:00, run_end_date=2024-11-18 16:19:13.010828+00:00, run_duration=0.223733, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=33, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2024-11-18 16:19:09.750590+00:00, queued_by_job_id=1, pid=22078
+2024-11-18 21:19:14,031 INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:19:04.084228+00:00 [scheduled]>
+2024-11-18 21:19:14,032 INFO - DAG count_a has 0/16 running and queued tasks
+2024-11-18 21:19:14,033 INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:19:04.084228+00:00 [scheduled]>
+2024-11-18 21:19:14,036 INFO - Trying to enqueue tasks: [<TaskInstance: count_a.sum_results manual__2024-11-18T16:19:04.084228+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2024-11-18 21:19:14,037 INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:19:04.084228+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+2024-11-18 21:19:14,037 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:19:04.084228+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:19:14,045 INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:19:04.084228+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+2024-11-18 21:19:18,396 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:19:04.084228+00:00', try_number=1, map_index=-1)
+2024-11-18 21:19:18,405 INFO - TaskInstance Finished: dag_id=count_a, task_id=sum_results, run_id=manual__2024-11-18T16:19:04.084228+00:00, map_index=-1, run_start_date=2024-11-18 16:19:17.414618+00:00, run_end_date=2024-11-18 16:19:17.618059+00:00, run_duration=0.203441, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=34, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-11-18 16:19:14.035006+00:00, queued_by_job_id=1, pid=22083
+2024-11-18 21:19:19,702 INFO - Marking run <DagRun count_a @ 2024-11-18 16:19:04.084228+00:00: manual__2024-11-18T16:19:04.084228+00:00, state:running, queued_at: 2024-11-18 16:19:04.098283+00:00. externally triggered: True> successful
+2024-11-18 21:19:19,703 INFO - DagRun Finished: dag_id=count_a, execution_date=2024-11-18 16:19:04.084228+00:00, run_id=manual__2024-11-18T16:19:04.084228+00:00, run_start_date=2024-11-18 16:19:05.338285+00:00, run_end_date=2024-11-18 16:19:19.702945+00:00, run_duration=14.36466, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-11-17 16:19:04.084228+00:00, data_interval_end=2024-11-18 16:19:04.084228+00:00, dag_hash=e407d3575fac31486bcf82980b6b24c0
+2024-11-18 21:20:23,175 INFO - Adopting or resetting orphaned tasks for active dag runs

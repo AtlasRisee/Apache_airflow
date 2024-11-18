@@ -1,0 +1,893 @@
+[2024-11-18T20:40:13.654+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T20:40:13.658+0500] {executor_loader.py:254} INFO - Loaded executor: SequentialExecutor
+[2024-11-18T20:40:13.711+0500] {scheduler_job_runner.py:938} INFO - Starting the scheduler
+[2024-11-18T20:40:13.712+0500] {scheduler_job_runner.py:945} INFO - Processing each file at most -1 times
+[2024-11-18T20:40:13.723+0500] {manager.py:174} INFO - Launched DagFileProcessorManager with pid: 18890
+[2024-11-18T20:40:13.725+0500] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-11-18T20:40:13.729+0500] {settings.py:63} INFO - Configured default timezone UTC
+[2024-11-18T20:40:13.781+0500] {manager.py:406} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[2024-11-18T20:45:14.024+0500] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-11-18T20:50:13.889+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+Dag run  in running state
+Dag information Queued at: 2024-11-18 15:50:13.874550+00:00 hash info: e407d3575fac31486bcf82980b6b24c0
+[2024-11-18T20:50:13.967+0500] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.create_files scheduled__2024-11-17T00:00:00+00:00 [scheduled]>
+[2024-11-18T20:50:13.968+0500] {scheduler_job_runner.py:495} INFO - DAG count_a has 0/16 running and queued tasks
+[2024-11-18T20:50:13.968+0500] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.create_files scheduled__2024-11-17T00:00:00+00:00 [scheduled]>
+[2024-11-18T20:50:13.972+0500] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: count_a.create_files scheduled__2024-11-17T00:00:00+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-11-18T20:50:13.973+0500] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='scheduled__2024-11-17T00:00:00+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 4 and queue default
+[2024-11-18T20:50:13.973+0500] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'scheduled__2024-11-17T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T20:50:13.980+0500] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'scheduled__2024-11-17T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T20:50:16.255+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T20:50:16.277+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:50:16.369+0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2024-11-18T20:50:16.373+0500] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T20:50:17.009+0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-11-18T20:50:17.010+0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T20:50:17.012+0500] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T20:50:17.043+0500] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T20:50:17.068+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T20:50:17.113+0500] {task_command.py:467} INFO - Running <TaskInstance: count_a.create_files scheduled__2024-11-17T00:00:00+00:00 [queued]> on host archlinux
+[2024-11-18T20:50:18.284+0500] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='scheduled__2024-11-17T00:00:00+00:00', try_number=1, map_index=-1)
+[2024-11-18T20:50:18.298+0500] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=count_a, task_id=create_files, run_id=scheduled__2024-11-17T00:00:00+00:00, map_index=-1, run_start_date=2024-11-18 15:50:17.214098+00:00, run_end_date=2024-11-18 15:50:17.413077+00:00, run_duration=0.198979, state=up_for_retry, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=2, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2024-11-18 15:50:13.970090+00:00, queued_by_job_id=1, pid=19897
+[2024-11-18T20:50:18.325+0500] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+Dag run  in running state
+Dag information Queued at: 2024-11-18 15:54:36.302327+00:00 hash info: e407d3575fac31486bcf82980b6b24c0
+[2024-11-18T20:54:37.446+0500] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.create_files manual__2024-11-18T15:54:36.273794+00:00 [scheduled]>
+[2024-11-18T20:54:37.448+0500] {scheduler_job_runner.py:495} INFO - DAG count_a has 0/16 running and queued tasks
+[2024-11-18T20:54:37.448+0500] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.create_files manual__2024-11-18T15:54:36.273794+00:00 [scheduled]>
+[2024-11-18T20:54:37.451+0500] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: count_a.create_files manual__2024-11-18T15:54:36.273794+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-11-18T20:54:37.451+0500] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T15:54:36.273794+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 4 and queue default
+[2024-11-18T20:54:37.452+0500] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T15:54:36.273794+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T20:54:37.458+0500] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T15:54:36.273794+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T20:54:40.380+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T20:54:40.402+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:54:40.502+0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2024-11-18T20:54:40.508+0500] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T20:54:41.154+0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-11-18T20:54:41.155+0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T20:54:41.157+0500] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T20:54:41.190+0500] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T20:54:41.219+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T20:54:41.263+0500] {task_command.py:467} INFO - Running <TaskInstance: count_a.create_files manual__2024-11-18T15:54:36.273794+00:00 [queued]> on host archlinux
+[2024-11-18T20:54:42.321+0500] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T15:54:36.273794+00:00', try_number=1, map_index=-1)
+[2024-11-18T20:54:42.328+0500] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=count_a, task_id=create_files, run_id=manual__2024-11-18T15:54:36.273794+00:00, map_index=-1, run_start_date=2024-11-18 15:54:41.335546+00:00, run_end_date=2024-11-18 15:54:41.544905+00:00, run_duration=0.209359, state=up_for_retry, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=3, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2024-11-18 15:54:37.449668+00:00, queued_by_job_id=1, pid=20201
+[2024-11-18T20:55:18.207+0500] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.create_files scheduled__2024-11-17T00:00:00+00:00 [scheduled]>
+[2024-11-18T20:55:18.208+0500] {scheduler_job_runner.py:495} INFO - DAG count_a has 0/16 running and queued tasks
+[2024-11-18T20:55:18.208+0500] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.create_files scheduled__2024-11-17T00:00:00+00:00 [scheduled]>
+[2024-11-18T20:55:18.211+0500] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: count_a.create_files scheduled__2024-11-17T00:00:00+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-11-18T20:55:18.211+0500] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='scheduled__2024-11-17T00:00:00+00:00', try_number=2, map_index=-1) to SequentialExecutor with priority 4 and queue default
+[2024-11-18T20:55:18.212+0500] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'scheduled__2024-11-17T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T20:55:18.219+0500] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'scheduled__2024-11-17T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T20:55:20.299+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T20:55:20.319+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:55:20.404+0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2024-11-18T20:55:20.408+0500] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T20:55:20.982+0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-11-18T20:55:20.983+0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T20:55:20.985+0500] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T20:55:21.017+0500] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T20:55:21.043+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T20:55:21.085+0500] {task_command.py:467} INFO - Running <TaskInstance: count_a.create_files scheduled__2024-11-17T00:00:00+00:00 [queued]> on host archlinux
+[2024-11-18T20:55:22.050+0500] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='scheduled__2024-11-17T00:00:00+00:00', try_number=2, map_index=-1)
+[2024-11-18T20:55:22.056+0500] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=count_a, task_id=create_files, run_id=scheduled__2024-11-17T00:00:00+00:00, map_index=-1, run_start_date=2024-11-18 15:55:21.153467+00:00, run_end_date=2024-11-18 15:55:21.337272+00:00, run_duration=0.183805, state=failed, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=2, max_tries=1, job_id=4, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2024-11-18 15:55:18.209768+00:00, queued_by_job_id=1, pid=20240
+[2024-11-18T20:55:22.080+0500] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-11-18T20:55:24.709+0500] {dagrun.py:854} INFO - Marking run <DagRun count_a @ 2024-11-17 00:00:00+00:00: scheduled__2024-11-17T00:00:00+00:00, state:running, queued_at: 2024-11-18 15:50:13.874550+00:00. externally triggered: False> successful
+Dag run in success state
+Dag run start:2024-11-18 15:50:13.906906+00:00 end:2024-11-18 15:55:24.710858+00:00
+[2024-11-18T20:55:24.711+0500] {dagrun.py:905} INFO - DagRun Finished: dag_id=count_a, execution_date=2024-11-17 00:00:00+00:00, run_id=scheduled__2024-11-17T00:00:00+00:00, run_start_date=2024-11-18 15:50:13.906906+00:00, run_end_date=2024-11-18 15:55:24.710858+00:00, run_duration=310.803952, state=success, external_trigger=False, run_type=scheduled, data_interval_start=2024-11-17 00:00:00+00:00, data_interval_end=2024-11-18 00:00:00+00:00, dag_hash=e407d3575fac31486bcf82980b6b24c0
+[2024-11-18T20:55:24.718+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T20:59:42.340+0500] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.create_files manual__2024-11-18T15:54:36.273794+00:00 [scheduled]>
+[2024-11-18T20:59:42.341+0500] {scheduler_job_runner.py:495} INFO - DAG count_a has 0/16 running and queued tasks
+[2024-11-18T20:59:42.341+0500] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.create_files manual__2024-11-18T15:54:36.273794+00:00 [scheduled]>
+[2024-11-18T20:59:42.343+0500] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: count_a.create_files manual__2024-11-18T15:54:36.273794+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-11-18T20:59:42.344+0500] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T15:54:36.273794+00:00', try_number=2, map_index=-1) to SequentialExecutor with priority 4 and queue default
+[2024-11-18T20:59:42.345+0500] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T15:54:36.273794+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T20:59:42.352+0500] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T15:54:36.273794+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T20:59:44.550+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T20:59:44.570+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:59:44.658+0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2024-11-18T20:59:44.662+0500] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T20:59:45.579+0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-11-18T20:59:45.580+0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T20:59:45.582+0500] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T20:59:45.617+0500] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T20:59:45.647+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T20:59:45.693+0500] {task_command.py:467} INFO - Running <TaskInstance: count_a.create_files manual__2024-11-18T15:54:36.273794+00:00 [queued]> on host archlinux
+[2024-11-18T20:59:46.746+0500] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T15:54:36.273794+00:00', try_number=2, map_index=-1)
+[2024-11-18T20:59:46.753+0500] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=count_a, task_id=create_files, run_id=manual__2024-11-18T15:54:36.273794+00:00, map_index=-1, run_start_date=2024-11-18 15:59:45.789581+00:00, run_end_date=2024-11-18 15:59:45.990789+00:00, run_duration=0.201208, state=failed, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=2, max_tries=1, job_id=5, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2024-11-18 15:59:42.342636+00:00, queued_by_job_id=1, pid=20545
+[2024-11-18T20:59:49.577+0500] {dagrun.py:854} INFO - Marking run <DagRun count_a @ 2024-11-18 15:54:36.273794+00:00: manual__2024-11-18T15:54:36.273794+00:00, state:running, queued_at: 2024-11-18 15:54:36.302327+00:00. externally triggered: True> successful
+Dag run in success state
+Dag run start:2024-11-18 15:54:37.400543+00:00 end:2024-11-18 15:59:49.578424+00:00
+[2024-11-18T20:59:49.578+0500] {dagrun.py:905} INFO - DagRun Finished: dag_id=count_a, execution_date=2024-11-18 15:54:36.273794+00:00, run_id=manual__2024-11-18T15:54:36.273794+00:00, run_start_date=2024-11-18 15:54:37.400543+00:00, run_end_date=2024-11-18 15:59:49.578424+00:00, run_duration=312.177881, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-11-17 15:54:36.273794+00:00, data_interval_end=2024-11-18 15:54:36.273794+00:00, dag_hash=e407d3575fac31486bcf82980b6b24c0
+[2024-11-18T21:00:22.157+0500] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-11-18T21:05:22.422+0500] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+Dag run  in running state
+Dag information Queued at: 2024-11-18 16:06:35.701795+00:00 hash info: e407d3575fac31486bcf82980b6b24c0
+[2024-11-18T21:06:36.415+0500] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:06:35.669942+00:00 [scheduled]>
+[2024-11-18T21:06:36.416+0500] {scheduler_job_runner.py:495} INFO - DAG count_a has 0/16 running and queued tasks
+[2024-11-18T21:06:36.416+0500] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:06:35.669942+00:00 [scheduled]>
+[2024-11-18T21:06:36.423+0500] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: count_a.create_files manual__2024-11-18T16:06:35.669942+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-11-18T21:06:36.424+0500] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:06:35.669942+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 4 and queue default
+[2024-11-18T21:06:36.424+0500] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:06:35.669942+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:06:36.434+0500] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:06:35.669942+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:06:38.969+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:06:38.989+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:06:39.075+0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2024-11-18T21:06:39.079+0500] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:06:39.655+0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-11-18T21:06:39.656+0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:06:39.658+0500] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:06:39.688+0500] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:06:39.713+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:06:39.756+0500] {task_command.py:467} INFO - Running <TaskInstance: count_a.create_files manual__2024-11-18T16:06:35.669942+00:00 [queued]> on host archlinux
+[2024-11-18T21:06:40.828+0500] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:06:35.669942+00:00', try_number=1, map_index=-1)
+[2024-11-18T21:06:40.835+0500] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=count_a, task_id=create_files, run_id=manual__2024-11-18T16:06:35.669942+00:00, map_index=-1, run_start_date=2024-11-18 16:06:39.834360+00:00, run_end_date=2024-11-18 16:06:40.058028+00:00, run_duration=0.223668, state=up_for_retry, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=6, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2024-11-18 16:06:36.417566+00:00, queued_by_job_id=1, pid=21048
+[2024-11-18T21:10:22.702+0500] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+Dag run  in running state
+Dag information Queued at: 2024-11-18 16:10:29.448471+00:00 hash info: e407d3575fac31486bcf82980b6b24c0
+[2024-11-18T21:10:30.787+0500] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:10:29.434302+00:00 [scheduled]>
+[2024-11-18T21:10:30.788+0500] {scheduler_job_runner.py:495} INFO - DAG count_a has 0/16 running and queued tasks
+[2024-11-18T21:10:30.788+0500] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:10:29.434302+00:00 [scheduled]>
+[2024-11-18T21:10:30.791+0500] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: count_a.create_files manual__2024-11-18T16:10:29.434302+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-11-18T21:10:30.792+0500] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:10:29.434302+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 4 and queue default
+[2024-11-18T21:10:30.792+0500] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:10:29.434302+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:10:30.799+0500] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:10:29.434302+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:10:32.855+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:10:32.876+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:10:32.965+0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2024-11-18T21:10:32.969+0500] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:10:33.624+0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-11-18T21:10:33.625+0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:10:33.630+0500] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:10:33.699+0500] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:10:33.732+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:10:33.775+0500] {task_command.py:467} INFO - Running <TaskInstance: count_a.create_files manual__2024-11-18T16:10:29.434302+00:00 [queued]> on host archlinux
+[2024-11-18T21:10:34.787+0500] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:10:29.434302+00:00', try_number=1, map_index=-1)
+[2024-11-18T21:10:34.795+0500] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=count_a, task_id=create_files, run_id=manual__2024-11-18T16:10:29.434302+00:00, map_index=-1, run_start_date=2024-11-18 16:10:33.851303+00:00, run_end_date=2024-11-18 16:10:34.054791+00:00, run_duration=0.203488, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=7, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2024-11-18 16:10:30.789513+00:00, queued_by_job_id=1, pid=21333
+[2024-11-18T21:10:35.090+0500] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:10:29.434302+00:00 [scheduled]>
+[2024-11-18T21:10:35.091+0500] {scheduler_job_runner.py:495} INFO - DAG count_a has 0/16 running and queued tasks
+[2024-11-18T21:10:35.091+0500] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:10:29.434302+00:00 [scheduled]>
+[2024-11-18T21:10:35.094+0500] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: count_a.count_a manual__2024-11-18T16:10:29.434302+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-11-18T21:10:35.095+0500] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:10:29.434302+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 3 and queue default
+[2024-11-18T21:10:35.095+0500] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:10:29.434302+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:10:35.102+0500] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:10:29.434302+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:10:37.431+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:10:37.451+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:10:37.547+0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2024-11-18T21:10:37.552+0500] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:10:38.150+0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-11-18T21:10:38.151+0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:10:38.152+0500] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:10:38.183+0500] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:10:38.208+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:10:38.250+0500] {task_command.py:467} INFO - Running <TaskInstance: count_a.count_a manual__2024-11-18T16:10:29.434302+00:00 [queued]> on host archlinux
+[2024-11-18T21:10:39.291+0500] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:10:29.434302+00:00', try_number=1, map_index=-1)
+[2024-11-18T21:10:39.300+0500] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=count_a, task_id=count_a, run_id=manual__2024-11-18T16:10:29.434302+00:00, map_index=-1, run_start_date=2024-11-18 16:10:38.327619+00:00, run_end_date=2024-11-18 16:10:38.534384+00:00, run_duration=0.206765, state=up_for_retry, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=8, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2024-11-18 16:10:35.092447+00:00, queued_by_job_id=1, pid=21343
+[2024-11-18T21:11:40.334+0500] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:06:35.669942+00:00 [scheduled]>
+[2024-11-18T21:11:40.335+0500] {scheduler_job_runner.py:495} INFO - DAG count_a has 0/16 running and queued tasks
+[2024-11-18T21:11:40.336+0500] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:06:35.669942+00:00 [scheduled]>
+[2024-11-18T21:11:40.338+0500] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: count_a.create_files manual__2024-11-18T16:06:35.669942+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-11-18T21:11:40.339+0500] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:06:35.669942+00:00', try_number=2, map_index=-1) to SequentialExecutor with priority 4 and queue default
+[2024-11-18T21:11:40.339+0500] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:06:35.669942+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:11:40.346+0500] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:06:35.669942+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:11:42.447+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:11:42.467+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:11:42.552+0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2024-11-18T21:11:42.556+0500] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:11:43.126+0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-11-18T21:11:43.127+0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:11:43.129+0500] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:11:43.162+0500] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:11:43.188+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:11:43.232+0500] {task_command.py:467} INFO - Running <TaskInstance: count_a.create_files manual__2024-11-18T16:06:35.669942+00:00 [queued]> on host archlinux
+[2024-11-18T21:11:44.333+0500] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:06:35.669942+00:00', try_number=2, map_index=-1)
+[2024-11-18T21:11:44.340+0500] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=count_a, task_id=create_files, run_id=manual__2024-11-18T16:06:35.669942+00:00, map_index=-1, run_start_date=2024-11-18 16:11:43.307422+00:00, run_end_date=2024-11-18 16:11:43.562301+00:00, run_duration=0.254879, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=2, max_tries=1, job_id=9, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2024-11-18 16:11:40.337100+00:00, queued_by_job_id=1, pid=21455
+[2024-11-18T21:11:44.645+0500] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:06:35.669942+00:00 [scheduled]>
+[2024-11-18T21:11:44.645+0500] {scheduler_job_runner.py:495} INFO - DAG count_a has 0/16 running and queued tasks
+[2024-11-18T21:11:44.646+0500] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:06:35.669942+00:00 [scheduled]>
+[2024-11-18T21:11:44.648+0500] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: count_a.count_a manual__2024-11-18T16:06:35.669942+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-11-18T21:11:44.649+0500] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:06:35.669942+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 3 and queue default
+[2024-11-18T21:11:44.649+0500] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:06:35.669942+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:11:44.656+0500] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:06:35.669942+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:11:47.072+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:11:47.094+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:11:47.187+0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2024-11-18T21:11:47.192+0500] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:11:47.764+0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-11-18T21:11:47.765+0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:11:47.766+0500] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:11:47.799+0500] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:11:47.824+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:11:47.867+0500] {task_command.py:467} INFO - Running <TaskInstance: count_a.count_a manual__2024-11-18T16:06:35.669942+00:00 [queued]> on host archlinux
+[2024-11-18T21:11:49.048+0500] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:06:35.669942+00:00', try_number=1, map_index=-1)
+[2024-11-18T21:11:49.055+0500] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=count_a, task_id=count_a, run_id=manual__2024-11-18T16:06:35.669942+00:00, map_index=-1, run_start_date=2024-11-18 16:11:48.019754+00:00, run_end_date=2024-11-18 16:11:48.281847+00:00, run_duration=0.262093, state=up_for_retry, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=10, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2024-11-18 16:11:44.647164+00:00, queued_by_job_id=1, pid=21463
+Dag run  in running state
+Dag information Queued at: 2024-11-18 16:12:13.909806+00:00 hash info: e407d3575fac31486bcf82980b6b24c0
+[2024-11-18T21:12:14.245+0500] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:12:13.891274+00:00 [scheduled]>
+[2024-11-18T21:12:14.250+0500] {scheduler_job_runner.py:495} INFO - DAG count_a has 0/16 running and queued tasks
+[2024-11-18T21:12:14.254+0500] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:12:13.891274+00:00 [scheduled]>
+[2024-11-18T21:12:14.257+0500] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: count_a.create_files manual__2024-11-18T16:12:13.891274+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-11-18T21:12:14.261+0500] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:12:13.891274+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 4 and queue default
+[2024-11-18T21:12:14.267+0500] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:12:13.891274+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:12:14.307+0500] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:12:13.891274+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:12:17.189+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:12:17.211+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:12:17.303+0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2024-11-18T21:12:17.308+0500] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:12:17.898+0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-11-18T21:12:17.899+0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:12:17.901+0500] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:12:17.938+0500] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:12:17.992+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:12:18.256+0500] {task_command.py:467} INFO - Running <TaskInstance: count_a.create_files manual__2024-11-18T16:12:13.891274+00:00 [queued]> on host archlinux
+[2024-11-18T21:12:19.289+0500] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:12:13.891274+00:00', try_number=1, map_index=-1)
+[2024-11-18T21:12:19.295+0500] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=count_a, task_id=create_files, run_id=manual__2024-11-18T16:12:13.891274+00:00, map_index=-1, run_start_date=2024-11-18 16:12:18.345446+00:00, run_end_date=2024-11-18 16:12:18.556612+00:00, run_duration=0.211166, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=11, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2024-11-18 16:12:14.255610+00:00, queued_by_job_id=1, pid=21510
+[2024-11-18T21:12:19.611+0500] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:12:13.891274+00:00 [scheduled]>
+[2024-11-18T21:12:19.612+0500] {scheduler_job_runner.py:495} INFO - DAG count_a has 0/16 running and queued tasks
+[2024-11-18T21:12:19.612+0500] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:12:13.891274+00:00 [scheduled]>
+[2024-11-18T21:12:19.615+0500] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: count_a.count_a manual__2024-11-18T16:12:13.891274+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-11-18T21:12:19.616+0500] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:12:13.891274+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 3 and queue default
+[2024-11-18T21:12:19.616+0500] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:12:13.891274+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:12:19.622+0500] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:12:13.891274+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:12:21.735+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:12:21.755+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:12:21.840+0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2024-11-18T21:12:21.844+0500] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:12:22.422+0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-11-18T21:12:22.423+0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:12:22.425+0500] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:12:22.455+0500] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:12:22.480+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:12:22.524+0500] {task_command.py:467} INFO - Running <TaskInstance: count_a.count_a manual__2024-11-18T16:12:13.891274+00:00 [queued]> on host archlinux
+[2024-11-18T21:12:23.540+0500] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:12:13.891274+00:00', try_number=1, map_index=-1)
+[2024-11-18T21:12:23.546+0500] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=count_a, task_id=count_a, run_id=manual__2024-11-18T16:12:13.891274+00:00, map_index=-1, run_start_date=2024-11-18 16:12:22.602121+00:00, run_end_date=2024-11-18 16:12:22.822198+00:00, run_duration=0.220077, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=12, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2024-11-18 16:12:19.613652+00:00, queued_by_job_id=1, pid=21515
+[2024-11-18T21:12:23.840+0500] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:12:13.891274+00:00 [scheduled]>
+[2024-11-18T21:12:23.841+0500] {scheduler_job_runner.py:495} INFO - DAG count_a has 0/16 running and queued tasks
+[2024-11-18T21:12:23.841+0500] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:12:13.891274+00:00 [scheduled]>
+[2024-11-18T21:12:23.843+0500] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: count_a.sum_results manual__2024-11-18T16:12:13.891274+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-11-18T21:12:23.844+0500] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:12:13.891274+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+[2024-11-18T21:12:23.845+0500] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:12:13.891274+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:12:23.852+0500] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:12:13.891274+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:12:25.965+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:12:25.984+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:12:26.070+0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2024-11-18T21:12:26.074+0500] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:12:26.645+0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-11-18T21:12:26.646+0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:12:26.648+0500] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:12:26.679+0500] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:12:26.704+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:12:26.747+0500] {task_command.py:467} INFO - Running <TaskInstance: count_a.sum_results manual__2024-11-18T16:12:13.891274+00:00 [queued]> on host archlinux
+[2024-11-18T21:12:27.805+0500] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:12:13.891274+00:00', try_number=1, map_index=-1)
+[2024-11-18T21:12:27.811+0500] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=count_a, task_id=sum_results, run_id=manual__2024-11-18T16:12:13.891274+00:00, map_index=-1, run_start_date=2024-11-18 16:12:26.826037+00:00, run_end_date=2024-11-18 16:12:27.035280+00:00, run_duration=0.209243, state=up_for_retry, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=13, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-11-18 16:12:23.842320+00:00, queued_by_job_id=1, pid=21522
+Dag run  in running state
+Dag information Queued at: 2024-11-18 16:12:49.808174+00:00 hash info: e407d3575fac31486bcf82980b6b24c0
+[2024-11-18T21:12:50.103+0500] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:12:49.786824+00:00 [scheduled]>
+[2024-11-18T21:12:50.103+0500] {scheduler_job_runner.py:495} INFO - DAG count_a has 0/16 running and queued tasks
+[2024-11-18T21:12:50.106+0500] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:12:49.786824+00:00 [scheduled]>
+[2024-11-18T21:12:50.109+0500] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: count_a.create_files manual__2024-11-18T16:12:49.786824+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-11-18T21:12:50.110+0500] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:12:49.786824+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 4 and queue default
+[2024-11-18T21:12:50.111+0500] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:12:49.786824+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:12:50.118+0500] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:12:49.786824+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:12:53.035+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:12:53.056+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:12:53.146+0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2024-11-18T21:12:53.150+0500] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:12:53.761+0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-11-18T21:12:53.762+0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:12:53.763+0500] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:12:53.797+0500] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:12:53.826+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:12:53.934+0500] {task_command.py:467} INFO - Running <TaskInstance: count_a.create_files manual__2024-11-18T16:12:49.786824+00:00 [queued]> on host archlinux
+[2024-11-18T21:12:55.070+0500] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:12:49.786824+00:00', try_number=1, map_index=-1)
+[2024-11-18T21:12:55.077+0500] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=count_a, task_id=create_files, run_id=manual__2024-11-18T16:12:49.786824+00:00, map_index=-1, run_start_date=2024-11-18 16:12:54.118231+00:00, run_end_date=2024-11-18 16:12:54.341109+00:00, run_duration=0.222878, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=14, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2024-11-18 16:12:50.107631+00:00, queued_by_job_id=1, pid=21552
+[2024-11-18T21:12:55.304+0500] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:12:49.786824+00:00 [scheduled]>
+[2024-11-18T21:12:55.304+0500] {scheduler_job_runner.py:495} INFO - DAG count_a has 0/16 running and queued tasks
+[2024-11-18T21:12:55.305+0500] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:12:49.786824+00:00 [scheduled]>
+[2024-11-18T21:12:55.307+0500] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: count_a.count_a manual__2024-11-18T16:12:49.786824+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-11-18T21:12:55.308+0500] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:12:49.786824+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 3 and queue default
+[2024-11-18T21:12:55.309+0500] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:12:49.786824+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:12:55.315+0500] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:12:49.786824+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:12:57.416+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:12:57.436+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:12:57.521+0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2024-11-18T21:12:57.526+0500] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:12:58.097+0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-11-18T21:12:58.098+0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:12:58.099+0500] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:12:58.130+0500] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:12:58.155+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:12:58.198+0500] {task_command.py:467} INFO - Running <TaskInstance: count_a.count_a manual__2024-11-18T16:12:49.786824+00:00 [queued]> on host archlinux
+[2024-11-18T21:12:59.251+0500] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:12:49.786824+00:00', try_number=1, map_index=-1)
+[2024-11-18T21:12:59.257+0500] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=count_a, task_id=count_a, run_id=manual__2024-11-18T16:12:49.786824+00:00, map_index=-1, run_start_date=2024-11-18 16:12:58.276019+00:00, run_end_date=2024-11-18 16:12:58.495290+00:00, run_duration=0.219271, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=15, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2024-11-18 16:12:55.306254+00:00, queued_by_job_id=1, pid=21558
+[2024-11-18T21:12:59.554+0500] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:12:49.786824+00:00 [scheduled]>
+[2024-11-18T21:12:59.555+0500] {scheduler_job_runner.py:495} INFO - DAG count_a has 0/16 running and queued tasks
+[2024-11-18T21:12:59.555+0500] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:12:49.786824+00:00 [scheduled]>
+[2024-11-18T21:12:59.557+0500] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: count_a.sum_results manual__2024-11-18T16:12:49.786824+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-11-18T21:12:59.558+0500] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:12:49.786824+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+[2024-11-18T21:12:59.558+0500] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:12:49.786824+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:12:59.566+0500] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:12:49.786824+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:13:01.800+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:13:01.821+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:13:01.914+0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2024-11-18T21:13:01.918+0500] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:13:02.543+0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-11-18T21:13:02.543+0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:13:02.545+0500] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:13:02.578+0500] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:13:02.607+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:13:02.652+0500] {task_command.py:467} INFO - Running <TaskInstance: count_a.sum_results manual__2024-11-18T16:12:49.786824+00:00 [queued]> on host archlinux
+[2024-11-18T21:13:03.810+0500] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:12:49.786824+00:00', try_number=1, map_index=-1)
+[2024-11-18T21:13:03.816+0500] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=count_a, task_id=sum_results, run_id=manual__2024-11-18T16:12:49.786824+00:00, map_index=-1, run_start_date=2024-11-18 16:13:02.733073+00:00, run_end_date=2024-11-18 16:13:02.941278+00:00, run_duration=0.208205, state=up_for_retry, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=16, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-11-18 16:12:59.556335+00:00, queued_by_job_id=1, pid=21563
+Dag run  in running state
+Dag information Queued at: 2024-11-18 16:14:26.225782+00:00 hash info: e407d3575fac31486bcf82980b6b24c0
+[2024-11-18T21:14:27.179+0500] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:14:26.211549+00:00 [scheduled]>
+[2024-11-18T21:14:27.179+0500] {scheduler_job_runner.py:495} INFO - DAG count_a has 0/16 running and queued tasks
+[2024-11-18T21:14:27.180+0500] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:14:26.211549+00:00 [scheduled]>
+[2024-11-18T21:14:27.188+0500] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: count_a.create_files manual__2024-11-18T16:14:26.211549+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-11-18T21:14:27.194+0500] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:14:26.211549+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 4 and queue default
+[2024-11-18T21:14:27.195+0500] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:14:26.211549+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:14:27.201+0500] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:14:26.211549+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:14:29.375+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:14:29.397+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:14:29.490+0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2024-11-18T21:14:29.495+0500] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:14:30.107+0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-11-18T21:14:30.108+0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:14:30.109+0500] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:14:30.141+0500] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:14:30.168+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:14:30.216+0500] {task_command.py:467} INFO - Running <TaskInstance: count_a.create_files manual__2024-11-18T16:14:26.211549+00:00 [queued]> on host archlinux
+[2024-11-18T21:14:31.435+0500] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:14:26.211549+00:00', try_number=1, map_index=-1)
+[2024-11-18T21:14:31.441+0500] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=count_a, task_id=create_files, run_id=manual__2024-11-18T16:14:26.211549+00:00, map_index=-1, run_start_date=2024-11-18 16:14:30.399878+00:00, run_end_date=2024-11-18 16:14:30.712060+00:00, run_duration=0.312182, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=17, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2024-11-18 16:14:27.183141+00:00, queued_by_job_id=1, pid=21672
+[2024-11-18T21:14:31.689+0500] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:14:26.211549+00:00 [scheduled]>
+[2024-11-18T21:14:31.690+0500] {scheduler_job_runner.py:495} INFO - DAG count_a has 0/16 running and queued tasks
+[2024-11-18T21:14:31.691+0500] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:14:26.211549+00:00 [scheduled]>
+[2024-11-18T21:14:31.694+0500] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: count_a.count_a manual__2024-11-18T16:14:26.211549+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-11-18T21:14:31.696+0500] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:14:26.211549+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 3 and queue default
+[2024-11-18T21:14:31.697+0500] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:14:26.211549+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:14:31.704+0500] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:14:26.211549+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:14:33.926+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:14:33.945+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:14:34.032+0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2024-11-18T21:14:34.036+0500] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:14:34.606+0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-11-18T21:14:34.607+0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:14:34.609+0500] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:14:34.639+0500] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:14:34.665+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:14:34.709+0500] {task_command.py:467} INFO - Running <TaskInstance: count_a.count_a manual__2024-11-18T16:14:26.211549+00:00 [queued]> on host archlinux
+[2024-11-18T21:14:35.733+0500] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:14:26.211549+00:00', try_number=1, map_index=-1)
+[2024-11-18T21:14:35.739+0500] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=count_a, task_id=count_a, run_id=manual__2024-11-18T16:14:26.211549+00:00, map_index=-1, run_start_date=2024-11-18 16:14:34.786404+00:00, run_end_date=2024-11-18 16:14:35.003119+00:00, run_duration=0.216715, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=18, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2024-11-18 16:14:31.692725+00:00, queued_by_job_id=1, pid=21677
+[2024-11-18T21:14:35.951+0500] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:14:26.211549+00:00 [scheduled]>
+[2024-11-18T21:14:35.952+0500] {scheduler_job_runner.py:495} INFO - DAG count_a has 0/16 running and queued tasks
+[2024-11-18T21:14:35.953+0500] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:14:26.211549+00:00 [scheduled]>
+[2024-11-18T21:14:35.955+0500] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: count_a.sum_results manual__2024-11-18T16:14:26.211549+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-11-18T21:14:35.956+0500] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:14:26.211549+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+[2024-11-18T21:14:35.956+0500] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:14:26.211549+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:14:35.963+0500] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:14:26.211549+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:14:38.154+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:14:38.173+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:14:38.259+0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2024-11-18T21:14:38.264+0500] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:14:38.851+0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-11-18T21:14:38.852+0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:14:38.854+0500] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:14:38.888+0500] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:14:38.921+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:14:38.968+0500] {task_command.py:467} INFO - Running <TaskInstance: count_a.sum_results manual__2024-11-18T16:14:26.211549+00:00 [queued]> on host archlinux
+[2024-11-18T21:14:40.061+0500] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:14:26.211549+00:00', try_number=1, map_index=-1)
+[2024-11-18T21:14:40.068+0500] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=count_a, task_id=sum_results, run_id=manual__2024-11-18T16:14:26.211549+00:00, map_index=-1, run_start_date=2024-11-18 16:14:39.048203+00:00, run_end_date=2024-11-18 16:14:39.252228+00:00, run_duration=0.204025, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=19, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-11-18 16:14:35.953911+00:00, queued_by_job_id=1, pid=21684
+[2024-11-18T21:14:41.539+0500] {dagrun.py:854} INFO - Marking run <DagRun count_a @ 2024-11-18 16:14:26.211549+00:00: manual__2024-11-18T16:14:26.211549+00:00, state:running, queued_at: 2024-11-18 16:14:26.225782+00:00. externally triggered: True> successful
+Dag run in success state
+Dag run start:2024-11-18 16:14:27.010528+00:00 end:2024-11-18 16:14:41.540589+00:00
+[2024-11-18T21:14:41.540+0500] {dagrun.py:905} INFO - DagRun Finished: dag_id=count_a, execution_date=2024-11-18 16:14:26.211549+00:00, run_id=manual__2024-11-18T16:14:26.211549+00:00, run_start_date=2024-11-18 16:14:27.010528+00:00, run_end_date=2024-11-18 16:14:41.540589+00:00, run_duration=14.530061, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-11-17 16:14:26.211549+00:00, data_interval_end=2024-11-18 16:14:26.211549+00:00, dag_hash=e407d3575fac31486bcf82980b6b24c0
+[2024-11-18T21:15:22.999+0500] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-11-18T21:15:39.644+0500] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:10:29.434302+00:00 [scheduled]>
+[2024-11-18T21:15:39.645+0500] {scheduler_job_runner.py:495} INFO - DAG count_a has 0/16 running and queued tasks
+[2024-11-18T21:15:39.646+0500] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:10:29.434302+00:00 [scheduled]>
+[2024-11-18T21:15:39.648+0500] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: count_a.count_a manual__2024-11-18T16:10:29.434302+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-11-18T21:15:39.649+0500] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:10:29.434302+00:00', try_number=2, map_index=-1) to SequentialExecutor with priority 3 and queue default
+[2024-11-18T21:15:39.649+0500] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:10:29.434302+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:15:39.655+0500] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:10:29.434302+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:15:41.860+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:15:41.880+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:15:41.965+0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2024-11-18T21:15:41.970+0500] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:15:42.603+0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-11-18T21:15:42.605+0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:15:42.611+0500] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:15:42.694+0500] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:15:42.798+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:15:42.984+0500] {task_command.py:467} INFO - Running <TaskInstance: count_a.count_a manual__2024-11-18T16:10:29.434302+00:00 [queued]> on host archlinux
+[2024-11-18T21:15:44.166+0500] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:10:29.434302+00:00', try_number=2, map_index=-1)
+[2024-11-18T21:15:44.173+0500] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=count_a, task_id=count_a, run_id=manual__2024-11-18T16:10:29.434302+00:00, map_index=-1, run_start_date=2024-11-18 16:15:43.102012+00:00, run_end_date=2024-11-18 16:15:43.394737+00:00, run_duration=0.292725, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=2, max_tries=1, job_id=20, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2024-11-18 16:15:39.646981+00:00, queued_by_job_id=1, pid=21762
+[2024-11-18T21:15:44.527+0500] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:10:29.434302+00:00 [scheduled]>
+[2024-11-18T21:15:44.528+0500] {scheduler_job_runner.py:495} INFO - DAG count_a has 0/16 running and queued tasks
+[2024-11-18T21:15:44.528+0500] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:10:29.434302+00:00 [scheduled]>
+[2024-11-18T21:15:44.536+0500] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: count_a.sum_results manual__2024-11-18T16:10:29.434302+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-11-18T21:15:44.538+0500] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:10:29.434302+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+[2024-11-18T21:15:44.539+0500] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:10:29.434302+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:15:44.548+0500] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:10:29.434302+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:15:46.787+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:15:46.807+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:15:46.892+0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2024-11-18T21:15:46.897+0500] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:15:47.471+0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-11-18T21:15:47.472+0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:15:47.474+0500] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:15:47.511+0500] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:15:47.541+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:15:47.588+0500] {task_command.py:467} INFO - Running <TaskInstance: count_a.sum_results manual__2024-11-18T16:10:29.434302+00:00 [queued]> on host archlinux
+[2024-11-18T21:15:48.728+0500] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:10:29.434302+00:00', try_number=1, map_index=-1)
+[2024-11-18T21:15:48.736+0500] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=count_a, task_id=sum_results, run_id=manual__2024-11-18T16:10:29.434302+00:00, map_index=-1, run_start_date=2024-11-18 16:15:47.741757+00:00, run_end_date=2024-11-18 16:15:47.965024+00:00, run_duration=0.223267, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=21, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-11-18 16:15:44.534850+00:00, queued_by_job_id=1, pid=21767
+[2024-11-18T21:15:49.366+0500] {dagrun.py:854} INFO - Marking run <DagRun count_a @ 2024-11-18 16:10:29.434302+00:00: manual__2024-11-18T16:10:29.434302+00:00, state:running, queued_at: 2024-11-18 16:10:29.448471+00:00. externally triggered: True> successful
+Dag run in success state
+Dag run start:2024-11-18 16:10:30.741023+00:00 end:2024-11-18 16:15:49.367147+00:00
+[2024-11-18T21:15:49.367+0500] {dagrun.py:905} INFO - DagRun Finished: dag_id=count_a, execution_date=2024-11-18 16:10:29.434302+00:00, run_id=manual__2024-11-18T16:10:29.434302+00:00, run_start_date=2024-11-18 16:10:30.741023+00:00, run_end_date=2024-11-18 16:15:49.367147+00:00, run_duration=318.626124, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-11-17 16:10:29.434302+00:00, data_interval_end=2024-11-18 16:10:29.434302+00:00, dag_hash=e407d3575fac31486bcf82980b6b24c0
+Dag run  in running state
+Dag information Queued at: 2024-11-18 16:16:43.965222+00:00 hash info: e407d3575fac31486bcf82980b6b24c0
+[2024-11-18T21:16:45.428+0500] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:16:43.947004+00:00 [scheduled]>
+[2024-11-18T21:16:45.428+0500] {scheduler_job_runner.py:495} INFO - DAG count_a has 0/16 running and queued tasks
+[2024-11-18T21:16:45.429+0500] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:16:43.947004+00:00 [scheduled]>
+[2024-11-18T21:16:45.431+0500] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: count_a.create_files manual__2024-11-18T16:16:43.947004+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-11-18T21:16:45.432+0500] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:16:43.947004+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 4 and queue default
+[2024-11-18T21:16:45.432+0500] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:16:43.947004+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:16:45.440+0500] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:16:43.947004+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:16:47.562+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:16:47.582+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:16:47.671+0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2024-11-18T21:16:47.675+0500] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:16:48.544+0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-11-18T21:16:48.545+0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:16:48.547+0500] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:16:48.578+0500] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:16:48.603+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:16:48.646+0500] {task_command.py:467} INFO - Running <TaskInstance: count_a.create_files manual__2024-11-18T16:16:43.947004+00:00 [queued]> on host archlinux
+[2024-11-18T21:16:49.663+0500] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:16:43.947004+00:00', try_number=1, map_index=-1)
+[2024-11-18T21:16:49.669+0500] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=count_a, task_id=create_files, run_id=manual__2024-11-18T16:16:43.947004+00:00, map_index=-1, run_start_date=2024-11-18 16:16:48.722834+00:00, run_end_date=2024-11-18 16:16:48.925342+00:00, run_duration=0.202508, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=22, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2024-11-18 16:16:45.430041+00:00, queued_by_job_id=1, pid=21871
+[2024-11-18T21:16:49.992+0500] {scheduler_job_runner.py:423} INFO - 2 tasks up for execution:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:06:35.669942+00:00 [scheduled]>
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:16:43.947004+00:00 [scheduled]>
+[2024-11-18T21:16:49.992+0500] {scheduler_job_runner.py:495} INFO - DAG count_a has 0/16 running and queued tasks
+[2024-11-18T21:16:49.993+0500] {scheduler_job_runner.py:495} INFO - DAG count_a has 1/16 running and queued tasks
+[2024-11-18T21:16:49.993+0500] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:06:35.669942+00:00 [scheduled]>
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:16:43.947004+00:00 [scheduled]>
+[2024-11-18T21:16:49.996+0500] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: count_a.count_a manual__2024-11-18T16:06:35.669942+00:00 [scheduled]>, <TaskInstance: count_a.count_a manual__2024-11-18T16:16:43.947004+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-11-18T21:16:49.997+0500] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:06:35.669942+00:00', try_number=2, map_index=-1) to SequentialExecutor with priority 3 and queue default
+[2024-11-18T21:16:49.998+0500] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:06:35.669942+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:16:49.998+0500] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:16:43.947004+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 3 and queue default
+[2024-11-18T21:16:49.999+0500] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:16:43.947004+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:16:50.005+0500] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:06:35.669942+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:16:52.111+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:16:52.131+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:16:52.215+0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2024-11-18T21:16:52.219+0500] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:16:52.792+0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-11-18T21:16:52.793+0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:16:52.794+0500] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:16:52.825+0500] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:16:52.850+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:16:52.892+0500] {task_command.py:467} INFO - Running <TaskInstance: count_a.count_a manual__2024-11-18T16:06:35.669942+00:00 [queued]> on host archlinux
+[2024-11-18T21:16:53.902+0500] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:16:43.947004+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:16:55.996+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:16:56.016+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:16:56.101+0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2024-11-18T21:16:56.105+0500] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:16:56.675+0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-11-18T21:16:56.676+0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:16:56.677+0500] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:16:56.709+0500] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:16:56.734+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:16:56.776+0500] {task_command.py:467} INFO - Running <TaskInstance: count_a.count_a manual__2024-11-18T16:16:43.947004+00:00 [queued]> on host archlinux
+[2024-11-18T21:16:57.838+0500] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:06:35.669942+00:00', try_number=2, map_index=-1)
+[2024-11-18T21:16:57.839+0500] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:16:43.947004+00:00', try_number=1, map_index=-1)
+[2024-11-18T21:16:57.849+0500] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=count_a, task_id=count_a, run_id=manual__2024-11-18T16:06:35.669942+00:00, map_index=-1, run_start_date=2024-11-18 16:16:52.970362+00:00, run_end_date=2024-11-18 16:16:53.181282+00:00, run_duration=0.21092, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=2, max_tries=1, job_id=23, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2024-11-18 16:16:49.994655+00:00, queued_by_job_id=1, pid=21877
+[2024-11-18T21:16:57.850+0500] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=count_a, task_id=count_a, run_id=manual__2024-11-18T16:16:43.947004+00:00, map_index=-1, run_start_date=2024-11-18 16:16:56.853639+00:00, run_end_date=2024-11-18 16:16:57.066781+00:00, run_duration=0.213142, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=24, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2024-11-18 16:16:49.994655+00:00, queued_by_job_id=1, pid=21882
+[2024-11-18T21:16:58.065+0500] {scheduler_job_runner.py:423} INFO - 2 tasks up for execution:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:06:35.669942+00:00 [scheduled]>
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:16:43.947004+00:00 [scheduled]>
+[2024-11-18T21:16:58.066+0500] {scheduler_job_runner.py:495} INFO - DAG count_a has 0/16 running and queued tasks
+[2024-11-18T21:16:58.066+0500] {scheduler_job_runner.py:495} INFO - DAG count_a has 1/16 running and queued tasks
+[2024-11-18T21:16:58.066+0500] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:06:35.669942+00:00 [scheduled]>
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:16:43.947004+00:00 [scheduled]>
+[2024-11-18T21:16:58.069+0500] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: count_a.sum_results manual__2024-11-18T16:06:35.669942+00:00 [scheduled]>, <TaskInstance: count_a.sum_results manual__2024-11-18T16:16:43.947004+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-11-18T21:16:58.069+0500] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:06:35.669942+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+[2024-11-18T21:16:58.070+0500] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:06:35.669942+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:16:58.070+0500] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:16:43.947004+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+[2024-11-18T21:16:58.071+0500] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:16:43.947004+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:16:58.079+0500] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:06:35.669942+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:17:00.119+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:17:00.139+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:17:00.224+0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2024-11-18T21:17:00.228+0500] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:17:00.840+0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-11-18T21:17:00.841+0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:17:00.842+0500] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:17:00.872+0500] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:17:00.897+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:17:00.940+0500] {task_command.py:467} INFO - Running <TaskInstance: count_a.sum_results manual__2024-11-18T16:06:35.669942+00:00 [queued]> on host archlinux
+[2024-11-18T21:17:01.941+0500] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:16:43.947004+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:17:04.038+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:17:04.057+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:17:04.142+0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2024-11-18T21:17:04.146+0500] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:17:04.718+0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-11-18T21:17:04.719+0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:17:04.721+0500] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:17:04.751+0500] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:17:04.775+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:17:04.818+0500] {task_command.py:467} INFO - Running <TaskInstance: count_a.sum_results manual__2024-11-18T16:16:43.947004+00:00 [queued]> on host archlinux
+[2024-11-18T21:17:05.822+0500] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:06:35.669942+00:00', try_number=1, map_index=-1)
+[2024-11-18T21:17:05.822+0500] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:16:43.947004+00:00', try_number=1, map_index=-1)
+[2024-11-18T21:17:05.828+0500] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=count_a, task_id=sum_results, run_id=manual__2024-11-18T16:06:35.669942+00:00, map_index=-1, run_start_date=2024-11-18 16:17:01.016162+00:00, run_end_date=2024-11-18 16:17:01.216127+00:00, run_duration=0.199965, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=25, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-11-18 16:16:58.067737+00:00, queued_by_job_id=1, pid=21887
+[2024-11-18T21:17:05.829+0500] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=count_a, task_id=sum_results, run_id=manual__2024-11-18T16:16:43.947004+00:00, map_index=-1, run_start_date=2024-11-18 16:17:04.895411+00:00, run_end_date=2024-11-18 16:17:05.094322+00:00, run_duration=0.198911, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=26, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-11-18 16:16:58.067737+00:00, queued_by_job_id=1, pid=21891
+[2024-11-18T21:17:07.196+0500] {dagrun.py:854} INFO - Marking run <DagRun count_a @ 2024-11-18 16:16:43.947004+00:00: manual__2024-11-18T16:16:43.947004+00:00, state:running, queued_at: 2024-11-18 16:16:43.965222+00:00. externally triggered: True> successful
+Dag run in success state
+Dag run start:2024-11-18 16:16:45.368049+00:00 end:2024-11-18 16:17:07.197351+00:00
+[2024-11-18T21:17:07.197+0500] {dagrun.py:905} INFO - DagRun Finished: dag_id=count_a, execution_date=2024-11-18 16:16:43.947004+00:00, run_id=manual__2024-11-18T16:16:43.947004+00:00, run_start_date=2024-11-18 16:16:45.368049+00:00, run_end_date=2024-11-18 16:17:07.197351+00:00, run_duration=21.829302, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-11-17 16:16:43.947004+00:00, data_interval_end=2024-11-18 16:16:43.947004+00:00, dag_hash=e407d3575fac31486bcf82980b6b24c0
+[2024-11-18T21:17:07.217+0500] {dagrun.py:854} INFO - Marking run <DagRun count_a @ 2024-11-18 16:06:35.669942+00:00: manual__2024-11-18T16:06:35.669942+00:00, state:running, queued_at: 2024-11-18 16:06:35.701795+00:00. externally triggered: True> successful
+Dag run in success state
+Dag run start:2024-11-18 16:06:36.333389+00:00 end:2024-11-18 16:17:07.218000+00:00
+[2024-11-18T21:17:07.218+0500] {dagrun.py:905} INFO - DagRun Finished: dag_id=count_a, execution_date=2024-11-18 16:06:35.669942+00:00, run_id=manual__2024-11-18T16:06:35.669942+00:00, run_start_date=2024-11-18 16:06:36.333389+00:00, run_end_date=2024-11-18 16:17:07.218000+00:00, run_duration=630.884611, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-11-17 16:06:35.669942+00:00, data_interval_end=2024-11-18 16:06:35.669942+00:00, dag_hash=e407d3575fac31486bcf82980b6b24c0
+[2024-11-18T21:17:28.184+0500] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:12:13.891274+00:00 [scheduled]>
+[2024-11-18T21:17:28.185+0500] {scheduler_job_runner.py:495} INFO - DAG count_a has 0/16 running and queued tasks
+[2024-11-18T21:17:28.185+0500] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:12:13.891274+00:00 [scheduled]>
+[2024-11-18T21:17:28.187+0500] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: count_a.sum_results manual__2024-11-18T16:12:13.891274+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-11-18T21:17:28.188+0500] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:12:13.891274+00:00', try_number=2, map_index=-1) to SequentialExecutor with priority 2 and queue default
+[2024-11-18T21:17:28.188+0500] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:12:13.891274+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:17:28.195+0500] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:12:13.891274+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:17:30.432+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:17:30.451+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:17:30.535+0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2024-11-18T21:17:30.541+0500] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:17:31.160+0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-11-18T21:17:31.161+0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:17:31.163+0500] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:17:31.195+0500] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:17:31.221+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:17:31.265+0500] {task_command.py:467} INFO - Running <TaskInstance: count_a.sum_results manual__2024-11-18T16:12:13.891274+00:00 [queued]> on host archlinux
+[2024-11-18T21:17:32.350+0500] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:12:13.891274+00:00', try_number=2, map_index=-1)
+[2024-11-18T21:17:32.356+0500] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=count_a, task_id=sum_results, run_id=manual__2024-11-18T16:12:13.891274+00:00, map_index=-1, run_start_date=2024-11-18 16:17:31.342475+00:00, run_end_date=2024-11-18 16:17:31.537273+00:00, run_duration=0.194798, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=2, max_tries=1, job_id=27, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-11-18 16:17:28.186399+00:00, queued_by_job_id=1, pid=21924
+[2024-11-18T21:17:33.765+0500] {dagrun.py:854} INFO - Marking run <DagRun count_a @ 2024-11-18 16:12:13.891274+00:00: manual__2024-11-18T16:12:13.891274+00:00, state:running, queued_at: 2024-11-18 16:12:13.909806+00:00. externally triggered: True> successful
+Dag run in success state
+Dag run start:2024-11-18 16:12:14.138915+00:00 end:2024-11-18 16:17:33.766992+00:00
+[2024-11-18T21:17:33.767+0500] {dagrun.py:905} INFO - DagRun Finished: dag_id=count_a, execution_date=2024-11-18 16:12:13.891274+00:00, run_id=manual__2024-11-18T16:12:13.891274+00:00, run_start_date=2024-11-18 16:12:14.138915+00:00, run_end_date=2024-11-18 16:17:33.766992+00:00, run_duration=319.628077, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-11-17 16:12:13.891274+00:00, data_interval_end=2024-11-18 16:12:13.891274+00:00, dag_hash=e407d3575fac31486bcf82980b6b24c0
+[2024-11-18T21:18:03.445+0500] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:12:49.786824+00:00 [scheduled]>
+[2024-11-18T21:18:03.446+0500] {scheduler_job_runner.py:495} INFO - DAG count_a has 0/16 running and queued tasks
+[2024-11-18T21:18:03.446+0500] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:12:49.786824+00:00 [scheduled]>
+[2024-11-18T21:18:03.448+0500] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: count_a.sum_results manual__2024-11-18T16:12:49.786824+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-11-18T21:18:03.449+0500] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:12:49.786824+00:00', try_number=2, map_index=-1) to SequentialExecutor with priority 2 and queue default
+[2024-11-18T21:18:03.449+0500] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:12:49.786824+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:18:03.456+0500] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:12:49.786824+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:18:05.552+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:18:05.571+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:18:05.658+0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2024-11-18T21:18:05.662+0500] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:18:06.260+0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-11-18T21:18:06.261+0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:18:06.263+0500] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:18:06.299+0500] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:18:06.329+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:18:06.381+0500] {task_command.py:467} INFO - Running <TaskInstance: count_a.sum_results manual__2024-11-18T16:12:49.786824+00:00 [queued]> on host archlinux
+[2024-11-18T21:18:07.401+0500] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:12:49.786824+00:00', try_number=2, map_index=-1)
+[2024-11-18T21:18:07.407+0500] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=count_a, task_id=sum_results, run_id=manual__2024-11-18T16:12:49.786824+00:00, map_index=-1, run_start_date=2024-11-18 16:18:06.464689+00:00, run_end_date=2024-11-18 16:18:06.661734+00:00, run_duration=0.197045, state=failed, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=2, max_tries=1, job_id=28, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-11-18 16:18:03.447229+00:00, queued_by_job_id=1, pid=21973
+[2024-11-18T21:18:08.974+0500] {dagrun.py:854} INFO - Marking run <DagRun count_a @ 2024-11-18 16:12:49.786824+00:00: manual__2024-11-18T16:12:49.786824+00:00, state:running, queued_at: 2024-11-18 16:12:49.808174+00:00. externally triggered: True> successful
+Dag run in success state
+Dag run start:2024-11-18 16:12:50.016618+00:00 end:2024-11-18 16:18:08.975318+00:00
+[2024-11-18T21:18:08.975+0500] {dagrun.py:905} INFO - DagRun Finished: dag_id=count_a, execution_date=2024-11-18 16:12:49.786824+00:00, run_id=manual__2024-11-18T16:12:49.786824+00:00, run_start_date=2024-11-18 16:12:50.016618+00:00, run_end_date=2024-11-18 16:18:08.975318+00:00, run_duration=318.9587, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-11-17 16:12:49.786824+00:00, data_interval_end=2024-11-18 16:12:49.786824+00:00, dag_hash=e407d3575fac31486bcf82980b6b24c0
+Dag run  in running state
+Dag information Queued at: 2024-11-18 16:18:17.872578+00:00 hash info: e407d3575fac31486bcf82980b6b24c0
+[2024-11-18T21:18:19.259+0500] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:18:17.859641+00:00 [scheduled]>
+[2024-11-18T21:18:19.265+0500] {scheduler_job_runner.py:495} INFO - DAG count_a has 0/16 running and queued tasks
+[2024-11-18T21:18:19.266+0500] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:18:17.859641+00:00 [scheduled]>
+[2024-11-18T21:18:19.269+0500] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: count_a.create_files manual__2024-11-18T16:18:17.859641+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-11-18T21:18:19.269+0500] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:18:17.859641+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 4 and queue default
+[2024-11-18T21:18:19.270+0500] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:18:17.859641+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:18:19.285+0500] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:18:17.859641+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:18:21.483+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:18:21.503+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:18:21.590+0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2024-11-18T21:18:21.594+0500] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:18:22.342+0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-11-18T21:18:22.343+0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:18:22.345+0500] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:18:22.378+0500] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:18:22.404+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:18:22.448+0500] {task_command.py:467} INFO - Running <TaskInstance: count_a.create_files manual__2024-11-18T16:18:17.859641+00:00 [queued]> on host archlinux
+[2024-11-18T21:18:23.489+0500] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:18:17.859641+00:00', try_number=1, map_index=-1)
+[2024-11-18T21:18:23.498+0500] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=count_a, task_id=create_files, run_id=manual__2024-11-18T16:18:17.859641+00:00, map_index=-1, run_start_date=2024-11-18 16:18:22.527822+00:00, run_end_date=2024-11-18 16:18:22.734623+00:00, run_duration=0.206801, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=29, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2024-11-18 16:18:19.267653+00:00, queued_by_job_id=1, pid=22003
+[2024-11-18T21:18:23.811+0500] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:18:17.859641+00:00 [scheduled]>
+[2024-11-18T21:18:23.812+0500] {scheduler_job_runner.py:495} INFO - DAG count_a has 0/16 running and queued tasks
+[2024-11-18T21:18:23.812+0500] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:18:17.859641+00:00 [scheduled]>
+[2024-11-18T21:18:23.815+0500] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: count_a.count_a manual__2024-11-18T16:18:17.859641+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-11-18T21:18:23.816+0500] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:18:17.859641+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 3 and queue default
+[2024-11-18T21:18:23.816+0500] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:18:17.859641+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:18:23.823+0500] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:18:17.859641+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:18:26.259+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:18:26.278+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:18:26.364+0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2024-11-18T21:18:26.368+0500] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:18:26.973+0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-11-18T21:18:26.974+0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:18:26.976+0500] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:18:27.007+0500] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:18:27.035+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:18:27.080+0500] {task_command.py:467} INFO - Running <TaskInstance: count_a.count_a manual__2024-11-18T16:18:17.859641+00:00 [queued]> on host archlinux
+[2024-11-18T21:18:28.247+0500] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:18:17.859641+00:00', try_number=1, map_index=-1)
+[2024-11-18T21:18:28.266+0500] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=count_a, task_id=count_a, run_id=manual__2024-11-18T16:18:17.859641+00:00, map_index=-1, run_start_date=2024-11-18 16:18:27.169700+00:00, run_end_date=2024-11-18 16:18:27.401400+00:00, run_duration=0.2317, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=30, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2024-11-18 16:18:23.813663+00:00, queued_by_job_id=1, pid=22010
+[2024-11-18T21:18:28.615+0500] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:18:17.859641+00:00 [scheduled]>
+[2024-11-18T21:18:28.616+0500] {scheduler_job_runner.py:495} INFO - DAG count_a has 0/16 running and queued tasks
+[2024-11-18T21:18:28.616+0500] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:18:17.859641+00:00 [scheduled]>
+[2024-11-18T21:18:28.619+0500] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: count_a.sum_results manual__2024-11-18T16:18:17.859641+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-11-18T21:18:28.619+0500] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:18:17.859641+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+[2024-11-18T21:18:28.620+0500] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:18:17.859641+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:18:28.656+0500] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:18:17.859641+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:18:30.701+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:18:30.721+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:18:30.806+0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2024-11-18T21:18:30.810+0500] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:18:31.433+0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-11-18T21:18:31.434+0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:18:31.436+0500] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:18:31.475+0500] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:18:31.508+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:18:31.566+0500] {task_command.py:467} INFO - Running <TaskInstance: count_a.sum_results manual__2024-11-18T16:18:17.859641+00:00 [queued]> on host archlinux
+[2024-11-18T21:18:32.585+0500] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:18:17.859641+00:00', try_number=1, map_index=-1)
+[2024-11-18T21:18:32.592+0500] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=count_a, task_id=sum_results, run_id=manual__2024-11-18T16:18:17.859641+00:00, map_index=-1, run_start_date=2024-11-18 16:18:31.655139+00:00, run_end_date=2024-11-18 16:18:31.860123+00:00, run_duration=0.204984, state=up_for_retry, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=31, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-11-18 16:18:28.617713+00:00, queued_by_job_id=1, pid=22015
+Dag run  in running state
+Dag information Queued at: 2024-11-18 16:19:04.098283+00:00 hash info: e407d3575fac31486bcf82980b6b24c0
+[2024-11-18T21:19:05.382+0500] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:19:04.084228+00:00 [scheduled]>
+[2024-11-18T21:19:05.383+0500] {scheduler_job_runner.py:495} INFO - DAG count_a has 0/16 running and queued tasks
+[2024-11-18T21:19:05.383+0500] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.create_files manual__2024-11-18T16:19:04.084228+00:00 [scheduled]>
+[2024-11-18T21:19:05.386+0500] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: count_a.create_files manual__2024-11-18T16:19:04.084228+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-11-18T21:19:05.386+0500] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:19:04.084228+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 4 and queue default
+[2024-11-18T21:19:05.387+0500] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:19:04.084228+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:19:05.394+0500] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'create_files', 'manual__2024-11-18T16:19:04.084228+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:19:07.548+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:19:07.568+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:19:07.655+0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2024-11-18T21:19:07.660+0500] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:19:08.300+0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-11-18T21:19:08.300+0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:19:08.302+0500] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:19:08.333+0500] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:19:08.358+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:19:08.401+0500] {task_command.py:467} INFO - Running <TaskInstance: count_a.create_files manual__2024-11-18T16:19:04.084228+00:00 [queued]> on host archlinux
+[2024-11-18T21:19:09.417+0500] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='create_files', run_id='manual__2024-11-18T16:19:04.084228+00:00', try_number=1, map_index=-1)
+[2024-11-18T21:19:09.424+0500] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=count_a, task_id=create_files, run_id=manual__2024-11-18T16:19:04.084228+00:00, map_index=-1, run_start_date=2024-11-18 16:19:08.478139+00:00, run_end_date=2024-11-18 16:19:08.683457+00:00, run_duration=0.205318, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=32, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2024-11-18 16:19:05.384653+00:00, queued_by_job_id=1, pid=22072
+[2024-11-18T21:19:09.748+0500] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:19:04.084228+00:00 [scheduled]>
+[2024-11-18T21:19:09.749+0500] {scheduler_job_runner.py:495} INFO - DAG count_a has 0/16 running and queued tasks
+[2024-11-18T21:19:09.749+0500] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.count_a manual__2024-11-18T16:19:04.084228+00:00 [scheduled]>
+[2024-11-18T21:19:09.752+0500] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: count_a.count_a manual__2024-11-18T16:19:04.084228+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-11-18T21:19:09.752+0500] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:19:04.084228+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 3 and queue default
+[2024-11-18T21:19:09.753+0500] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:19:04.084228+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:19:09.759+0500] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'count_a', 'manual__2024-11-18T16:19:04.084228+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:19:11.889+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:19:11.908+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:19:11.994+0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2024-11-18T21:19:11.998+0500] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:19:12.606+0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-11-18T21:19:12.607+0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:19:12.609+0500] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:19:12.640+0500] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:19:12.667+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:19:12.710+0500] {task_command.py:467} INFO - Running <TaskInstance: count_a.count_a manual__2024-11-18T16:19:04.084228+00:00 [queued]> on host archlinux
+[2024-11-18T21:19:13.739+0500] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='count_a', run_id='manual__2024-11-18T16:19:04.084228+00:00', try_number=1, map_index=-1)
+[2024-11-18T21:19:13.746+0500] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=count_a, task_id=count_a, run_id=manual__2024-11-18T16:19:04.084228+00:00, map_index=-1, run_start_date=2024-11-18 16:19:12.787095+00:00, run_end_date=2024-11-18 16:19:13.010828+00:00, run_duration=0.223733, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=33, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2024-11-18 16:19:09.750590+00:00, queued_by_job_id=1, pid=22078
+[2024-11-18T21:19:14.031+0500] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:19:04.084228+00:00 [scheduled]>
+[2024-11-18T21:19:14.032+0500] {scheduler_job_runner.py:495} INFO - DAG count_a has 0/16 running and queued tasks
+[2024-11-18T21:19:14.033+0500] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+	<TaskInstance: count_a.sum_results manual__2024-11-18T16:19:04.084228+00:00 [scheduled]>
+[2024-11-18T21:19:14.036+0500] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: count_a.sum_results manual__2024-11-18T16:19:04.084228+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-11-18T21:19:14.037+0500] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:19:04.084228+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+[2024-11-18T21:19:14.037+0500] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:19:04.084228+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:19:14.045+0500] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'count_a', 'sum_results', 'manual__2024-11-18T16:19:04.084228+00:00', '--local', '--subdir', 'DAGS_FOLDER/dag_1.py']
+[2024-11-18T21:19:16.520+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:19:16.541+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:19:16.634+0500] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2024-11-18T21:19:16.638+0500] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:19:17.231+0500] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-11-18T21:19:17.232+0500] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:19:17.233+0500] {example_kubernetes_executor.py:39} WARNING - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes]
+[2024-11-18T21:19:17.265+0500] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-11-18T21:19:17.292+0500] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-18T21:19:17.335+0500] {task_command.py:467} INFO - Running <TaskInstance: count_a.sum_results manual__2024-11-18T16:19:04.084228+00:00 [queued]> on host archlinux
+[2024-11-18T21:19:18.396+0500] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='count_a', task_id='sum_results', run_id='manual__2024-11-18T16:19:04.084228+00:00', try_number=1, map_index=-1)
+[2024-11-18T21:19:18.405+0500] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=count_a, task_id=sum_results, run_id=manual__2024-11-18T16:19:04.084228+00:00, map_index=-1, run_start_date=2024-11-18 16:19:17.414618+00:00, run_end_date=2024-11-18 16:19:17.618059+00:00, run_duration=0.203441, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=34, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-11-18 16:19:14.035006+00:00, queued_by_job_id=1, pid=22083
+[2024-11-18T21:19:19.702+0500] {dagrun.py:854} INFO - Marking run <DagRun count_a @ 2024-11-18 16:19:04.084228+00:00: manual__2024-11-18T16:19:04.084228+00:00, state:running, queued_at: 2024-11-18 16:19:04.098283+00:00. externally triggered: True> successful
+Dag run in success state
+Dag run start:2024-11-18 16:19:05.338285+00:00 end:2024-11-18 16:19:19.702945+00:00
+[2024-11-18T21:19:19.703+0500] {dagrun.py:905} INFO - DagRun Finished: dag_id=count_a, execution_date=2024-11-18 16:19:04.084228+00:00, run_id=manual__2024-11-18T16:19:04.084228+00:00, run_start_date=2024-11-18 16:19:05.338285+00:00, run_end_date=2024-11-18 16:19:19.702945+00:00, run_duration=14.36466, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-11-17 16:19:04.084228+00:00, data_interval_end=2024-11-18 16:19:04.084228+00:00, dag_hash=e407d3575fac31486bcf82980b6b24c0
+[2024-11-18T21:20:23.175+0500] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs

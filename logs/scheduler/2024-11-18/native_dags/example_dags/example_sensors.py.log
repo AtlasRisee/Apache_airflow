@@ -1,0 +1,246 @@
+[2024-11-18T20:40:45.645+0500] {processor.py:186} INFO - Started process (PID=18936) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:40:45.646+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-18T20:40:45.651+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:45.650+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:40:45.669+0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:40:45.881+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:45.879+0500] {override.py:1911} INFO - Created Permission View: can read on DAG:example_sensors
+[2024-11-18T20:40:45.911+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:45.910+0500] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_sensors
+[2024-11-18T20:40:45.932+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:45.931+0500] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_sensors
+[2024-11-18T20:40:45.981+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:45.980+0500] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_sensors
+[2024-11-18T20:40:46.002+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:46.001+0500] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_sensors
+[2024-11-18T20:40:46.019+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:46.018+0500] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_sensors
+[2024-11-18T20:40:46.040+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:46.039+0500] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_sensors
+[2024-11-18T20:40:46.041+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:46.040+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:40:46.069+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:46.068+0500] {dag.py:3262} INFO - Creating ORM DAG for example_sensors
+[2024-11-18T20:40:46.070+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:46.070+0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-18T20:40:46.118+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.482 seconds
+[2024-11-18T20:41:57.569+0500] {processor.py:186} INFO - Started process (PID=19113) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:41:57.570+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-18T20:41:57.573+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:41:57.573+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:41:57.591+0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:41:57.624+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:41:57.624+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:41:57.644+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:41:57.644+0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-18T20:41:57.679+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.118 seconds
+[2024-11-18T20:43:08.264+0500] {processor.py:186} INFO - Started process (PID=19195) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:43:08.266+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-18T20:43:08.269+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:43:08.268+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:43:08.286+0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:43:08.319+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:43:08.319+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:43:08.340+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:43:08.339+0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-18T20:43:08.373+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.118 seconds
+[2024-11-18T20:44:13.961+0500] {processor.py:186} INFO - Started process (PID=19278) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:44:13.962+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-18T20:44:13.965+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:44:13.965+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:44:13.982+0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:44:14.016+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:44:14.015+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:44:14.035+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:44:14.035+0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-18T20:44:14.069+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.115 seconds
+[2024-11-18T20:45:19.742+0500] {processor.py:186} INFO - Started process (PID=19449) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:45:19.743+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-18T20:45:19.747+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:45:19.746+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:45:19.764+0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:45:19.802+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:45:19.802+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:45:19.833+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:45:19.833+0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-18T20:45:19.873+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.140 seconds
+[2024-11-18T20:46:39.118+0500] {processor.py:186} INFO - Started process (PID=19563) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:46:39.120+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-18T20:46:39.123+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:46:39.122+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:46:39.140+0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:46:39.176+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:46:39.176+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:46:39.199+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:46:39.198+0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-18T20:46:39.234+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.127 seconds
+[2024-11-18T20:47:49.633+0500] {processor.py:186} INFO - Started process (PID=19725) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:47:49.635+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-18T20:47:49.638+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:47:49.637+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:47:49.655+0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:47:49.689+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:47:49.689+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:47:49.711+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:47:49.710+0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-18T20:47:49.753+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.128 seconds
+[2024-11-18T20:48:53.593+0500] {processor.py:186} INFO - Started process (PID=19807) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:48:53.596+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-18T20:48:53.599+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:48:53.598+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:48:53.618+0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:48:53.654+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:48:53.654+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:48:53.677+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:48:53.677+0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-18T20:48:53.713+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.128 seconds
+[2024-11-18T20:50:02.347+0500] {processor.py:186} INFO - Started process (PID=19884) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:50:02.351+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-18T20:50:02.355+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:50:02.354+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:50:02.372+0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:50:02.417+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:50:02.417+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:50:02.438+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:50:02.438+0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-18T20:50:02.479+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.143 seconds
+[2024-11-18T20:51:14.075+0500] {processor.py:186} INFO - Started process (PID=19954) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:51:14.077+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-18T20:51:14.080+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:51:14.080+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:51:14.097+0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:51:14.131+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:51:14.131+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:51:14.152+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:51:14.151+0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-18T20:51:14.185+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.118 seconds
+[2024-11-18T20:52:25.036+0500] {processor.py:186} INFO - Started process (PID=20042) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:52:25.039+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-18T20:52:25.045+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:52:25.045+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:52:25.065+0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:52:25.113+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:52:25.113+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:52:25.136+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:52:25.135+0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-18T20:52:25.188+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.162 seconds
+[2024-11-18T20:53:31.950+0500] {processor.py:186} INFO - Started process (PID=20113) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:53:31.953+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-18T20:53:31.956+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:53:31.955+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:53:31.974+0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:53:32.007+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:53:32.006+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:53:32.027+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:53:32.026+0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-18T20:53:32.060+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.117 seconds
+[2024-11-18T20:54:48.692+0500] {processor.py:186} INFO - Started process (PID=20209) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:54:48.695+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-18T20:54:48.698+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:54:48.697+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:54:48.715+0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:54:48.749+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:54:48.748+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:54:48.770+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:54:48.770+0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-18T20:54:48.802+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.118 seconds
+[2024-11-18T20:56:14.324+0500] {processor.py:186} INFO - Started process (PID=20296) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:56:14.327+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-18T20:56:14.330+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:56:14.329+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:56:14.347+0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:56:14.383+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:56:14.383+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:56:14.405+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:56:14.405+0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-18T20:56:14.437+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.121 seconds
+[2024-11-18T20:57:27.249+0500] {processor.py:186} INFO - Started process (PID=20382) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:57:27.252+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-18T20:57:27.255+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:57:27.255+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:57:27.273+0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:57:27.308+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:57:27.307+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:57:27.328+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:57:27.328+0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-18T20:57:27.362+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.120 seconds
+[2024-11-18T20:58:38.002+0500] {processor.py:186} INFO - Started process (PID=20473) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:58:38.003+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-18T20:58:38.006+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:58:38.006+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:58:38.023+0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:58:38.057+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:58:38.057+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:58:38.079+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:58:38.078+0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-18T20:58:38.114+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.120 seconds
+[2024-11-18T20:59:50.111+0500] {processor.py:186} INFO - Started process (PID=20551) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:59:50.112+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-18T20:59:50.115+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:59:50.115+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:59:50.133+0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T20:59:50.170+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:59:50.170+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:59:50.192+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:59:50.192+0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-18T20:59:50.227+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.125 seconds
+[2024-11-18T21:00:59.296+0500] {processor.py:186} INFO - Started process (PID=20632) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:00:59.298+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-18T21:00:59.301+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:00:59.301+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:00:59.318+0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:00:59.352+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:00:59.351+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:00:59.372+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:00:59.372+0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-18T21:00:59.404+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.117 seconds
+[2024-11-18T21:02:05.591+0500] {processor.py:186} INFO - Started process (PID=20705) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:02:05.594+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-18T21:02:05.597+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:02:05.596+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:02:05.613+0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:02:05.647+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:02:05.647+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:02:05.668+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:02:05.668+0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-18T21:02:05.701+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.118 seconds
+[2024-11-18T21:03:19.227+0500] {processor.py:186} INFO - Started process (PID=20780) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:03:19.229+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-18T21:03:19.233+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:03:19.232+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:03:19.250+0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:03:19.284+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:03:19.284+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:03:19.305+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:03:19.304+0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-18T21:03:19.338+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.119 seconds
+[2024-11-18T21:04:25.303+0500] {processor.py:186} INFO - Started process (PID=20881) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:04:25.304+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-18T21:04:25.307+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:04:25.306+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:04:25.324+0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:04:25.357+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:04:25.356+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:04:25.378+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:04:25.378+0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-18T21:04:25.413+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.118 seconds
+[2024-11-18T21:05:32.031+0500] {processor.py:186} INFO - Started process (PID=20958) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:05:32.034+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-18T21:05:32.037+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:05:32.036+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:05:32.053+0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:05:32.087+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:05:32.086+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:05:32.108+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:05:32.108+0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-18T21:05:32.141+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.117 seconds
+[2024-11-18T21:06:44.729+0500] {processor.py:186} INFO - Started process (PID=21053) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:06:44.731+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-18T21:06:44.734+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:06:44.734+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:06:44.751+0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:06:44.785+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:06:44.785+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:06:44.807+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:06:44.806+0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-18T21:06:44.841+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.121 seconds
+[2024-11-18T21:08:00.060+0500] {processor.py:186} INFO - Started process (PID=21136) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:08:00.063+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-18T21:08:00.067+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:08:00.066+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:08:00.083+0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:08:00.118+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:08:00.118+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:08:00.139+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:08:00.139+0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-18T21:08:00.175+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.124 seconds
+[2024-11-18T21:09:06.641+0500] {processor.py:186} INFO - Started process (PID=21217) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:09:06.643+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-18T21:09:06.647+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:09:06.646+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:09:06.665+0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:09:06.701+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:09:06.700+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:09:06.722+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:09:06.722+0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-18T21:09:06.757+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.126 seconds
+[2024-11-18T21:10:17.146+0500] {processor.py:186} INFO - Started process (PID=21315) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:10:17.149+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-18T21:10:17.152+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:10:17.151+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:10:17.173+0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:10:17.221+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:10:17.220+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:10:17.253+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:10:17.253+0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-18T21:10:17.338+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.208 seconds
+[2024-11-18T21:11:31.540+0500] {processor.py:186} INFO - Started process (PID=21440) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:11:31.543+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-18T21:11:31.546+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:11:31.545+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:11:31.563+0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:11:31.597+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:11:31.596+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:11:31.618+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:11:31.618+0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-18T21:11:31.652+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.120 seconds
+[2024-11-18T21:13:26.753+0500] {processor.py:186} INFO - Started process (PID=21591) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:13:26.755+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-18T21:13:26.758+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:13:26.758+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:13:26.775+0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:13:26.809+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:13:26.809+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:13:26.830+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:13:26.830+0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-18T21:13:26.863+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.118 seconds
+[2024-11-18T21:14:54.265+0500] {processor.py:186} INFO - Started process (PID=21703) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:14:54.267+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-18T21:14:54.270+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:14:54.269+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:14:54.286+0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:14:54.319+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:14:54.318+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:14:54.339+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:14:54.339+0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-18T21:14:54.371+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.114 seconds
+[2024-11-18T21:16:27.872+0500] {processor.py:186} INFO - Started process (PID=21826) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:16:27.875+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-18T21:16:27.878+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:16:27.877+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:16:27.894+0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:16:27.928+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:16:27.928+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:16:27.949+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:16:27.948+0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-18T21:16:27.980+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.116 seconds
+[2024-11-18T21:18:13.747+0500] {processor.py:186} INFO - Started process (PID=21984) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:18:13.750+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-18T21:18:13.753+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:18:13.752+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:18:13.769+0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:18:13.803+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:18:13.802+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:18:13.824+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:18:13.823+0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-18T21:18:13.857+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.118 seconds
+[2024-11-18T21:20:04.147+0500] {processor.py:186} INFO - Started process (PID=22135) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:20:04.148+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-18T21:20:04.151+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:20:04.150+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:20:04.168+0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:20:04.202+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:20:04.202+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:20:04.224+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:20:04.223+0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-18T21:20:04.257+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.118 seconds
+[2024-11-18T21:21:14.416+0500] {processor.py:186} INFO - Started process (PID=22225) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:21:14.418+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-18T21:21:14.421+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:21:14.421+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:21:14.439+0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:21:14.472+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:21:14.472+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:21:14.492+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:21:14.492+0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-18T21:21:14.525+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.117 seconds
+[2024-11-18T21:22:27.028+0500] {processor.py:186} INFO - Started process (PID=22306) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:22:27.031+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-11-18T21:22:27.034+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:22:27.034+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:22:27.051+0500] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2024-11-18T21:22:27.086+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:22:27.085+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:22:27.108+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:22:27.108+0500] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-11-18T21:22:27.142+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.121 seconds

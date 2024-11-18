@@ -1,0 +1,239 @@
+[2024-11-18T20:41:27.436+0500] {processor.py:186} INFO - Started process (PID=18982) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:41:27.437+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-18T20:41:27.440+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:41:27.439+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:41:27.462+0500] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:41:27.625+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:41:27.624+0500] {override.py:1911} INFO - Created Permission View: can read on DAG:example_bash_decorator
+[2024-11-18T20:41:27.645+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:41:27.644+0500] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_bash_decorator
+[2024-11-18T20:41:27.656+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:41:27.656+0500] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_bash_decorator
+[2024-11-18T20:41:27.676+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:41:27.676+0500] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_bash_decorator
+[2024-11-18T20:41:27.688+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:41:27.688+0500] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_bash_decorator
+[2024-11-18T20:41:27.700+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:41:27.699+0500] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_bash_decorator
+[2024-11-18T20:41:27.723+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:41:27.722+0500] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_bash_decorator
+[2024-11-18T20:41:27.724+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:41:27.723+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:41:27.746+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:41:27.745+0500] {dag.py:3262} INFO - Creating ORM DAG for example_bash_decorator
+[2024-11-18T20:41:27.747+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:41:27.746+0500] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-18T20:41:27.777+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.348 seconds
+[2024-11-18T20:42:43.126+0500] {processor.py:186} INFO - Started process (PID=19171) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:42:43.129+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-18T20:42:43.132+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:42:43.132+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:42:43.157+0500] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:42:43.189+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:42:43.189+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:42:43.208+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:42:43.208+0500] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-18T20:42:43.240+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.122 seconds
+[2024-11-18T20:43:50.725+0500] {processor.py:186} INFO - Started process (PID=19252) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:43:50.731+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-18T20:43:50.734+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:43:50.733+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:43:50.757+0500] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:43:50.786+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:43:50.785+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:43:50.806+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:43:50.805+0500] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-18T20:43:50.838+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.123 seconds
+[2024-11-18T20:44:55.284+0500] {processor.py:186} INFO - Started process (PID=19322) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:44:55.286+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-18T20:44:55.289+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:44:55.289+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:44:55.312+0500] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:44:55.341+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:44:55.341+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:44:55.361+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:44:55.360+0500] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-18T20:44:55.392+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.116 seconds
+[2024-11-18T20:46:09.357+0500] {processor.py:186} INFO - Started process (PID=19514) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:46:09.359+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-18T20:46:09.361+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:46:09.361+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:46:09.606+0500] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:46:09.632+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:46:09.632+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:46:09.651+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:46:09.650+0500] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-18T20:46:09.684+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.334 seconds
+[2024-11-18T20:47:24.562+0500] {processor.py:186} INFO - Started process (PID=19623) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:47:24.565+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-18T20:47:24.569+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:47:24.568+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:47:24.593+0500] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:47:24.624+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:47:24.624+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:47:24.648+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:47:24.647+0500] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-18T20:47:24.681+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.127 seconds
+[2024-11-18T20:48:30.020+0500] {processor.py:186} INFO - Started process (PID=19771) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:48:30.023+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-18T20:48:30.026+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:48:30.025+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:48:30.049+0500] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:48:30.079+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:48:30.078+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:48:30.101+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:48:30.101+0500] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-18T20:48:30.141+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.130 seconds
+[2024-11-18T20:49:39.276+0500] {processor.py:186} INFO - Started process (PID=19855) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:49:39.277+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-18T20:49:39.280+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:49:39.280+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:49:39.303+0500] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:49:39.332+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:49:39.332+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:49:39.354+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:49:39.354+0500] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-18T20:49:39.394+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.127 seconds
+[2024-11-18T20:50:48.355+0500] {processor.py:186} INFO - Started process (PID=19929) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:50:48.358+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-18T20:50:48.361+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:50:48.360+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:50:48.384+0500] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:50:48.414+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:50:48.414+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:50:48.435+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:50:48.435+0500] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-18T20:50:48.467+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.120 seconds
+[2024-11-18T20:51:59.599+0500] {processor.py:186} INFO - Started process (PID=20015) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:51:59.602+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-18T20:51:59.609+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:51:59.608+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:51:59.632+0500] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:51:59.663+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:51:59.662+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:51:59.684+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:51:59.683+0500] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-18T20:51:59.716+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.126 seconds
+[2024-11-18T20:53:06.148+0500] {processor.py:186} INFO - Started process (PID=20087) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:53:06.151+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-18T20:53:06.157+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:53:06.153+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:53:06.194+0500] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:53:06.225+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:53:06.224+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:53:06.248+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:53:06.247+0500] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-18T20:53:06.289+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.149 seconds
+[2024-11-18T20:54:17.930+0500] {processor.py:186} INFO - Started process (PID=20174) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:54:17.932+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-18T20:54:17.934+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:54:17.934+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:54:17.958+0500] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:54:17.987+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:54:17.987+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:54:18.009+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:54:18.008+0500] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-18T20:54:18.041+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.119 seconds
+[2024-11-18T20:55:43.750+0500] {processor.py:186} INFO - Started process (PID=20263) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:55:43.778+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-18T20:55:43.782+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:55:43.781+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:55:43.807+0500] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:55:43.839+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:55:43.839+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:55:43.862+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:55:43.861+0500] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-18T20:55:43.896+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.155 seconds
+[2024-11-18T20:56:59.726+0500] {processor.py:186} INFO - Started process (PID=20355) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:56:59.728+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-18T20:56:59.731+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:56:59.730+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:56:59.755+0500] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:56:59.785+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:56:59.785+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:56:59.806+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:56:59.805+0500] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-18T20:56:59.838+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.120 seconds
+[2024-11-18T20:58:12.883+0500] {processor.py:186} INFO - Started process (PID=20434) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:58:12.885+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-18T20:58:12.888+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:58:12.888+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:58:12.912+0500] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:58:12.942+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:58:12.942+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:58:12.962+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:58:12.962+0500] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-18T20:58:12.996+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.121 seconds
+[2024-11-18T20:59:20.838+0500] {processor.py:186} INFO - Started process (PID=20515) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:59:20.840+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-18T20:59:20.843+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:59:20.842+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:59:20.890+0500] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T20:59:21.002+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:59:20.999+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:59:21.033+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:59:21.032+0500] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-18T20:59:21.103+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.274 seconds
+[2024-11-18T21:00:35.593+0500] {processor.py:186} INFO - Started process (PID=20596) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:00:35.595+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-18T21:00:35.598+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:00:35.598+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:00:35.622+0500] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:00:35.651+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:00:35.651+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:00:35.672+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:00:35.672+0500] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-18T21:00:35.705+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.121 seconds
+[2024-11-18T21:01:41.145+0500] {processor.py:186} INFO - Started process (PID=20680) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:01:41.148+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-18T21:01:41.151+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:01:41.150+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:01:41.175+0500] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:01:41.204+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:01:41.204+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:01:41.224+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:01:41.223+0500] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-18T21:01:41.257+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.122 seconds
+[2024-11-18T21:02:53.091+0500] {processor.py:186} INFO - Started process (PID=20749) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:02:53.092+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-18T21:02:53.096+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:02:53.095+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:02:53.121+0500] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:02:53.151+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:02:53.150+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:02:53.171+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:02:53.170+0500] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-18T21:02:53.203+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.121 seconds
+[2024-11-18T21:04:01.904+0500] {processor.py:186} INFO - Started process (PID=20837) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:04:01.907+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-18T21:04:01.910+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:04:01.909+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:04:01.933+0500] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:04:01.963+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:04:01.962+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:04:01.983+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:04:01.982+0500] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-18T21:04:02.018+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.122 seconds
+[2024-11-18T21:05:08.341+0500] {processor.py:186} INFO - Started process (PID=20922) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:05:08.342+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-18T21:05:08.345+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:05:08.345+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:05:08.369+0500] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:05:08.399+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:05:08.399+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:05:08.420+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:05:08.420+0500] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-18T21:05:08.452+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.120 seconds
+[2024-11-18T21:06:14.948+0500] {processor.py:186} INFO - Started process (PID=21006) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:06:14.951+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-18T21:06:14.955+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:06:14.954+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:06:14.981+0500] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:06:15.010+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:06:15.009+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:06:15.030+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:06:15.030+0500] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-18T21:06:15.062+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.123 seconds
+[2024-11-18T21:07:35.163+0500] {processor.py:186} INFO - Started process (PID=21110) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:07:35.166+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-18T21:07:35.169+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:07:35.169+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:07:35.193+0500] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:07:35.228+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:07:35.228+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:07:35.253+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:07:35.253+0500] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-18T21:07:35.287+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.132 seconds
+[2024-11-18T21:08:43.650+0500] {processor.py:186} INFO - Started process (PID=21179) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:08:43.656+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-18T21:08:43.659+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:08:43.658+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:08:43.683+0500] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:08:43.714+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:08:43.713+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:08:43.734+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:08:43.734+0500] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-18T21:08:43.766+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.125 seconds
+[2024-11-18T21:09:51.427+0500] {processor.py:186} INFO - Started process (PID=21279) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:09:51.430+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-18T21:09:51.433+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:09:51.432+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:09:51.456+0500] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:09:51.486+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:09:51.485+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:09:51.507+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:09:51.507+0500] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-18T21:09:51.541+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.122 seconds
+[2024-11-18T21:11:04.866+0500] {processor.py:186} INFO - Started process (PID=21390) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:11:04.868+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-18T21:11:04.871+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:11:04.870+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:11:04.894+0500] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:11:04.924+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:11:04.923+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:11:04.944+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:11:04.944+0500] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-18T21:11:04.979+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.122 seconds
+[2024-11-18T21:12:42.161+0500] {processor.py:186} INFO - Started process (PID=21540) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:12:42.163+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-18T21:12:42.166+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:12:42.166+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:12:42.192+0500] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:12:42.224+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:12:42.223+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:12:42.246+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:12:42.245+0500] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-18T21:12:42.278+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.125 seconds
+[2024-11-18T21:14:21.611+0500] {processor.py:186} INFO - Started process (PID=21649) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:14:21.613+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-18T21:14:21.616+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:14:21.615+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:14:21.640+0500] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:14:21.670+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:14:21.670+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:14:21.691+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:14:21.691+0500] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-18T21:14:21.729+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.126 seconds
+[2024-11-18T21:15:55.590+0500] {processor.py:186} INFO - Started process (PID=21784) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:15:55.592+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-18T21:15:55.595+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:15:55.594+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:15:55.622+0500] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:15:55.653+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:15:55.653+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:15:55.676+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:15:55.675+0500] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-18T21:15:55.722+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.141 seconds
+[2024-11-18T21:17:46.288+0500] {processor.py:186} INFO - Started process (PID=21944) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:17:46.291+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-18T21:17:46.294+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:17:46.294+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:17:46.319+0500] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:17:46.348+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:17:46.348+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:17:46.370+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:17:46.369+0500] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-18T21:17:46.402+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.123 seconds
+[2024-11-18T21:19:37.495+0500] {processor.py:186} INFO - Started process (PID=22103) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:19:37.497+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-18T21:19:37.501+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:19:37.500+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:19:37.529+0500] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:19:37.562+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:19:37.561+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:19:37.583+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:19:37.583+0500] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-18T21:19:37.618+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.134 seconds
+[2024-11-18T21:20:54.861+0500] {processor.py:186} INFO - Started process (PID=22203) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:20:54.863+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-18T21:20:54.866+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:20:54.865+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:20:54.893+0500] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:20:54.923+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:20:54.923+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:20:54.944+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:20:54.944+0500] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-18T21:20:54.977+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.128 seconds
+[2024-11-18T21:22:07.731+0500] {processor.py:186} INFO - Started process (PID=22286) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:22:07.732+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2024-11-18T21:22:07.735+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:22:07.735+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:22:07.760+0500] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2024-11-18T21:22:07.790+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:22:07.789+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:22:07.811+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:22:07.810+0500] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2024-11-18T21:22:07.853+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.130 seconds

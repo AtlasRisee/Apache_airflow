@@ -1,0 +1,495 @@
+[2024-11-18T20:40:13.882+0500] {processor.py:186} INFO - Started process (PID=18892) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:40:13.883+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T20:40:13.886+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:13.885+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:40:13.914+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:40:13.906+0500] {dagbag.py:387} ERROR - Failed to import: /home/AtlasRise/airflow/dags/dag_1.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/AtlasRise/airflow/dags/dag_1.py", line 62, in <module>
+    end_task = DummyOperator(
+               ^^^^^^^^^^^^^
+NameError: name 'DummyOperator' is not defined
+[2024-11-18T20:40:13.921+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:40:13.947+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.073 seconds
+[2024-11-18T20:41:30.078+0500] {processor.py:186} INFO - Started process (PID=18986) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:41:30.079+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T20:41:30.082+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:41:30.082+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:41:30.087+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:41:30.085+0500] {dagbag.py:387} ERROR - Failed to import: /home/AtlasRise/airflow/dags/dag_1.py
+Traceback (most recent call last):
+  File "/home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/AtlasRise/airflow/dags/dag_1.py", line 4
+    from airflow.operators.d
+                            ^
+SyntaxError: invalid syntax
+[2024-11-18T20:41:30.088+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:41:30.115+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.045 seconds
+[2024-11-18T20:42:09.761+0500] {processor.py:186} INFO - Started process (PID=19135) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:42:09.763+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T20:42:09.766+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:42:09.765+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:42:09.779+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:42:09.942+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:42:09.941+0500] {override.py:1911} INFO - Created Permission View: can read on DAG:count_a
+[2024-11-18T20:42:09.960+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:42:09.959+0500] {override.py:1911} INFO - Created Permission View: can edit on DAG:count_a
+[2024-11-18T20:42:09.972+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:42:09.971+0500] {override.py:1911} INFO - Created Permission View: can delete on DAG:count_a
+[2024-11-18T20:42:09.994+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:42:09.993+0500] {override.py:1911} INFO - Created Permission View: can read on DAG Run:count_a
+[2024-11-18T20:42:10.006+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:42:10.005+0500] {override.py:1911} INFO - Created Permission View: can create on DAG Run:count_a
+[2024-11-18T20:42:10.018+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:42:10.017+0500] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:count_a
+[2024-11-18T20:42:10.030+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:42:10.030+0500] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:count_a
+[2024-11-18T20:42:10.031+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:42:10.031+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:42:10.049+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:42:10.049+0500] {dag.py:3262} INFO - Creating ORM DAG for count_a
+[2024-11-18T20:42:10.062+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:42:10.062+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T20:42:10.095+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.341 seconds
+[2024-11-18T20:42:44.935+0500] {processor.py:186} INFO - Started process (PID=19173) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:42:44.937+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T20:42:44.940+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:42:44.940+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:42:44.952+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:42:44.977+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:42:44.976+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:42:45.007+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:42:45.007+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T20:42:45.039+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.112 seconds
+[2024-11-18T20:43:18.843+0500] {processor.py:186} INFO - Started process (PID=19210) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:43:18.846+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T20:43:18.850+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:43:18.850+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:43:18.867+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:43:18.894+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:43:18.894+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:43:18.929+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:43:18.929+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T20:43:18.979+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.144 seconds
+[2024-11-18T20:43:52.466+0500] {processor.py:186} INFO - Started process (PID=19254) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:43:52.467+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T20:43:52.470+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:43:52.469+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:43:52.482+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:43:52.506+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:43:52.505+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:43:52.539+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:43:52.538+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T20:43:52.570+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.112 seconds
+[2024-11-18T20:44:25.195+0500] {processor.py:186} INFO - Started process (PID=19290) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:44:25.198+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T20:44:25.201+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:44:25.200+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:44:25.213+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:44:25.236+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:44:25.236+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:44:25.269+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:44:25.268+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T20:44:25.300+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.113 seconds
+[2024-11-18T20:44:57.741+0500] {processor.py:186} INFO - Started process (PID=19324) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:44:57.742+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T20:44:57.745+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:44:57.744+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:44:57.756+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:44:57.781+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:44:57.780+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:44:57.811+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:44:57.811+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T20:44:57.842+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.109 seconds
+[2024-11-18T20:45:32.150+0500] {processor.py:186} INFO - Started process (PID=19477) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:45:32.153+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T20:45:32.156+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:45:32.155+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:45:32.169+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:45:32.193+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:45:32.192+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:45:32.225+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:45:32.225+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T20:45:32.415+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.273 seconds
+[2024-11-18T20:46:12.178+0500] {processor.py:186} INFO - Started process (PID=19516) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:46:12.181+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T20:46:12.184+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:46:12.183+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:46:12.198+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:46:12.222+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:46:12.221+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:46:12.254+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:46:12.254+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T20:46:12.289+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.119 seconds
+[2024-11-18T20:46:50.840+0500] {processor.py:186} INFO - Started process (PID=19582) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:46:50.841+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T20:46:50.844+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:46:50.843+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:46:50.856+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:46:50.880+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:46:50.880+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:46:50.914+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:46:50.913+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T20:46:50.945+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.114 seconds
+[2024-11-18T20:47:26.143+0500] {processor.py:186} INFO - Started process (PID=19625) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:47:26.145+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T20:47:26.148+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:47:26.147+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:47:26.160+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:47:26.187+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:47:26.187+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:47:26.220+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:47:26.220+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T20:47:26.252+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.116 seconds
+[2024-11-18T20:47:59.970+0500] {processor.py:186} INFO - Started process (PID=19738) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:47:59.973+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T20:47:59.981+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:47:59.980+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:47:59.992+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:48:00.017+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:48:00.016+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:48:00.050+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:48:00.050+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T20:48:00.082+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.120 seconds
+[2024-11-18T20:48:32.432+0500] {processor.py:186} INFO - Started process (PID=19773) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:48:32.433+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T20:48:32.436+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:48:32.436+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:48:32.449+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:48:32.472+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:48:32.472+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:48:32.505+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:48:32.504+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T20:48:32.537+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.113 seconds
+[2024-11-18T20:49:06.748+0500] {processor.py:186} INFO - Started process (PID=19820) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:49:06.751+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T20:49:06.754+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:49:06.753+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:49:06.766+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:49:06.790+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:49:06.790+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:49:06.824+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:49:06.824+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T20:49:06.855+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.117 seconds
+[2024-11-18T20:49:41.731+0500] {processor.py:186} INFO - Started process (PID=19857) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:49:41.733+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T20:49:41.736+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:49:41.736+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:49:41.749+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:49:41.773+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:49:41.773+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:49:41.806+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:49:41.806+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T20:49:41.838+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.115 seconds
+[2024-11-18T20:50:13.562+0500] {processor.py:186} INFO - Started process (PID=19894) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:50:13.563+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T20:50:13.566+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:50:13.566+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:50:13.581+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:50:13.736+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:50:13.735+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:50:13.766+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:50:13.766+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-18T20:50:13.801+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.247 seconds
+[2024-11-18T20:50:50.827+0500] {processor.py:186} INFO - Started process (PID=19931) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:50:50.829+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T20:50:50.832+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:50:50.832+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:50:50.844+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:50:50.868+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:50:50.868+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:50:50.901+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:50:50.900+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T20:50:50.932+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.114 seconds
+[2024-11-18T20:51:25.628+0500] {processor.py:186} INFO - Started process (PID=19966) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:51:25.631+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T20:51:25.634+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:51:25.633+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:51:25.647+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:51:25.672+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:51:25.672+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:51:25.708+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:51:25.707+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T20:51:25.750+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.130 seconds
+[2024-11-18T20:52:02.047+0500] {processor.py:186} INFO - Started process (PID=20017) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:52:02.049+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T20:52:02.053+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:52:02.052+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:52:02.065+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:52:02.090+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:52:02.090+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:52:02.123+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:52:02.122+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T20:52:02.155+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.117 seconds
+[2024-11-18T20:52:36.679+0500] {processor.py:186} INFO - Started process (PID=20059) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:52:36.681+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T20:52:36.684+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:52:36.684+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:52:36.696+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:52:36.720+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:52:36.720+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:52:36.753+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:52:36.752+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T20:52:36.785+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.115 seconds
+[2024-11-18T20:53:08.613+0500] {processor.py:186} INFO - Started process (PID=20089) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:53:08.614+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T20:53:08.617+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:53:08.616+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:53:08.629+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:53:08.654+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:53:08.653+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:53:08.686+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:53:08.686+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T20:53:08.717+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.115 seconds
+[2024-11-18T20:53:43.675+0500] {processor.py:186} INFO - Started process (PID=20124) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:53:43.678+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T20:53:43.681+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:53:43.680+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:53:43.693+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:53:43.718+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:53:43.717+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:53:43.750+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:53:43.750+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T20:53:43.781+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.115 seconds
+[2024-11-18T20:54:19.208+0500] {processor.py:186} INFO - Started process (PID=20176) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:54:19.210+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T20:54:19.212+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:54:19.212+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:54:19.225+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:54:19.297+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:54:19.297+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:54:19.338+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:54:19.338+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T20:54:19.376+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.175 seconds
+[2024-11-18T20:55:01.364+0500] {processor.py:186} INFO - Started process (PID=20221) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:55:01.366+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T20:55:01.369+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:55:01.369+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:55:01.385+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:55:01.412+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:55:01.412+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:55:01.448+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:55:01.448+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T20:55:01.484+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.130 seconds
+[2024-11-18T20:55:45.938+0500] {processor.py:186} INFO - Started process (PID=20265) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:55:45.940+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T20:55:45.943+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:55:45.942+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:55:45.955+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:55:45.981+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:55:45.981+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:55:46.015+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:55:46.014+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T20:55:46.049+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.120 seconds
+[2024-11-18T20:56:24.705+0500] {processor.py:186} INFO - Started process (PID=20308) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:56:24.707+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T20:56:24.710+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:56:24.710+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:56:24.722+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:56:24.746+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:56:24.746+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:56:24.778+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:56:24.778+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T20:56:24.811+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.114 seconds
+[2024-11-18T20:57:02.196+0500] {processor.py:186} INFO - Started process (PID=20357) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:57:02.198+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T20:57:02.201+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:57:02.201+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:57:02.213+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:57:02.239+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:57:02.239+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:57:02.271+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:57:02.271+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T20:57:02.301+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.114 seconds
+[2024-11-18T20:57:38.960+0500] {processor.py:186} INFO - Started process (PID=20393) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:57:38.962+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T20:57:38.966+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:57:38.965+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:57:38.980+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:57:39.008+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:57:39.007+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:57:39.044+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:57:39.044+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T20:57:39.078+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.128 seconds
+[2024-11-18T20:58:15.347+0500] {processor.py:186} INFO - Started process (PID=20436) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:58:15.349+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T20:58:15.352+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:58:15.352+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:58:15.364+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:58:15.390+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:58:15.389+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:58:15.422+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:58:15.422+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T20:58:15.458+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.119 seconds
+[2024-11-18T20:58:48.973+0500] {processor.py:186} INFO - Started process (PID=20484) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:58:48.975+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T20:58:48.979+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:58:48.978+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:58:48.992+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:58:49.018+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:58:49.017+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:58:49.050+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:58:49.050+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T20:58:49.085+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.121 seconds
+[2024-11-18T20:59:22.884+0500] {processor.py:186} INFO - Started process (PID=20520) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:59:22.885+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T20:59:22.888+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:59:22.888+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:59:22.901+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T20:59:22.925+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:59:22.925+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:59:22.958+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:59:22.958+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T20:59:22.990+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.116 seconds
+[2024-11-18T21:00:01.363+0500] {processor.py:186} INFO - Started process (PID=20562) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:00:01.366+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:00:01.369+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:00:01.368+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:00:01.381+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:00:01.406+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:00:01.405+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:00:01.438+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:00:01.438+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:00:01.471+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.115 seconds
+[2024-11-18T21:00:38.023+0500] {processor.py:186} INFO - Started process (PID=20599) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:00:38.026+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:00:38.029+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:00:38.028+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:00:38.041+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:00:38.065+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:00:38.065+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:00:38.100+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:00:38.099+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:00:38.131+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.116 seconds
+[2024-11-18T21:01:10.990+0500] {processor.py:186} INFO - Started process (PID=20645) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:01:10.991+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:01:10.994+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:01:10.994+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:01:11.007+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:01:11.031+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:01:11.030+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:01:11.063+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:01:11.063+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:01:11.096+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.114 seconds
+[2024-11-18T21:01:42.621+0500] {processor.py:186} INFO - Started process (PID=20682) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:01:42.623+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:01:42.626+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:01:42.625+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:01:42.638+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:01:42.662+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:01:42.662+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:01:42.697+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:01:42.697+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:01:42.728+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.115 seconds
+[2024-11-18T21:02:18.272+0500] {processor.py:186} INFO - Started process (PID=20715) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:02:18.273+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:02:18.276+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:02:18.275+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:02:18.288+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:02:18.312+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:02:18.312+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:02:18.345+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:02:18.344+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:02:18.376+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.113 seconds
+[2024-11-18T21:02:55.218+0500] {processor.py:186} INFO - Started process (PID=20751) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:02:55.220+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:02:55.223+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:02:55.223+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:02:55.235+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:02:55.260+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:02:55.260+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:02:55.293+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:02:55.293+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:02:55.325+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.116 seconds
+[2024-11-18T21:03:30.847+0500] {processor.py:186} INFO - Started process (PID=20792) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:03:30.850+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:03:30.853+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:03:30.853+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:03:30.866+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:03:30.892+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:03:30.892+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:03:30.927+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:03:30.926+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:03:30.962+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.122 seconds
+[2024-11-18T21:04:04.328+0500] {processor.py:186} INFO - Started process (PID=20839) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:04:04.329+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:04:04.332+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:04:04.332+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:04:04.344+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:04:04.369+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:04:04.369+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:04:04.401+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:04:04.401+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:04:04.435+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.115 seconds
+[2024-11-18T21:04:36.284+0500] {processor.py:186} INFO - Started process (PID=20892) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:04:36.285+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:04:36.289+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:04:36.288+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:04:36.303+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:04:36.330+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:04:36.329+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:04:36.366+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:04:36.365+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:04:36.401+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.126 seconds
+[2024-11-18T21:05:09.648+0500] {processor.py:186} INFO - Started process (PID=20924) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:05:09.650+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:05:09.653+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:05:09.653+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:05:09.667+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:05:09.692+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:05:09.691+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:05:09.725+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:05:09.725+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:05:09.761+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.121 seconds
+[2024-11-18T21:05:42.716+0500] {processor.py:186} INFO - Started process (PID=20977) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:05:42.717+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:05:42.720+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:05:42.719+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:05:42.732+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:05:42.756+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:05:42.756+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:05:42.789+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:05:42.788+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:05:42.821+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.113 seconds
+[2024-11-18T21:06:16.382+0500] {processor.py:186} INFO - Started process (PID=21008) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:06:16.383+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:06:16.386+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:06:16.385+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:06:16.398+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:06:16.423+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:06:16.422+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:06:16.455+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:06:16.455+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:06:16.487+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.113 seconds
+[2024-11-18T21:06:57.356+0500] {processor.py:186} INFO - Started process (PID=21065) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:06:57.357+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:06:57.361+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:06:57.360+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:06:57.376+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:06:57.402+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:06:57.402+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:06:57.436+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:06:57.436+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:06:57.469+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.123 seconds
+[2024-11-18T21:07:37.612+0500] {processor.py:186} INFO - Started process (PID=21112) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:07:37.613+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:07:37.616+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:07:37.615+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:07:37.628+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:07:37.653+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:07:37.653+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:07:37.686+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:07:37.686+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:07:37.719+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.116 seconds
+[2024-11-18T21:08:12.432+0500] {processor.py:186} INFO - Started process (PID=21146) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:08:12.434+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:08:12.437+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:08:12.436+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:08:12.449+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:08:12.473+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:08:12.473+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:08:12.507+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:08:12.506+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:08:12.538+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.116 seconds
+[2024-11-18T21:08:45.580+0500] {processor.py:186} INFO - Started process (PID=21181) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:08:45.581+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:08:45.585+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:08:45.584+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:08:45.596+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:08:45.621+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:08:45.620+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:08:45.654+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:08:45.654+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:08:45.688+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.116 seconds
+[2024-11-18T21:09:18.529+0500] {processor.py:186} INFO - Started process (PID=21232) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:09:18.531+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:09:18.534+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:09:18.533+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:09:18.549+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:09:18.578+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:09:18.578+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:09:18.619+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:09:18.618+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:09:18.661+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.143 seconds
+[2024-11-18T21:09:53.922+0500] {processor.py:186} INFO - Started process (PID=21292) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:09:53.924+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:09:53.935+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:09:53.935+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:09:54.005+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:09:54.092+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:09:54.087+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:09:54.197+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:09:54.196+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:09:54.281+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.377 seconds
+[2024-11-18T21:10:27.377+0500] {processor.py:186} INFO - Started process (PID=21327) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:10:27.379+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:10:27.383+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:10:27.382+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:10:27.397+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:10:27.424+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:10:27.423+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:10:27.460+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:10:27.460+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:10:27.499+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.131 seconds
+[2024-11-18T21:11:07.368+0500] {processor.py:186} INFO - Started process (PID=21393) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:11:07.370+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:11:07.375+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:11:07.374+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:11:07.388+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:11:07.414+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:11:07.413+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:11:07.449+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:11:07.448+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:11:07.498+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.140 seconds
+[2024-11-18T21:11:50.422+0500] {processor.py:186} INFO - Started process (PID=21467) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:11:50.423+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:11:50.427+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:11:50.426+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:11:50.439+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:11:50.465+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:11:50.465+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:11:50.500+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:11:50.499+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:11:50.558+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.144 seconds
+[2024-11-18T21:12:44.666+0500] {processor.py:186} INFO - Started process (PID=21544) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:12:44.668+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:12:44.671+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:12:44.670+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:12:44.686+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:12:44.715+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:12:44.714+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:12:44.750+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:12:44.750+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:12:44.787+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.129 seconds
+[2024-11-18T21:13:44.574+0500] {processor.py:186} INFO - Started process (PID=21608) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:13:44.577+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:13:44.580+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:13:44.579+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:13:44.592+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:13:44.618+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:13:44.617+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:13:44.651+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:13:44.650+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:13:44.689+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.124 seconds
+[2024-11-18T21:14:23.597+0500] {processor.py:186} INFO - Started process (PID=21651) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:14:23.599+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:14:23.602+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:14:23.602+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:14:23.617+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:14:23.643+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:14:23.643+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:14:23.678+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:14:23.677+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:14:23.716+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.127 seconds
+[2024-11-18T21:15:12.129+0500] {processor.py:186} INFO - Started process (PID=21731) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:15:12.133+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:15:12.136+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:15:12.135+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:15:12.149+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:15:12.174+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:15:12.173+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:15:12.207+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:15:12.207+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:15:12.242+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.124 seconds
+[2024-11-18T21:15:58.092+0500] {processor.py:186} INFO - Started process (PID=21788) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:15:58.094+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:15:58.097+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:15:58.097+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:15:58.108+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:15:58.133+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:15:58.132+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:15:58.168+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:15:58.168+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:15:58.220+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.137 seconds
+[2024-11-18T21:16:49.735+0500] {processor.py:186} INFO - Started process (PID=21873) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:16:49.737+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:16:49.740+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:16:49.739+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:16:49.752+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:16:49.776+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:16:49.776+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:16:49.809+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:16:49.808+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:16:49.843+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.116 seconds
+[2024-11-18T21:17:47.778+0500] {processor.py:186} INFO - Started process (PID=21946) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:17:47.780+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:17:47.783+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:17:47.782+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:17:47.820+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:17:47.860+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:17:47.859+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:17:47.905+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:17:47.905+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:17:47.944+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.176 seconds
+[2024-11-18T21:18:42.317+0500] {processor.py:186} INFO - Started process (PID=22026) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:18:42.319+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:18:42.322+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:18:42.322+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:18:42.335+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:18:42.359+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:18:42.359+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:18:42.393+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:18:42.393+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:18:42.426+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.118 seconds
+[2024-11-18T21:19:39.668+0500] {processor.py:186} INFO - Started process (PID=22105) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:19:39.670+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:19:39.673+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:19:39.672+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:19:39.685+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:19:39.708+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:19:39.708+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:19:39.741+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:19:39.741+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:19:39.774+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.114 seconds
+[2024-11-18T21:20:22.013+0500] {processor.py:186} INFO - Started process (PID=22150) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:20:22.015+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:20:22.018+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:20:22.018+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:20:22.030+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:20:22.055+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:20:22.054+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:20:22.088+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:20:22.088+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:20:22.120+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.115 seconds
+[2024-11-18T21:20:56.876+0500] {processor.py:186} INFO - Started process (PID=22205) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:20:56.877+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:20:56.880+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:20:56.880+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:20:56.893+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:20:56.919+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:20:56.918+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:20:56.951+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:20:56.951+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:20:56.983+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.117 seconds
+[2024-11-18T21:21:33.211+0500] {processor.py:186} INFO - Started process (PID=22244) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:21:33.212+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:21:33.215+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:21:33.215+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:21:33.228+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:21:33.252+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:21:33.252+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:21:33.284+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:21:33.283+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:21:33.317+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.114 seconds
+[2024-11-18T21:22:10.191+0500] {processor.py:186} INFO - Started process (PID=22288) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:22:10.192+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:22:10.195+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:22:10.195+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:22:10.208+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:22:10.233+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:22:10.233+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:22:10.269+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:22:10.268+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:22:10.300+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.117 seconds
+[2024-11-18T21:22:43.731+0500] {processor.py:186} INFO - Started process (PID=22321) to work on /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:22:43.732+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/dags/dag_1.py for tasks to queue
+[2024-11-18T21:22:43.735+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:22:43.734+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:22:43.747+0500] {processor.py:925} INFO - DAG(s) 'count_a' retrieved from /home/AtlasRise/airflow/dags/dag_1.py
+[2024-11-18T21:22:43.772+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:22:43.771+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:22:43.804+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:22:43.804+0500] {dag.py:4180} INFO - Setting next_dagrun for count_a to 2024-11-18 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T21:22:43.837+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/dags/dag_1.py took 0.115 seconds

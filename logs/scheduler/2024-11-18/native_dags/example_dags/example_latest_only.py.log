@@ -1,0 +1,246 @@
+[2024-11-18T20:41:01.211+0500] {processor.py:186} INFO - Started process (PID=18948) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:41:01.212+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-18T20:41:01.216+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:41:01.215+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:41:01.228+0500] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:41:01.386+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:41:01.385+0500] {override.py:1911} INFO - Created Permission View: can read on DAG:latest_only
+[2024-11-18T20:41:01.403+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:41:01.402+0500] {override.py:1911} INFO - Created Permission View: can edit on DAG:latest_only
+[2024-11-18T20:41:01.415+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:41:01.415+0500] {override.py:1911} INFO - Created Permission View: can delete on DAG:latest_only
+[2024-11-18T20:41:01.435+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:41:01.434+0500] {override.py:1911} INFO - Created Permission View: can read on DAG Run:latest_only
+[2024-11-18T20:41:01.447+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:41:01.446+0500] {override.py:1911} INFO - Created Permission View: can create on DAG Run:latest_only
+[2024-11-18T20:41:01.458+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:41:01.458+0500] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:latest_only
+[2024-11-18T20:41:01.475+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:41:01.474+0500] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:latest_only
+[2024-11-18T20:41:01.476+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:41:01.475+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:41:01.500+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:41:01.500+0500] {dag.py:3262} INFO - Creating ORM DAG for latest_only
+[2024-11-18T20:41:01.513+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:41:01.513+0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-18 08:00:00+00:00, run_after=2024-11-18 12:00:00+00:00
+[2024-11-18T20:41:01.548+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.346 seconds
+[2024-11-18T20:42:22.561+0500] {processor.py:186} INFO - Started process (PID=19150) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:42:22.564+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-18T20:42:22.566+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:42:22.566+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:42:22.577+0500] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:42:22.600+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:42:22.599+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:42:22.632+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:42:22.631+0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-18 08:00:00+00:00, run_after=2024-11-18 12:00:00+00:00
+[2024-11-18T20:42:22.665+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.112 seconds
+[2024-11-18T20:43:30.077+0500] {processor.py:186} INFO - Started process (PID=19227) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:43:30.080+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-18T20:43:30.083+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:43:30.083+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:43:30.096+0500] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:43:30.123+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:43:30.122+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:43:30.160+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:43:30.160+0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-18 08:00:00+00:00, run_after=2024-11-18 12:00:00+00:00
+[2024-11-18T20:43:30.212+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.144 seconds
+[2024-11-18T20:44:35.230+0500] {processor.py:186} INFO - Started process (PID=19302) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:44:35.233+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-18T20:44:35.236+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:44:35.235+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:44:35.246+0500] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:44:35.269+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:44:35.268+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:44:35.301+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:44:35.301+0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-18 08:00:00+00:00, run_after=2024-11-18 12:00:00+00:00
+[2024-11-18T20:44:35.335+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.112 seconds
+[2024-11-18T20:45:46.380+0500] {processor.py:186} INFO - Started process (PID=19492) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:45:46.386+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-18T20:45:46.392+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:45:46.392+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:45:46.405+0500] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:45:46.437+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:45:46.436+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:45:46.631+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:45:46.630+0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-18 08:00:00+00:00, run_after=2024-11-18 12:00:00+00:00
+[2024-11-18T20:45:46.673+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.303 seconds
+[2024-11-18T20:47:03.800+0500] {processor.py:186} INFO - Started process (PID=19598) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:47:03.802+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-18T20:47:03.805+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:47:03.805+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:47:03.815+0500] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:47:03.839+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:47:03.838+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:47:03.872+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:47:03.871+0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-18 08:00:00+00:00, run_after=2024-11-18 12:00:00+00:00
+[2024-11-18T20:47:03.904+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.112 seconds
+[2024-11-18T20:48:09.132+0500] {processor.py:186} INFO - Started process (PID=19747) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:48:09.135+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-18T20:48:09.138+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:48:09.138+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:48:09.149+0500] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:48:09.173+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:48:09.173+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:48:09.208+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:48:09.207+0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-18 08:00:00+00:00, run_after=2024-11-18 12:00:00+00:00
+[2024-11-18T20:48:09.241+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.118 seconds
+[2024-11-18T20:49:19.032+0500] {processor.py:186} INFO - Started process (PID=19834) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:49:19.035+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-18T20:49:19.039+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:49:19.038+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:49:19.050+0500] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:49:19.074+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:49:19.074+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:49:19.108+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:49:19.108+0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-18 08:00:00+00:00, run_after=2024-11-18 12:00:00+00:00
+[2024-11-18T20:49:19.141+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.119 seconds
+[2024-11-18T20:50:27.836+0500] {processor.py:186} INFO - Started process (PID=19910) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:50:27.839+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-18T20:50:27.842+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:50:27.841+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:50:27.852+0500] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:50:27.876+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:50:27.875+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:50:27.909+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:50:27.909+0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-18 08:00:00+00:00, run_after=2024-11-18 12:00:00+00:00
+[2024-11-18T20:50:27.942+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.114 seconds
+[2024-11-18T20:51:37.416+0500] {processor.py:186} INFO - Started process (PID=19993) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:51:37.418+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-18T20:51:37.421+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:51:37.420+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:51:37.431+0500] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:51:37.455+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:51:37.455+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:51:37.491+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:51:37.491+0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-18 08:00:00+00:00, run_after=2024-11-18 12:00:00+00:00
+[2024-11-18T20:51:37.526+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.120 seconds
+[2024-11-18T20:52:44.301+0500] {processor.py:186} INFO - Started process (PID=20067) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:52:44.302+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-18T20:52:44.305+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:52:44.304+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:52:44.315+0500] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:52:44.339+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:52:44.338+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:52:44.371+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:52:44.371+0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-18 08:00:00+00:00, run_after=2024-11-18 12:00:00+00:00
+[2024-11-18T20:52:44.407+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.114 seconds
+[2024-11-18T20:53:56.088+0500] {processor.py:186} INFO - Started process (PID=20137) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:53:56.089+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-18T20:53:56.092+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:53:56.092+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:53:56.103+0500] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:53:56.126+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:53:56.126+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:53:56.159+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:53:56.158+0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-18 08:00:00+00:00, run_after=2024-11-18 12:00:00+00:00
+[2024-11-18T20:53:56.194+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.114 seconds
+[2024-11-18T20:55:22.171+0500] {processor.py:186} INFO - Started process (PID=20242) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:55:22.172+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-18T20:55:22.175+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:55:22.174+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:55:22.186+0500] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:55:22.208+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:55:22.208+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:55:22.241+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:55:22.240+0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-18 08:00:00+00:00, run_after=2024-11-18 12:00:00+00:00
+[2024-11-18T20:55:22.275+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.113 seconds
+[2024-11-18T20:56:37.586+0500] {processor.py:186} INFO - Started process (PID=20335) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:56:37.588+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-18T20:56:37.591+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:56:37.591+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:56:37.602+0500] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:56:37.626+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:56:37.625+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:56:37.659+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:56:37.659+0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-18 08:00:00+00:00, run_after=2024-11-18 12:00:00+00:00
+[2024-11-18T20:56:37.692+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.114 seconds
+[2024-11-18T20:57:50.626+0500] {processor.py:186} INFO - Started process (PID=20405) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:57:50.629+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-18T20:57:50.632+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:57:50.631+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:57:50.643+0500] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:57:50.666+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:57:50.665+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:57:50.698+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:57:50.698+0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-18 08:00:00+00:00, run_after=2024-11-18 12:00:00+00:00
+[2024-11-18T20:57:50.734+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.116 seconds
+[2024-11-18T20:58:58.453+0500] {processor.py:186} INFO - Started process (PID=20494) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:58:58.454+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-18T20:58:58.457+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:58:58.457+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:58:58.468+0500] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T20:58:58.491+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:58:58.490+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T20:58:58.523+0500] {logging_mixin.py:190} INFO - [2024-11-18T20:58:58.523+0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-18 08:00:00+00:00, run_after=2024-11-18 12:00:00+00:00
+[2024-11-18T20:58:58.558+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.113 seconds
+[2024-11-18T21:00:15.102+0500] {processor.py:186} INFO - Started process (PID=20575) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:00:15.105+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-18T21:00:15.109+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:00:15.108+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:00:15.121+0500] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:00:15.146+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:00:15.145+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:00:15.178+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:00:15.178+0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-18 12:00:00+00:00, run_after=2024-11-18 16:00:00+00:00
+[2024-11-18T21:00:15.210+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.116 seconds
+[2024-11-18T21:01:21.134+0500] {processor.py:186} INFO - Started process (PID=20654) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:01:21.136+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-18T21:01:21.139+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:01:21.139+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:01:21.150+0500] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:01:21.173+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:01:21.172+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:01:21.206+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:01:21.206+0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-18 12:00:00+00:00, run_after=2024-11-18 16:00:00+00:00
+[2024-11-18T21:01:21.237+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.112 seconds
+[2024-11-18T21:02:32.330+0500] {processor.py:186} INFO - Started process (PID=20730) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:02:32.332+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-18T21:02:32.335+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:02:32.335+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:02:32.346+0500] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:02:32.369+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:02:32.368+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:02:32.401+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:02:32.401+0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-18 12:00:00+00:00, run_after=2024-11-18 16:00:00+00:00
+[2024-11-18T21:02:32.433+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.112 seconds
+[2024-11-18T21:03:41.292+0500] {processor.py:186} INFO - Started process (PID=20802) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:03:41.295+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-18T21:03:41.298+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:03:41.297+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:03:41.309+0500] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:03:41.332+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:03:41.331+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:03:41.364+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:03:41.364+0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-18 12:00:00+00:00, run_after=2024-11-18 16:00:00+00:00
+[2024-11-18T21:03:41.396+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.112 seconds
+[2024-11-18T21:04:46.544+0500] {processor.py:186} INFO - Started process (PID=20902) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:04:46.546+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-18T21:04:46.549+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:04:46.548+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:04:46.559+0500] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:04:46.582+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:04:46.582+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:04:46.615+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:04:46.614+0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-18 12:00:00+00:00, run_after=2024-11-18 16:00:00+00:00
+[2024-11-18T21:04:46.648+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.112 seconds
+[2024-11-18T21:05:52.832+0500] {processor.py:186} INFO - Started process (PID=20986) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:05:52.835+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-18T21:05:52.839+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:05:52.838+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:05:52.851+0500] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:05:52.876+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:05:52.875+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:05:52.909+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:05:52.908+0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-18 12:00:00+00:00, run_after=2024-11-18 16:00:00+00:00
+[2024-11-18T21:05:52.941+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.119 seconds
+[2024-11-18T21:07:14.244+0500] {processor.py:186} INFO - Started process (PID=21089) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:07:14.245+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-18T21:07:14.249+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:07:14.248+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:07:14.259+0500] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:07:14.282+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:07:14.282+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:07:14.314+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:07:14.314+0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-18 12:00:00+00:00, run_after=2024-11-18 16:00:00+00:00
+[2024-11-18T21:07:14.346+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.109 seconds
+[2024-11-18T21:08:23.067+0500] {processor.py:186} INFO - Started process (PID=21158) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:08:23.068+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-18T21:08:23.071+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:08:23.071+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:08:23.082+0500] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:08:23.106+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:08:23.106+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:08:23.140+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:08:23.140+0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-18 12:00:00+00:00, run_after=2024-11-18 16:00:00+00:00
+[2024-11-18T21:08:23.175+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.116 seconds
+[2024-11-18T21:09:29.811+0500] {processor.py:186} INFO - Started process (PID=21259) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:09:29.814+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-18T21:09:29.817+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:09:29.816+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:09:29.828+0500] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:09:29.852+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:09:29.851+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:09:29.888+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:09:29.888+0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-18 12:00:00+00:00, run_after=2024-11-18 16:00:00+00:00
+[2024-11-18T21:09:29.929+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.127 seconds
+[2024-11-18T21:10:43.710+0500] {processor.py:186} INFO - Started process (PID=21350) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:10:43.713+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-18T21:10:43.716+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:10:43.716+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:10:43.727+0500] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:10:43.749+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:10:43.749+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:10:43.785+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:10:43.785+0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-18 12:00:00+00:00, run_after=2024-11-18 16:00:00+00:00
+[2024-11-18T21:10:43.820+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.118 seconds
+[2024-11-18T21:12:09.823+0500] {processor.py:186} INFO - Started process (PID=21492) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:12:09.830+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-18T21:12:09.837+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:12:09.836+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:12:09.866+0500] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:12:09.893+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:12:09.892+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:12:09.931+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:12:09.930+0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-18 12:00:00+00:00, run_after=2024-11-18 16:00:00+00:00
+[2024-11-18T21:12:09.970+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.160 seconds
+[2024-11-18T21:13:39.704+0500] {processor.py:186} INFO - Started process (PID=21604) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:13:39.706+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-18T21:13:39.709+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:13:39.709+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:13:39.720+0500] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:13:39.744+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:13:39.744+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:13:39.780+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:13:39.779+0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-18 12:00:00+00:00, run_after=2024-11-18 16:00:00+00:00
+[2024-11-18T21:13:39.817+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.122 seconds
+[2024-11-18T21:15:07.461+0500] {processor.py:186} INFO - Started process (PID=21727) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:15:07.462+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-18T21:15:07.466+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:15:07.465+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:15:07.477+0500] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:15:07.506+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:15:07.505+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:15:07.542+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:15:07.542+0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-18 12:00:00+00:00, run_after=2024-11-18 16:00:00+00:00
+[2024-11-18T21:15:07.577+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.125 seconds
+[2024-11-18T21:16:41.036+0500] {processor.py:186} INFO - Started process (PID=21844) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:16:41.039+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-18T21:16:41.042+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:16:41.041+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:16:41.052+0500] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:16:41.077+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:16:41.076+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:16:41.112+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:16:41.111+0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-18 12:00:00+00:00, run_after=2024-11-18 16:00:00+00:00
+[2024-11-18T21:16:41.150+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.122 seconds
+[2024-11-18T21:18:37.651+0500] {processor.py:186} INFO - Started process (PID=22022) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:18:37.655+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-18T21:18:37.664+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:18:37.660+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:18:37.686+0500] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:18:37.733+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:18:37.733+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:18:37.779+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:18:37.779+0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-18 12:00:00+00:00, run_after=2024-11-18 16:00:00+00:00
+[2024-11-18T21:18:37.838+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.195 seconds
+[2024-11-18T21:20:16.735+0500] {processor.py:186} INFO - Started process (PID=22146) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:20:16.737+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-18T21:20:16.740+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:20:16.739+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:20:16.751+0500] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:20:16.776+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:20:16.776+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:20:16.810+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:20:16.810+0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-18 12:00:00+00:00, run_after=2024-11-18 16:00:00+00:00
+[2024-11-18T21:20:16.843+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.115 seconds
+[2024-11-18T21:21:28.582+0500] {processor.py:186} INFO - Started process (PID=22240) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:21:28.584+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-18T21:21:28.587+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:21:28.586+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:21:28.598+0500] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:21:28.621+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:21:28.620+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:21:28.653+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:21:28.653+0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-18 12:00:00+00:00, run_after=2024-11-18 16:00:00+00:00
+[2024-11-18T21:21:28.686+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.114 seconds
+[2024-11-18T21:22:39.011+0500] {processor.py:186} INFO - Started process (PID=22317) to work on /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:22:39.025+0500] {processor.py:914} INFO - Processing file /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-11-18T21:22:39.028+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:22:39.027+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:22:39.039+0500] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-11-18T21:22:39.066+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:22:39.065+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T21:22:39.099+0500] {logging_mixin.py:190} INFO - [2024-11-18T21:22:39.099+0500] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-11-18 12:00:00+00:00, run_after=2024-11-18 16:00:00+00:00
+[2024-11-18T21:22:39.135+0500] {processor.py:208} INFO - Processing /home/AtlasRise/airflow/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.133 seconds
